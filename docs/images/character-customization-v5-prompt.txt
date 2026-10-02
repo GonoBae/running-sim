@@ -1,0 +1,5 @@
+Generation method: built-in image_gen editing
+Reference: character-customization-v4.png
+Change: remove the large headline only
+
+Edit the supplied screenshot with one precise localized change only: remove the large black Korean headline "나의 러너." on the left, including both lines "나의" and "러너." and the period. Fill only the removed letters' region with the matching warm off-white studio background and its continuous soft light/shadow. Leave empty space where the headline used to be. Do NOT replace it with any new text. Preserve absolutely everything else: image dimensions, composition, character face/body/clothing/pose, all UI controls, colors, other text including "01 — BODY" above and "치수를 조절해 내 몸에 맞춰보세요." below, small body diagram, header, side rail, right settings panel, numbers, height guide and bottom controls. Do not reposition or resize anything. This is text removal only, not a redesign.

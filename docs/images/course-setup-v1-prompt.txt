@@ -1,0 +1,18 @@
+Generation method: built-in image_gen editing with style reference
+Reference: character-customization-v7.png
+Purpose: course setup screen concept; track geometry is schematic and unverified
+
+Use case: ui-mockup
+Create the NEXT SCREEN in the running simulator app shown in the supplied reference. The reference is the style and shell to preserve; replace character creation content with a course and run setup screen. High fidelity 16:9 desktop UI screenshot with excellent legible Korean typography. Keep exactly the warm ivory/cream surfaces, understated daylight shading, thin gray rules, black text, restrained terracotta orange accent, slim left navigation rail, header wordmark "running sim", right inspector width ~34%, same professional layout rhythm. Do not reintroduce a huge marketing heading, pastel colors, gradients, blue pills or a dark theme.
+
+Header center "코스 설정", top right "02 / 03". Slim left rail uses body icon unselected, running shoe/route icon selected in pale orange, settings below.
+LEFT content: small orange "02 — ROUTE" at x155 y170. Directly below in modest gray text "달릴 코스를 확인하고\n목표를 설정하세요." No big headline. Left main preview occupies remaining generous space. Show a beautifully modeled schematic park running loop on continuous off-white ground, oblique elevated top-down view. A gently irregular rounded closed loop, not a standard stadium oval, medium-width matte warm terracotta track surface with a single subtle centerline. No trees, buildings, grass, cars, photographic map, fake satellite imagery or real geographic claims. Crisp thin route edge. Small white/orange start pin with readable label "출발점", 3 subtle forward direction chevrons. A tiny standing runner in black singlet and black shorts near start creates continuity with previous human configuration, but don't show large human model. Generous scale, track dominates left area lower middle and is fully visible without clipping or UI overlap. Small low emphasis caption "경로 형태는 시안용 예시입니다" at left bottom. Preview toolbar bottom with "전체 보기" selected, "출발점 보기", plus minus zoom and reset icons. No fake measured map scale.
+
+RIGHT inspector clean light surface with one dividing line, 42px padding, no nested card dashboard. Title "코스 설정". Selected course name "롯데가든파크 주변 트랙" in 21px semibold; small gray subtitle "경남 김해시". Two tiny informative rows "한 바퀴 거리  확인 예정", "코스 정보 ↗". Do not invent real lap length, elevation or direction compass.
+Thin divider.
+Section title "달리기 목표". Segmented control with "거리" selected warm orange underline and "바퀴 수". Large sophisticated editable number "1.00" with "km" small on same baseline; small minus and plus controls. Below row of compact unfilled presets "1 km" selected, "3 km", "5 km", "10 km", optional "직접 입력".
+Next section "설정 페이스". Elegant numeric input "6 : 00" with unit "분 / km"; compact minus/plus controls or minimal underline, clear no moving actual value.
+Thin divider.
+Summary rows "목표 거리" "1.00 km"; "예정 소요 시간" "6분 00초". The 1km at 6min/km equals 6min and all displayed values are internally consistent. Do not display lap count because course length is not verified.
+At bottom wide matte BLACK button "달리기 시작", small terracotta right arrow square matching prior screenshot. Below secondary text "← 캐릭터 수정". Tiny footnote "경로와 설정값은 시안용 예시입니다".
+Practical polished design; focused on course preview and target inputs. No invented course selector options, no weather, heart rate, caloric chart, elevation graph, leaderboard, timers running or route editing map pins. This is a planning mockup not real measured park geometry. Preserve exact visual family and alignment of reference while creating a coherent second step.

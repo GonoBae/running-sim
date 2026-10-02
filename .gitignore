@@ -1,0 +1,18 @@
+# Local scratch files and generated deliverables
+/work/
+/outputs/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets and generated experiment results
+/data/raw/
+/data/processed/
+/results/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

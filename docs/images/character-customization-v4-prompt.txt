@@ -1,0 +1,31 @@
+Generation method: built-in image_gen editing
+Reference: character-customization-v3.png
+Purpose: revised composition and focused measurement editor proposal; pending user review
+
+Use case: ui-mockup
+EDIT TARGET: supplied character customization app concept. The user has rejected three successive generic designs. We need a genuinely excellent, sophisticated visual redesign, not a palette swap. Retain only the product purpose and full-body human runner. Change the composition, typography, character styling and interaction design substantially. Make one high fidelity desktop UI screenshot, wide 16:9, razor sharp Korean text.
+
+CREATIVE DIRECTION: an art-directed contemporary athletic digital atelier. Think excellent independent running magazine meets a beautifully crafted interactive 3D product configurator. Warm bone paper #F0EEE8, black ink #181917, muted terracotta-orange #D85B39 accent used at key interactions. VERY intentional asymmetric composition and optical alignment. No rainbow, lime or lavender. No gaming menus. No generic six-slider spreadsheet. No slogans about dreams. No giant rounded cards. No faux medical tech. No space/sci-fi. No gradient buttons.
+
+FRAME: Full screen screenshot 1680x945 equivalent. A very slim vertical rail 60px wide on far left, separated by hairline, with a small distinctive abstract running-loop icon at top, then minimalist outline body icon selected, track icon next, and gear icon at bottom. These are workflow steps, not new functions. Main content from x=60 onward. Header 72px tall: "running sim" compact bold wordmark left, centered tiny "캐릭터 설정", far right understated "01 / 03". Delicate horizontal rule.
+
+LEFT STAGE x=60..1080: beautiful large uninterrupted off-white 3D studio with full-body HUMAN adult runner, dressed in fashionable yet practical plain black sleeveless running singlet and short black running shorts, off-white running shoes with tiny burnt-orange trim, no logos. Clearly visible legs and arms for customization. Lean ordinary runner anatomy, not bodybuilding. Polished realistic 3D asset with tactile skin and fabric, calm neutral standing pose, arms a little away from sides, facing almost front, FULL head and shoes clearly visible. Avoid identical stiff stock male from reference: change hair to short textured dark hair and make face neutral, natural, not fashion celebrity. Character stands center-right within stage at x~660. Soft directional daylight with subtle clean grounded shadow, no platform.
+On the LEFT of this character at x~115, a narrow editorial column beginning about y190: small orange "01 — BODY", below an enormous but restrained typographic title in 2 lines "나의\n러너." set in bold modern Korean sans with impeccable spacing, black. Below, small readable sentence "치수를 조절해\n내 몸에 맞춰보세요." A tiny line drawing of a body measurement symbol can support the typography. This text does NOT sit above entire screen and waste height. Character fills nearly full height.
+Use a very fine terracotta vertical height indicator beside the figure with endpoints and subtle active dots at crown and floor, only height selected; no other random points. Near it a small white label "키 175 cm". At bottom of left stage a narrow inline toolbar with segmented text "정면 / 측면 / 후면" and a small rotate icon plus "드래그로 회전". Small zoom + and - far right. No floating pill stack.
+
+RIGHT INSPECTOR x1080..1680: slightly cleaner white background, flat panel with a subtle vertical dividing line, 46px padding. At top label "신체 설정" 25px semibold, "조절할 항목을 선택하세요" small warm gray. Below a compact 2-column by 3-row selector grid. Each tile is a simple low-radius or square soft-border choice 220x70, NOT oversized cards. Tile labels and summaries:
+"키" "175 cm" SELECTED with terracotta thin border and faint warm blush fill and tiny active dot
+"몸무게" "70 kg"
+"다리 길이" "82 cm"
+"상체 길이" "52 cm"
+"어깨너비" "42 cm"
+"발 크기" "260 mm"
+All SIX fields remain visible and accessible by selecting a tile.
+Below grid at y430 a fine divider. Active editing module:
+small header "키" left and "직접 입력" unobtrusive button right.
+A typographic large elegant "175" (about 85px) with small "cm" on baseline, lots of breathing room. This number is an editable numeric input visually emphasized.
+Below number an exquisitely drawn horizontal ruler scrubber with many fine tick marks, terracotta central vertical marker and tiny down triangle. No labelled artificial min/max limits. A small minus circular outline button left and plus right. Under it small caption "드래그하거나 숫자를 입력해 조절하세요."
+Footnote near lower panel "치수와 외형은 시안용 예시입니다." small and readable.
+At bottom inspector a clean black full-width 52px primary button "이 캐릭터로 시작" with terracotta small arrow square on right. Secondary "기본값으로" text button beneath, visually quiet.
+Keep consistent 8px spacing rhythm, beautiful contrast, excellent hierarchy. A screen that feels expensive because of composition, restraint, detail and craftsmanship, not because of shadows or darkness. No badges, charts, heart icons, comments or Instagram logo. Instagram-like taste means art direction, not social media functionality. No claims that unvalidated physique mapping works. The active field is HEIGHT; selecting weight is not shown, so do not add weight slider or body fat claims.
+All UI text in Korean except small running sim / BODY. Avoid unrequested English marketing copy. Output should feel like a usable product screen and a beautiful design portfolio project simultaneously.
