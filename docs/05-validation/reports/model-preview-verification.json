@@ -1,0 +1,20 @@
+{
+  "boneCount": 53,
+  "morphCount": 12,
+  "webVertexCount": 14517,
+  "poseVertexDelta": 0.33140164402703864,
+  "morphVertexDelta": 0.12708143149608864,
+  "resetTolerance": 1E-06,
+  "pageErrors": [],
+  "checks": [
+    "actual exported model loaded",
+    "knee rotation deforms body",
+    "pose reset restores vertices",
+    "morph control deforms body",
+    "morph reset restores vertices"
+  ],
+  "date": "2026-10-04",
+  "browser": "Microsoft Edge, headless with software WebGL",
+  "modelSha256": "6fb12de1c339ab304588702507125a7799e78916f0628c779e163a24269268f2",
+  "sampling": "Every 37th vertex; largest component delta in mesh-local units; first morph only"
+}

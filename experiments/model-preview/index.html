@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>러너 모델 테스트 · running sim</title>
+  </head>
+  <body>
+    <header><strong>running sim<span> / runner lab</span></strong><div class="header-actions"><a id="admin-link" href="/admin" hidden>관리자 작업실 ↗</a><label id="file-label" class="file-button" hidden>GLB 열기<input id="file" type="file" accept=".glb" /></label></div></header>
+    <main>
+      <section class="stage" aria-label="3D 러너 미리보기">
+        <div class="stage-heading"><span class="eyebrow">01 — MODEL CHECK</span><h1>웹에서 움직여 보기.</h1><p id="status" role="status">모델을 불러오는 중입니다.</p></div>
+        <div id="viewport"></div>
+        <nav class="views" aria-label="모델 시점"><button data-view="front">정면</button><button data-view="side">측면</button><button data-view="back">후면</button><button id="fit">화면에 맞추기</button></nav>
+        <p class="hint">드래그로 회전 · 휠로 확대 · 우클릭 드래그로 이동</p>
+      </section>
+      <aside>
+        <div class="intro"><span class="eyebrow">YOUR RUNNER</span><h2>러너 설정</h2><div class="model-picker" aria-label="러너 모델 유형"><button data-model-type="male" aria-pressed="false">남성형</button><button data-model-type="female" aria-pressed="false">여성형</button></div><p>캐릭터 외형을 선택합니다.</p><p id="filename"></p></div>
+        <dl id="model-stats" class="stats"><div><dt>뼈대</dt><dd id="bones-count">—</dd></div><div><dt>애니메이션</dt><dd id="clips-count">—</dd></div></dl>
+        <section class="control-section"><h3>러닝 자세</h3><label class="check"><input id="skeleton" type="checkbox" />뼈대 표시</label><label for="bone">조절할 부위</label><select id="bone" disabled></select>
+          <div class="pose-control"><label id="pose-action" for="pose-angle">앞뒤 움직임</label><div class="pose-value"><input id="pose-angle" type="range" step="1" disabled aria-describedby="pose-range pose-reference" /><label class="number-angle"><input id="pose-number" type="number" step="1" disabled aria-label="각도 직접 입력" aria-describedby="pose-range pose-reference" />°</label></div><p id="pose-range"></p><p id="pose-reference" class="note"></p><p id="pose-feedback" role="status"></p></div>
+          <button id="reset-pose" disabled>러닝 기본 자세로</button><p class="note">러닝 미리보기용으로 방향과 범위를 제한했습니다. 손가락·머리는 고정합니다. 자동 달리기는 아직 없습니다.</p>
+        </section>
+        <section id="length-section" class="control-section"><h3>부위별 길이</h3><label for="body-part">조절할 부위 · 좌우 함께</label><select id="body-part" disabled></select><div class="pose-control"><label for="part-length">길이</label><div class="pose-value"><input id="part-length" type="range" step="0.1" disabled aria-describedby="length-reference" /><label class="number-angle"><input id="part-number" type="number" step="0.1" disabled aria-label="부위 길이 cm 직접 입력" />cm</label></div><p id="length-reference" class="note"></p><p id="length-measured"></p><p id="length-feedback" role="status"></p></div><button id="reset-lengths" disabled>부위 길이 초기화</button><p class="note">외형과 뼈대를 함께 조절합니다. 현재는 기본 길이의 ±15% 미리보기 범위입니다. 줄자로 잰 신체 치수와는 기준이 다릅니다.</p></section>
+        <section id="height-section" class="control-section" aria-labelledby="body-title"><h3 id="body-title">전체 크기</h3><label class="height-label" for="body-height">기준 자세 높이 <output id="height-out">—</output></label><input id="body-height" type="range" step="0.1" disabled aria-describedby="height-note" /><p id="saved-height" class="note">모델 높이를 확인하는 중입니다.</p><button id="reset-height" disabled>전체 배율 초기화</button><p id="height-note" class="note">현재 신체 비율을 유지한 채 전체를 확대·축소합니다. 부위 길이를 바꾸면 기준 높이도 바뀝니다. 전체 배율 범위는 ±10%입니다.</p></section>
+        <section id="apply-section" class="control-section"><button id="apply-settings" disabled>이 설정 적용</button><p id="apply-message" class="note" role="status"></p><p id="usage-note" class="note"></p></section>
+        <footer>현재 모델의 전달과 움직임을 확인하는 검증 화면입니다. 피부·복장 적용 전 상태를 표시합니다.</footer>
+      </aside>
+    </main>
+    <script type="module" src="/src/entry.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "source_blend": "B:\\Portfolio\\running-sim\\data\\processed\\makehuman\\runner-test.blend",
+  "source_sha256": "bcba960bd68ccfcc36d0e91d864e6819c539eaf17f8b0f98f937f47310c56381",
+  "output_glb": "experiments/model-preview/public/models/runner-test.glb",
+  "glb_sha256": "6fb12de1c339ab304588702507125a7799e78916f0628c779e163a24269268f2",
+  "bytes": 4276532,
+  "body_vertices": 13380,
+  "body_faces": 13378,
+  "bones": 53,
+  "shape_keys": [
+    {
+      "name": "$md-$as-$fe-$yn",
+      "value": 0.16500000655651093
+    },
+    {
+      "name": "$md-$as-$ma-$yn",
+      "value": 0.16500000655651093
+    },
+    {
+      "name": "$md-$ca-$fe-$yn",
+      "value": 0.16500000655651093
+    },
+    {
+      "name": "$md-$ca-$ma-$yn",
+      "value": 0.16500000655651093
+    },
+    {
+      "name": "$md-$af-$fe-$yn",
+      "value": 0.16500000655651093
+    },
+    {
+      "name": "$md-$af-$ma-$yn",
+      "value": 0.16500000655651093
+    },
+    {
+      "name": "$md-universal-$fe-$yn-$av$mu-max$wg",
+      "value": 0.490200012922287
+    },
+    {
+      "name": "$md-universal-$ma-$yn-$av$mu-max$wg",
+      "value": 0.490200012922287
+    },
+    {
+      "name": "$md-$fe-$yn-$av$mu-max$wg-$avcup-max$fi",
+      "value": 0.08683067560195923
+    },
+    {
+      "name": "$md-$fe-$yn-$av$mu-max$wg-maxcup-$av$fi",
+      "value": 0.08673263341188431
+    },
+    {
+      "name": "$md-$fe-$yn-$av$mu-max$wg-max$hg",
+      "value": 0.1568640023469925
+    },
+    {
+      "name": "$md-$ma-$yn-$av$mu-max$wg-max$hg",
+      "value": 0.1568640023469925
+    }
+  ],
+  "changes": [
+    "removed helper geometry",
+    "smooth surface normals",
+    "neutral material for inspection"
+  ],
+  "limitations": [
+    "no running animation",
+    "no skin textures or clothing",
+    "morph values are internal targets, not centimeters or kilograms",
+    "runtime morph edits do not refit the skeleton",
+    "skinning keeps at most four strongest influences per vertex and normalizes them; full Blender deformation equivalence is unverified"
+  ],
+  "skin_influence_limit": 4
+}

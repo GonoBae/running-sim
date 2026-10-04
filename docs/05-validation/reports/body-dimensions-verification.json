@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-04T08:43:43.879Z",
+  "reports": [
+    {
+      "type": "male",
+      "cases": [
+        {
+          "id": "upperArm",
+          "factor": 0.85,
+          "actualCm": 25.023501526179665,
+          "meshDelta": 0.04391484021116465,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "upperArm",
+          "factor": 1.15,
+          "actualCm": 33.855324240730866,
+          "meshDelta": 0.04391494030732579,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "forearm",
+          "factor": 0.85,
+          "actualCm": 25.249350635597633,
+          "meshDelta": 0.04475325749716996,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "forearm",
+          "factor": 1.15,
+          "actualCm": 34.16088437178476,
+          "meshDelta": 0.044753240162786645,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "thigh",
+          "factor": 0.85,
+          "actualCm": 42.98719704484779,
+          "meshDelta": 0.07704744038076483,
+          "angleError": 0.00001035602939225555
+        },
+        {
+          "id": "thigh",
+          "factor": 1.15,
+          "actualCm": 58.1591418108623,
+          "meshDelta": 0.07704747578910087,
+          "angleError": 0.00001035602939225555
+        },
+        {
+          "id": "shin",
+          "factor": 0.85,
+          "actualCm": 40.58291142631879,
+          "meshDelta": 0.07336089403099222,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "shin",
+          "factor": 1.15,
+          "actualCm": 54.90626143026746,
+          "meshDelta": 0.07336106687625399,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "torso",
+          "factor": 0.85,
+          "actualCm": 53.55585239361502,
+          "meshDelta": 0.09466546376214491,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "torso",
+          "factor": 1.15,
+          "actualCm": 72.45791794430266,
+          "meshDelta": 0.09466559515723394,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "shoulders",
+          "factor": 0.85,
+          "actualCm": 34.339996024050514,
+          "meshDelta": 0.03152991105731642,
+          "angleError": 0.00001035602936383384
+        },
+        {
+          "id": "shoulders",
+          "factor": 1.15,
+          "actualCm": 46.459994620774225,
+          "meshDelta": 0.031529864422259746,
+          "angleError": 0.00001035602936383384
+        }
+      ],
+      "resetError": 1.525505315402853e-7,
+      "combinedAngleError": 0.00001035602939225555,
+      "scaleRetained": 1.1001581361903467
+    },
+    {
+      "type": "female",
+      "cases": [
+        {
+          "id": "upperArm",
+          "factor": 0.85,
+          "actualCm": 23.393213848345653,
+          "meshDelta": 0.040790284858628345,
+          "angleError": 0.000014488941175727632
+        },
+        {
+          "id": "upperArm",
+          "factor": 1.15,
+          "actualCm": 31.64963889576744,
+          "meshDelta": 0.040790310190255585,
+          "angleError": 0.000014488941175727632
+        },
+        {
+          "id": "forearm",
+          "factor": 0.85,
+          "actualCm": 20.489309927709254,
+          "meshDelta": 0.03633079226056479,
+          "angleError": 0.000014488941218360196
+        },
+        {
+          "id": "forearm",
+          "factor": 1.15,
+          "actualCm": 27.72082664232626,
+          "meshDelta": 0.036330762884117906,
+          "angleError": 0.000014488941204149342
+        },
+        {
+          "id": "thigh",
+          "factor": 0.85,
+          "actualCm": 39.13056376048988,
+          "meshDelta": 0.07119761899046217,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "thigh",
+          "factor": 1.15,
+          "actualCm": 52.941348703028,
+          "meshDelta": 0.07119758291372746,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "shin",
+          "factor": 0.85,
+          "actualCm": 35.834513693825976,
+          "meshDelta": 0.06438502112506717,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "shin",
+          "factor": 1.15,
+          "actualCm": 48.48198368422591,
+          "meshDelta": 0.06438503955915209,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "torso",
+          "factor": 0.85,
+          "actualCm": 50.938923783661835,
+          "meshDelta": 0.08911175124947213,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "torso",
+          "factor": 1.15,
+          "actualCm": 68.9173674720131,
+          "meshDelta": 0.08911186265845239,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "shoulders",
+          "factor": 0.85,
+          "actualCm": 28.856498724974404,
+          "meshDelta": 0.027150299050427512,
+          "angleError": 0.000014488941189938487
+        },
+        {
+          "id": "shoulders",
+          "factor": 1.15,
+          "actualCm": 39.04114533378889,
+          "meshDelta": 0.027150198650600754,
+          "angleError": 0.000014488941189938487
+        }
+      ],
+      "resetError": 1.7357786119553964e-7,
+      "combinedAngleError": 0.000014488941189938487,
+      "scaleRetained": 1.1001427971948559
+    }
+  ],
+  "eventLengthsVerified": true,
+  "sameHeightDifferentLengthsSeparated": true,
+  "adminCategoryEnforced": true,
+  "errors": []
+}

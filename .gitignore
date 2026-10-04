@@ -12,6 +12,11 @@
 /data/processed/
 /results/
 
+# Local model preview dependencies and exported test models
+node_modules/
+dist/
+/experiments/model-preview/public/models/*.glb
+
 # Operating system files
 .DS_Store
 Thumbs.db

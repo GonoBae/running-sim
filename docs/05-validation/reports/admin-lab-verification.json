@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-04",
+  "browser": "Edge / software WebGL",
+  "models": [
+    {
+      "type": "male",
+      "maxAngleErrorDegrees": 0.00002247803662669412,
+      "bones": 53,
+      "lockedUnchanged": true
+    },
+    {
+      "type": "female",
+      "maxAngleErrorDegrees": 0.000010145199993871756,
+      "bones": 53,
+      "lockedUnchanged": true
+    }
+  ],
+  "bodyDifference": 0.14547636461177205,
+  "jointDifference": 0.13609818214815106,
+  "checks": [
+    "male/female assets differ and rigs refitted",
+    "both variants support 8 constrained pose controls",
+    "model switching and usage confirmation",
+    "admin preview excluded from telemetry",
+    "category hiding locks hidden joints",
+    "angle limits/defaults persist after reload",
+    "model and height visibility policy",
+    "invalid config/file rejected",
+    "uploaded verified model persisted in IndexedDB and selected",
+    "unknown GLB preview allowed and pose/publishing locked",
+    "local real event counts and CSV export"
+  ],
+  "errors": [],
+  "productionChecks": [
+    "admin route disabled in production build",
+    "admin link hidden",
+    "local analytics disabled in production"
+  ]
+}

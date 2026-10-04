@@ -1,0 +1,5 @@
+Generation method: built-in image_gen edit
+Edit target: home-v2.png
+Purpose: approved homepage direction, remove upper-right navigation only
+
+Use case: precise-object-edit / UI mockup. Edit the supplied approved running sim homepage image with ONE tiny change: remove the two navigation text labels "러너" and "코스" at the extreme top-right corner. Fill those small text areas with the exactly matching existing off-white background, leaving that top-right header empty. Preserve EVERYTHING else unchanged: original image dimensions and crop, top-left running sim wordmark, Korean main heading and all typography, all spacing, descriptive text, black 내 러너 만들기 button with arrow, same human runner face/body/outfit/stride/position/scale, track orange curves and shadows, bottom step labels and bottom-right caption. Do not redesign, move, recolor, add, or remove anything else. Precisely localized removal only.

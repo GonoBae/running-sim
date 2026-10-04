@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="160" viewBox="0 0 1120 160" role="img" aria-labelledby="title">
+<title id="title">부위 길이를 바꾼 뒤 자세와 배율을 유지하는 순서</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#839486"/></marker></defs>
+<rect width="1120" height="160" rx="16" fill="#f5f6f2"/>
+<g stroke="#839486" stroke-width="2" marker-end="url(#arrow)"><path d="M206 80H235"/><path d="M431 80H460"/><path d="M656 80H685"/><path d="M881 80H910"/></g>
+<g font-family="Malgun Gothic, sans-serif" text-anchor="middle" font-size="16" fill="#354c3c">
+<g><rect x="20" y="38" width="186" height="84" rx="10" fill="#e4ece1"/><text x="113" y="75">부위 선택</text><text x="113" y="100">길이 cm 입력</text></g>
+<g><rect x="245" y="38" width="186" height="84" rx="10" fill="#e4ece1"/><text x="338" y="75">외형과 관절</text><text x="338" y="100">함께 변경</text></g>
+<g><rect x="470" y="38" width="186" height="84" rx="10" fill="#e4ece1"/><text x="563" y="75">기존 자세</text><text x="563" y="100">다시 적용</text></g>
+<g><rect x="695" y="38" width="186" height="84" rx="10" fill="#e4ece1"/><text x="788" y="75">전체 배율</text><text x="788" y="100">유지</text></g>
+<g><rect x="920" y="38" width="180" height="84" rx="10" fill="#354c3c"/><text x="1010" y="75" fill="#fff">실제 관절 길이</text><text x="1010" y="100" fill="#fff">cm 표시</text></g>
+</g></svg>

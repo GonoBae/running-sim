@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-04",
+  "browser": "Edge / software WebGL",
+  "controls": [
+    "왼쪽 어깨",
+    "왼쪽 팔꿈치",
+    "왼쪽 고관절",
+    "왼쪽 무릎",
+    "오른쪽 어깨",
+    "오른쪽 팔꿈치",
+    "오른쪽 고관절",
+    "오른쪽 무릎"
+  ],
+  "checks": [
+    {
+      "label": "running defaults",
+      "maxAngleErrorDegrees": 0.000002467248929605148
+    },
+    {
+      "label": "왼쪽 어깨 min",
+      "maxAngleErrorDegrees": 0.000004813730654973369
+    },
+    {
+      "label": "왼쪽 팔꿈치 min",
+      "maxAngleErrorDegrees": 0.000002467248929605148
+    },
+    {
+      "label": "왼쪽 고관절 min",
+      "maxAngleErrorDegrees": 0.000002467248929605148
+    },
+    {
+      "label": "왼쪽 무릎 min",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "오른쪽 어깨 min",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "오른쪽 팔꿈치 min",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "오른쪽 고관절 min",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "오른쪽 무릎 min",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "왼쪽 어깨 max",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "왼쪽 팔꿈치 max",
+      "maxAngleErrorDegrees": 0.000006445849674396955
+    },
+    {
+      "label": "왼쪽 고관절 max",
+      "maxAngleErrorDegrees": 0.000016511196510205472
+    },
+    {
+      "label": "왼쪽 무릎 max",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "오른쪽 어깨 max",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "오른쪽 팔꿈치 max",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "오른쪽 고관절 max",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "오른쪽 무릎 max",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "negative knee input clamped",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "excessive knee input clamped",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "empty input retains pose",
+      "maxAngleErrorDegrees": 0.000022651531665474067
+    },
+    {
+      "label": "default reset",
+      "maxAngleErrorDegrees": 0.000002467248929605148
+    },
+    {
+      "label": "height min preserves pose angles",
+      "maxAngleErrorDegrees": 0.0000024672487839438872
+    },
+    {
+      "label": "height max preserves pose angles",
+      "maxAngleErrorDegrees": 0.0000024672488567745177
+    }
+  ],
+  "lockedBones": "Head, neck, fingers, spine and all non-exposed local rotations unchanged",
+  "otherChecks": [
+    "numeric bounds and empty input",
+    "world-space mesh reset",
+    "height/pose compatibility",
+    "unverified GLB controls disabled"
+  ],
+  "limits": "Preview constraints only; full soft tissue collision, ground contact and anatomical validation are not implemented",
+  "errors": []
+}

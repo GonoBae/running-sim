@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-04",
+  "browser": "Edge / software WebGL",
+  "baseHeightCm": 188.61939312870734,
+  "results": [
+    {
+      "edge": "min",
+      "heightCm": 169.8,
+      "meshError": 3.638866985511413e-12,
+      "jointError": 3.3306690738754696e-16
+    },
+    {
+      "edge": "max",
+      "heightCm": 207.5,
+      "meshError": 3.65019126036259e-12,
+      "jointError": 4.440892098500626e-16
+    }
+  ],
+  "checks": [
+    "raw morph controls removed",
+    "height matches model world bounds",
+    "all 53 joints scale with body",
+    "saved morph weights unchanged",
+    "saved foot level preserved",
+    "knee deformation and pose reset work at both size limits",
+    "size reset restores world vertices and joints",
+    "reloading GLB restores its original size"
+  ],
+  "errors": []
+}
