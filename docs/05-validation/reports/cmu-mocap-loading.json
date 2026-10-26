@@ -1,0 +1,126 @@
+{
+  "testedAt": "2026-10-20T03:07:14.060Z",
+  "beforeObserved": {
+    "readyMs": 33664,
+    "errors": [],
+    "modelResponses": 200,
+    "source": "Fresh browser load captured in initial diagnostic tool output"
+  },
+  "results": [
+    {
+      "model": "male",
+      "loading": {
+        "timeOrigin": 1792465538774.1,
+        "start": 327.5,
+        "preview": 550.6999998092651,
+        "painted": 564.6999998092651,
+        "ready": 29941.599999904633,
+        "hidden": true
+      },
+      "poseSamples": 18,
+      "positionMm": 0,
+      "rotationDeg": 0.0000034150945850063755,
+      "soleMm": 0
+    },
+    {
+      "model": "female",
+      "loading": {
+        "timeOrigin": 1792465538774.1,
+        "start": 32345.699999809265,
+        "preview": 32470.299999713898,
+        "painted": 32482.89999961853,
+        "ready": 63676.89999961853,
+        "hidden": true
+      },
+      "poseSamples": 18,
+      "positionMm": 7.264555624978221e-8,
+      "rotationDeg": 0.0000029575586669421963,
+      "soleMm": 7.264711055215443e-8
+    }
+  ],
+  "frames": [
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-0.png",
+      "timestamp": 1792465539.079444
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-1.png",
+      "timestamp": 1792465539.168519
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-2.png",
+      "timestamp": 1792465539.166251
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-3.png",
+      "timestamp": 1792465539.178607
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-4.png",
+      "timestamp": 1792465539.432417
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-5.png",
+      "timestamp": 1792465539.430552
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-6.png",
+      "timestamp": 1792465539.444328
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-7.png",
+      "timestamp": 1792465568.732297
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-8.png",
+      "timestamp": 1792465568.734498
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-9.png",
+      "timestamp": 1792465568.746961
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-10.png",
+      "timestamp": 1792465568.93086
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-11.png",
+      "timestamp": 1792465568.946506
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-12.png",
+      "timestamp": 1792465568.964417
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-13.png",
+      "timestamp": 1792465568.980319
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-14.png",
+      "timestamp": 1792465568.996869
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-15.png",
+      "timestamp": 1792465569.014371
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-16.png",
+      "timestamp": 1792465569.030065
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-17.png",
+      "timestamp": 1792465569.047222
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-18.png",
+      "timestamp": 1792465569.063408
+    },
+    {
+      "path": "outputs/cmu-toe-slip-path/loading/frame-19.png",
+      "timestamp": 1792465569.080618
+    }
+  ],
+  "errors": [],
+  "failureVisible": true,
+  "retryPassed": true
+}

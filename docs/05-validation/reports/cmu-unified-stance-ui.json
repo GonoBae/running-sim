@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "label": "기존 · 구간별 연결\n수정 · 통합 접촉 경로",
+      "note": "양발에 같은 접촉 경로 계산을 반 주기 차로 적용합니다. 지지 중 별도 위치로 돌아가는 연결을 없애고, 발을 뗀 뒤 기존 회수에 연결합니다. 기하 기능 시험이며 실제 접촉력 검증은 아닙니다.",
+      "readyMs": 4075.1000003814697,
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    },
+    {
+      "model": "female",
+      "label": "기존 · 구간별 연결\n수정 · 통합 접촉 경로",
+      "note": "양발에 같은 접촉 경로 계산을 반 주기 차로 적용합니다. 지지 중 별도 위치로 돌아가는 연결을 없애고, 발을 뗀 뒤 기존 회수에 연결합니다. 기하 기능 시험이며 실제 접촉력 검증은 아닙니다.",
+      "readyMs": 3747.5,
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    }
+  ],
+  "previousComparison": {
+    "newSupportPlanAbsent": true,
+    "title": "왼발이 기존 지지로 합류하는 경로 비교"
+  }
+}

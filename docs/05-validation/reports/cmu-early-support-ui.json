@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "readyMs": 1063.2000002861023,
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    },
+    {
+      "model": "female",
+      "readyMs": 873.3000001907349,
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    }
+  ],
+  "previousComparison": {
+    "newSupportPlanAbsent": true,
+    "title": "손목 꺾임을 줄이고 손가락 모으기"
+  }
+}

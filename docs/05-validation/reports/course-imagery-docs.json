@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M93 independent aerial imagery comparison, local geometry correction and actual before/after screen; remaining field endpoint differences unresolved",
+  "documents": 16,
+  "links": 2734,
+  "images": 409,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "historicalSourceSurveyGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "currentCourse": {
+    "id": "gimhae-lotte-garden-b",
+    "revision": "d-ebb99e9a6425",
+    "computedLengthM": 1182.1409678536525,
+    "distanceScale": 1,
+    "surveyedLengthM": null,
+    "fieldEndpointMatchVerified": false
+  }
+}

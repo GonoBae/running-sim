@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M90 target pace and elapsed/total time, confirmed B/C field mismatch: actual screenshots, diagrams and links",
+  "documents": 17,
+  "links": 2642,
+  "images": 397,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "historicalSourceSurveyGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "currentCourse": {
+    "id": "gimhae-lotte-garden-b",
+    "revision": "c-3471370ec877",
+    "geometryMatchesRequestedC": true,
+    "computedLengthM": 1187.295901981294,
+    "surveyedLengthM": null
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="320" viewBox="0 0 1120 320">
+<rect width="1120" height="320" rx="20" fill="#f7f8f5"/><g font-family="Malgun Gothic,sans-serif" fill="#294632">
+<text x="28" y="44" font-size="25" font-weight="bold">몸통을 잡아 상체 기울기 조절</text>
+<text x="28" y="76" font-size="15">M82 · 확정 범위: 직접 조작 + 기존 신체·다리·팔 설정 유지</text>
+<rect x="28" y="108" width="310" height="140" rx="14" fill="white" stroke="#d5dfd6"/>
+<text x="46" y="145" font-size="20">01 몸통 드래그</text><text x="46" y="182" font-size="16">위로 → 앞으로 / 아래로 → 뒤로</text><text x="46" y="215" font-size="15">현재 시점에서 멈추고 조절</text>
+<text x="357" y="185" font-size="25">→</text>
+<rect x="398" y="108" width="310" height="140" rx="14" fill="white" stroke="#d5dfd6"/>
+<text x="416" y="145" font-size="20">02 상체만 함께 회전</text><text x="416" y="182" font-size="16">허리 위 → 몸통·머리·양팔</text><text x="416" y="215" font-size="15">골반·다리·발 변환 유지</text>
+<text x="727" y="185" font-size="25">→</text>
+<rect x="768" y="108" width="324" height="140" rx="14" fill="white" stroke="#d5dfd6"/>
+<text x="786" y="145" font-size="20">03 재생해서 확인</text><text x="786" y="182" font-size="16">정면·측면 / 기본값 0°</text><text x="786" y="215" font-size="15">기존 들림·팔 굽힘과 함께 적용</text>
+<text x="28" y="287" font-size="15">설계 범위 −10°~+15° · 기본 동작 대비 추가 각도 / 실제 수행 가능 범위·기록 예측 검증 아님</text></g></svg>

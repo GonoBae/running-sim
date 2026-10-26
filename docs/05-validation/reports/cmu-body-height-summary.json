@@ -1,0 +1,18 @@
+[
+  {
+    "model": "male",
+    "beforeRiseMm": 18.752079691601864,
+    "afterRiseMm": 0,
+    "maxLandingGapMm": 0.0343898050710334,
+    "minModifiedFlightGapMm": 6.889265000957129,
+    "maxBodyDeltaMm": 13.152573067329643
+  },
+  {
+    "model": "female",
+    "beforeRiseMm": 15.96422032793443,
+    "afterRiseMm": 0,
+    "maxLandingGapMm": 0.033572808286752576,
+    "minModifiedFlightGapMm": 6.343144385180022,
+    "maxBodyDeltaMm": 12.771284845615183
+  }
+]

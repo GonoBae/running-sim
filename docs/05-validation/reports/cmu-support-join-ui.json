@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "label": "기존 · 착지 초반 보정\n수정 · 합류 후반 연결",
+      "note": "왼발 88–93%의 작은 우회만 줄였습니다. 합류 시작·끝 위치를 유지하므로 감소량은 작고 이동이 남습니다. 좌우 자세 차이는 별도로 검사했습니다.",
+      "readyMs": 1302.3000001907349,
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    },
+    {
+      "model": "female",
+      "label": "기존 · 착지 초반 보정\n유지 · 이미 직선에 가까운 경로",
+      "note": "이 모델의 합류 경로는 이미 직선에 가까워 이번 보정을 적용하지 않습니다. 두 칸 모두 기존 동작입니다.",
+      "readyMs": 1049.6999998092651,
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    }
+  ],
+  "previousComparison": {
+    "newSupportPlanAbsent": true,
+    "title": "착지 초반의 발 미끄러짐 줄이기"
+  }
+}

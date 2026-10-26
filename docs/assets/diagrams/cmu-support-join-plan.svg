@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450">
+ <rect width="1200" height="450" rx="18" fill="#f6f5f1"/>
+ <g font-family="Malgun Gothic, sans-serif" fill="#233b32">
+  <text x="32" y="48" font-size="28">M74 · 왼발 합류 후반만 작게 연결</text>
+  <text x="32" y="86" font-size="18" fill="#63736a">사용자 승인 / 구현·수치·재생 검사 완료 / 시각적 효과는 작음 · R02·R16 / D03</text>
+  <g><rect x="32" y="120" width="335" height="125" rx="12" fill="#e7eee7"/>
+   <text x="52" y="158" font-size="23">기존 유지</text>
+   <text x="52" y="195" font-size="18">착지 초반 ~ 88%</text>
+   <text x="52" y="224" font-size="18">골반·높이·발 방향·오른발</text></g>
+  <text x="385" y="190" font-size="30">→</text>
+  <g><rect x="435" y="120" width="335" height="125" rx="12" fill="#dbeaf0"/>
+   <text x="455" y="158" font-size="23">왼발 88–93%</text>
+   <text x="455" y="195" font-size="18">수평 경로의 작은 우회 줄이기</text>
+   <text x="455" y="224" font-size="18">고관절·무릎 회전 + 발 방향 보상</text></g>
+  <text x="785" y="190" font-size="30">→</text>
+  <g><rect x="835" y="120" width="335" height="125" rx="12" fill="#e7eee7"/>
+   <text x="855" y="158" font-size="23">93% 이후 유지</text>
+   <text x="855" y="195" font-size="18">기존 지지·해제·회수</text>
+   <text x="855" y="224" font-size="18">경계의 보정량·속도·가속도 = 0</text></g>
+  <text x="32" y="301" font-size="21">검사: 지면 근처 이동 + 전체 이동 + 좌우 자세 차이의 최대·RMS</text>
+  <text x="32" y="344" font-size="21">양 끝 위치를 유지하면 이동 자체가 남음 → 완전 고정은 이번 범위 밖</text>
+  <text x="32" y="399" font-size="19" fill="#63736a">이미 거의 직선인 경로에는 적용하지 않음 · 여성형은 기존 동작 유지 · 물리 접촉 검증 아님</text>
+ </g>
+</svg>

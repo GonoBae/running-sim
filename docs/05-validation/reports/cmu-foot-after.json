@@ -1,0 +1,36 @@
+{
+  "testedAt": "2026-10-14T18:59:23.500Z",
+  "scope": "Neutral geometric secondary-axis alignment, default rigs only. Not a measured sole normal or clinical ankle angle.",
+  "maxRelativePositionError": 4.8526112794711196e-8,
+  "maxGlobalHeightShift": 0.011313673127235635,
+  "results": [
+    {
+      "model": "male",
+      "clip": "35_17",
+      "samples": 183,
+      "maxSecondaryAxisError": 0.000035015129822046806,
+      "minFootSurface": -0.032058329371125266
+    },
+    {
+      "model": "male",
+      "clip": "127_06",
+      "samples": 151,
+      "maxSecondaryAxisError": 0.00003172777261809633,
+      "minFootSurface": -0.035701103621636365
+    },
+    {
+      "model": "female",
+      "clip": "35_17",
+      "samples": 183,
+      "maxSecondaryAxisError": 0.000017329712313881727,
+      "minFootSurface": -0.0286913393739667
+    },
+    {
+      "model": "female",
+      "clip": "127_06",
+      "samples": 151,
+      "maxSecondaryAxisError": 0.00001604095046993514,
+      "minFootSurface": -0.027804315686999592
+    }
+  ]
+}

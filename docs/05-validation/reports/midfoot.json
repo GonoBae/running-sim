@@ -1,0 +1,195 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "profiles": [
+    {
+      "model": "male",
+      "custom": false,
+      "samples": 603,
+      "contactSamples": 78,
+      "max": {
+        "rootMatrix": 0,
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "lengthMm": 0.00000964418706006498,
+        "floorChangeMm": 0.00008352441073500305,
+        "anchorShiftMm": 0.00009694447420497666,
+        "gapMm": 0.2747751327764614,
+        "patchHeightAboveFloorMm": 0.2747751327764614,
+        "initialPatchHeightAboveFloorMm": 0.19464416976559817,
+        "zeroRepeat": 0,
+        "entryExitDeltaMm": 3.418549751406158e-7,
+        "legParameter": 0,
+        "armParameter": 0,
+        "leanParameter": 0
+      },
+      "meanBeforeGapMm": 3.4520820933648517,
+      "meanAfterGapMm": 0.22513205969800687,
+      "minFloorMm": 0.0004566623235252587,
+      "contact": [
+        {
+          "side": "r",
+          "phase": 0.28,
+          "beforeGapMm": 3.3516301944663818,
+          "gapMm": 0.19464416976559817,
+          "heelMm": 0.20186427806831442,
+          "forefootMm": 0.007220108302716244,
+          "rotationDeg": -1.3776258909253303
+        },
+        {
+          "side": "l",
+          "phase": 0.78,
+          "beforeGapMm": 3.3516301944663955,
+          "gapMm": 0.19464416583828137,
+          "heelMm": 0.20186427414134456,
+          "forefootMm": 0.0072201083030631885,
+          "rotationDeg": -1.3776258920281168
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "samples": 603,
+      "contactSamples": 78,
+      "max": {
+        "rootMatrix": 0,
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "lengthMm": 0.000008963871422906777,
+        "floorChangeMm": 0.00000910156988664923,
+        "anchorShiftMm": 0.00009455594030718295,
+        "gapMm": 0.24578343057517216,
+        "patchHeightAboveFloorMm": 0.24578343057517216,
+        "initialPatchHeightAboveFloorMm": 0.16940122117826972,
+        "zeroRepeat": 0,
+        "entryExitDeltaMm": 3.777869417435212e-7,
+        "legParameter": 0,
+        "armParameter": 0,
+        "leanParameter": 0
+      },
+      "meanBeforeGapMm": 3.7972908742785583,
+      "meanAfterGapMm": 0.19870653731375704,
+      "minFloorMm": 0.0005044961785410917,
+      "contact": [
+        {
+          "side": "r",
+          "phase": 0.28,
+          "beforeGapMm": 3.6867938388234487,
+          "gapMm": 0.16940122117826972,
+          "heelMm": 0.1773776121470061,
+          "forefootMm": 0.007976390968736369,
+          "rotationDeg": -1.3953599131237118
+        },
+        {
+          "side": "l",
+          "phase": 0.78,
+          "beforeGapMm": 3.686793838823421,
+          "gapMm": 0.1694012150264268,
+          "heelMm": 0.17737760599492725,
+          "forefootMm": 0.007976390968500446,
+          "rotationDeg": -1.3953599149426181
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "samples": 603,
+      "contactSamples": 78,
+      "max": {
+        "rootMatrix": 0,
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "lengthMm": 0.000001423541451384125,
+        "floorChangeMm": 0.0000015499875133384577,
+        "anchorShiftMm": 0.00008556721932370543,
+        "gapMm": 0.11673326879250989,
+        "patchHeightAboveFloorMm": 1.2143314945939063,
+        "initialPatchHeightAboveFloorMm": 0.49267123019167136,
+        "zeroRepeat": 0,
+        "entryExitDeltaMm": 3.256655432805221e-7,
+        "legParameter": 0,
+        "armParameter": 0,
+        "leanParameter": 0
+      },
+      "meanBeforeGapMm": 0.4067703382956068,
+      "meanAfterGapMm": 0.0681852852805284,
+      "minFloorMm": 0.001640961823881626,
+      "contact": [
+        {
+          "side": "r",
+          "phase": 0.28,
+          "beforeGapMm": 0.5841251541993664,
+          "gapMm": 0.03315162919897974,
+          "heelMm": 0.5008670847051339,
+          "forefootMm": 0.4677154555061541,
+          "rotationDeg": 0.2566482263156583
+        },
+        {
+          "side": "l",
+          "phase": 0.78,
+          "beforeGapMm": 0.5841251541993248,
+          "gapMm": 0.03315162873782085,
+          "heelMm": 0.5008670837197138,
+          "forefootMm": 0.46771545498189293,
+          "rotationDeg": 0.25664822612976146
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "samples": 603,
+      "contactSamples": 78,
+      "max": {
+        "rootMatrix": 0,
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "lengthMm": 0.000001437299390616431,
+        "floorChangeMm": 0.0000014459580338632705,
+        "anchorShiftMm": 0.00009822113433795258,
+        "gapMm": 0.11138217390767313,
+        "patchHeightAboveFloorMm": 1.3127489190396247,
+        "initialPatchHeightAboveFloorMm": 0.5215389606076093,
+        "zeroRepeat": 0,
+        "entryExitDeltaMm": 3.58347474850302e-7,
+        "legParameter": 0,
+        "armParameter": 0,
+        "leanParameter": 0
+      },
+      "meanBeforeGapMm": 0.44744777091159366,
+      "meanAfterGapMm": 0.06048373993004519,
+      "minFloorMm": 0.001816984203442673,
+      "contact": [
+        {
+          "side": "r",
+          "phase": 0.28,
+          "beforeGapMm": 0.6425386620886597,
+          "gapMm": 0.021378990792034203,
+          "heelMm": 0.5306139283005606,
+          "forefootMm": 0.5092349375085264,
+          "rotationDeg": 0.2509457702256316
+        },
+        {
+          "side": "l",
+          "phase": 0.78,
+          "beforeGapMm": 0.6425386620886181,
+          "gapMm": 0.021378990168768874,
+          "heelMm": 0.5306139270653265,
+          "forefootMm": 0.5092349368965576,
+          "rotationDeg": 0.250945769995796
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "2412 before/after poses: both sexes, default and resized bodies, three leg/elbow/lean combinations",
+    "Independent skin patch measurements: heel/forefoot contact, ground height, material anchor and bone length checks",
+    "Default restores exactly; upper body/root and inactive leg unchanged; boundary perturbations and both half-cycle contact phases checked",
+    "Selection and existing inputs coexist; live transitions reach both targets; stage round-trip and reload preserve all values",
+    "390px selector visible next to model without settings-panel scrolling; no horizontal overflow",
+    "Old and invalid saved mode defaults to original; other pose settings preserved"
+  ],
+  "errors": []
+}

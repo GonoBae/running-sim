@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300">
+<rect width="1100" height="300" rx="20" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#263c40">
+<text x="28" y="42" font-size="26">M23 · 발목 기준 오류 하나를 교정</text>
+<rect x="28" y="70" width="1044" height="68" rx="12" fill="#f2dfcf"/>
+<text x="48" y="99" font-size="20">이전: 종아리와 발을 따로 정렬</text><text x="48" y="126" font-size="17">원본 상대 회전이 0이어도 모델 중립에 추가 꺾임 발생 · 7.38~12.90°</text>
+<g fill="#dcece2"><rect x="28" y="163" width="300" height="68" rx="12"/><rect x="395" y="163" width="300" height="68" rx="12"/><rect x="762" y="163" width="310" height="68" rx="12"/></g>
+<text x="48" y="190" font-size="19">원본 종아리 → 발</text><text x="48" y="216" font-size="17">상대 회전만 추출</text>
+<text x="347" y="205" font-size="27">→</text>
+<text x="415" y="190" font-size="19">종아리와 같은 좌표 기준</text><text x="415" y="216" font-size="17">모델 중립 발목에 적용</text>
+<text x="714" y="205" font-size="27">→</text>
+<text x="782" y="190" font-size="19">중립 추가 회전 0°</text><text x="782" y="216" font-size="17">회전 전달 수치 검사 완료</text>
+<text x="28" y="272" font-size="18">피부 접힘은 별도로 남음 · 가중치/관절 위치/보정 변형은 다음 검토 · 정상 인체 각도 판정 아님</text>
+</g></svg>

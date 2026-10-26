@@ -1,0 +1,46 @@
+{
+  "testedAt": "2026-10-14T12:37:22.378Z",
+  "browser": "155.0.4283.45",
+  "scope": "Two user steps on same page; real male/female GLB; 390px desktop viewport, not mobile device; course not implemented; joint dragging covered in separate M08 suite",
+  "cases": [
+    {
+      "name": "initial body step exposes only body controls and indicates course pending",
+      "passed": true
+    },
+    {
+      "name": "male: body -> pose -> body preserves model, body, camera and editing values without reload/events",
+      "passed": true
+    },
+    {
+      "name": "female: body -> pose -> body preserves model, body, camera and editing values without reload/events",
+      "passed": true
+    },
+    {
+      "name": "back during playback stops and restores pose; re-entry remains stopped",
+      "passed": true
+    },
+    {
+      "name": "390px keyboard navigation, focus and panel visibility",
+      "passed": true
+    },
+    {
+      "name": "in-flight load and load error block next; successful recovery enables it",
+      "passed": true
+    },
+    {
+      "name": "stale or corrupt policy blocks next even without an external event",
+      "passed": true
+    },
+    {
+      "name": "admin preview retains combined controls and hides user navigation",
+      "passed": true
+    },
+    {
+      "name": "admin-hidden height/length controls stay hidden across navigation",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 9,
+  "failed": 0
+}

@@ -1,0 +1,19 @@
+{
+  "testedAt": "2026-10-20T15:11:44.057Z",
+  "speed": 0.5,
+  "errors": [],
+  "recordings": [
+    {
+      "view": "front",
+      "frames": 210,
+      "durationMs": 3483.4,
+      "maxFrameGapMs": 16.900000000000546
+    },
+    {
+      "view": "side",
+      "frames": 209,
+      "durationMs": 3466.9000000000005,
+      "maxFrameGapMs": 16.900000000000546
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "testedAt": "2026-10-20T03:13:47.214Z",
+  "baseline": "Original getVertexPosition loop via test-only response override",
+  "runs": [
+    {
+      "repeat": 0,
+      "model": "male",
+      "variant": "original",
+      "previewMs": 626.5,
+      "readyMs": 32005.900000095367,
+      "preparationMs": 31379.400000095367,
+      "selected": "male"
+    },
+    {
+      "repeat": 0,
+      "model": "male",
+      "variant": "batch",
+      "previewMs": 412.40000009536743,
+      "readyMs": 16758,
+      "preparationMs": 16345.599999904633,
+      "selected": "male"
+    },
+    {
+      "repeat": 0,
+      "model": "female",
+      "variant": "original",
+      "previewMs": 418.69999980926514,
+      "readyMs": 31231.199999809265,
+      "preparationMs": 30812.5,
+      "selected": "female"
+    },
+    {
+      "repeat": 0,
+      "model": "female",
+      "variant": "batch",
+      "previewMs": 414.40000009536743,
+      "readyMs": 17034.599999904633,
+      "preparationMs": 16620.199999809265,
+      "selected": "female"
+    },
+    {
+      "repeat": 1,
+      "model": "male",
+      "variant": "batch",
+      "previewMs": 413.59999990463257,
+      "readyMs": 16532.599999904633,
+      "preparationMs": 16119,
+      "selected": "male"
+    },
+    {
+      "repeat": 1,
+      "model": "male",
+      "variant": "original",
+      "previewMs": 404.8999996185303,
+      "readyMs": 30092.89999961853,
+      "preparationMs": 29688,
+      "selected": "male"
+    },
+    {
+      "repeat": 1,
+      "model": "female",
+      "variant": "batch",
+      "previewMs": 415,
+      "readyMs": 17407.39999961853,
+      "preparationMs": 16992.39999961853,
+      "selected": "female"
+    },
+    {
+      "repeat": 1,
+      "model": "female",
+      "variant": "original",
+      "previewMs": 432.09999990463257,
+      "readyMs": 30968.400000095367,
+      "preparationMs": 30536.300000190735,
+      "selected": "female"
+    },
+    {
+      "repeat": 2,
+      "model": "male",
+      "variant": "original",
+      "previewMs": 460,
+      "readyMs": 30776.299999713898,
+      "preparationMs": 30316.299999713898,
+      "selected": "male"
+    },
+    {
+      "repeat": 2,
+      "model": "male",
+      "variant": "batch",
+      "previewMs": 430.7999997138977,
+      "readyMs": 17013.799999713898,
+      "preparationMs": 16583,
+      "selected": "male"
+    },
+    {
+      "repeat": 2,
+      "model": "female",
+      "variant": "original",
+      "previewMs": 560.0999999046326,
+      "readyMs": 31088.799999713898,
+      "preparationMs": 30528.699999809265,
+      "selected": "female"
+    },
+    {
+      "repeat": 2,
+      "model": "female",
+      "variant": "batch",
+      "previewMs": 428.59999990463257,
+      "readyMs": 16790.89999961853,
+      "preparationMs": 16362.299999713898,
+      "selected": "female"
+    }
+  ],
+  "regression": [
+    {
+      "model": "male",
+      "phases": 365,
+      "lanes": 2,
+      "bones": 53,
+      "positionMm": 0,
+      "rotationDeg": 0.000003818191820832845,
+      "skinMm": 0,
+      "angleDeg": 0,
+      "diagnosticDifference": 0
+    },
+    {
+      "model": "female",
+      "phases": 365,
+      "lanes": 2,
+      "bones": 53,
+      "positionMm": 0,
+      "rotationDeg": 0.000004182619578303746,
+      "skinMm": 0,
+      "angleDeg": 0,
+      "diagnosticDifference": 0
+    }
+  ],
+  "errors": [],
+  "summary": [
+    {
+      "model": "male",
+      "originalMs": 30316.299999713898,
+      "batchMs": 16345.599999904633,
+      "reductionPercent": 46.08313019709236
+    },
+    {
+      "model": "female",
+      "originalMs": 30536.300000190735,
+      "batchMs": 16620.199999809265,
+      "reductionPercent": 45.572318847714186
+    }
+  ],
+  "hashes": {
+    "hip-landing.js": "a3f009135ff53f372092929db623c7dcebe6f716e6ac0c353025114a6bf591b8",
+    "skin-point-batch.js": "e08888478d410766feed018ca7cb7695526b38ea18815cdf0da95aae4ef8b72e"
+  },
+  "status": "passed"
+}

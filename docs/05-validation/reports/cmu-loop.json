@@ -1,0 +1,83 @@
+{
+  "testedAt": "2026-10-15T07:26:30.764Z",
+  "scope": "Periodic interpolation and default male/female rigs. Not foot contact, clinical validity or full surface collision validation.",
+  "results": [
+    {
+      "model": "male",
+      "clip": "35_17",
+      "start": 54,
+      "period": 91,
+      "seconds": 0.7583333333333333,
+      "sampledFrames": 183,
+      "maxGap": 0,
+      "velocityDifference": 0.000496493579500106,
+      "maxLengthError": 0,
+      "maxClavicleError": 0,
+      "maxSourceLengthError": 1.3863095366106748e-7,
+      "maxFrameStep": 0.02168555022572189,
+      "seamStep": 0.018243010496240827,
+      "fractionalDistance": 0.009100514350956908,
+      "interiorRotationError": 6.661338147750939e-16
+    },
+    {
+      "model": "male",
+      "clip": "127_06",
+      "start": 18,
+      "period": 75,
+      "seconds": 0.625,
+      "sampledFrames": 151,
+      "maxGap": 0,
+      "velocityDifference": 0.0010228052276457754,
+      "maxLengthError": 0,
+      "maxClavicleError": 0,
+      "maxSourceLengthError": 1.3426147887907192e-7,
+      "maxFrameStep": 0.03419981754221646,
+      "seamStep": 0.016515484531883236,
+      "fractionalDistance": 0.007814022778793603,
+      "interiorRotationError": 7.771561172376096e-16
+    },
+    {
+      "model": "female",
+      "clip": "35_17",
+      "start": 54,
+      "period": 91,
+      "seconds": 0.7583333333333333,
+      "sampledFrames": 183,
+      "maxGap": 0,
+      "velocityDifference": 0.00040869100986127063,
+      "maxLengthError": 0,
+      "maxClavicleError": 0,
+      "maxSourceLengthError": 1.3863095366106748e-7,
+      "maxFrameStep": 0.01936389241281784,
+      "seamStep": 0.016207826814886642,
+      "fractionalDistance": 0.008078680408665113,
+      "interiorRotationError": 6.661338147750939e-16
+    },
+    {
+      "model": "female",
+      "clip": "127_06",
+      "start": 18,
+      "period": 75,
+      "seconds": 0.625,
+      "sampledFrames": 151,
+      "maxGap": 0,
+      "velocityDifference": 0.0008685398517589102,
+      "maxLengthError": 0,
+      "maxClavicleError": 0,
+      "maxSourceLengthError": 1.3426147887907192e-7,
+      "maxFrameStep": 0.030439974499510088,
+      "seamStep": 0.01475468826927558,
+      "fractionalDistance": 0.006978764154625114,
+      "interiorRotationError": 7.771561172376096e-16
+    },
+    {
+      "test": "1x/0.5x advance, pause, front/side, raw/loop labels, scrub endpoint, no storage writes",
+      "passed": true,
+      "speeds": [
+        "1",
+        "0.5"
+      ]
+    }
+  ],
+  "errors": []
+}

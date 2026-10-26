@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "5 km × 6:00 = 30:00; 1:00/5:00/6:30/30:00; invalid/partial fields never overwrite state; goal and pace errors remain independent; finish unchanged",
+    "Custom body/leg/elbow/lean/strike/start/direction/goal survive pace edit, route edit, stage change and reload; play/pause/4×/exact finish; desktop and 390px screenshots",
+    "Both models at 5:00/6:30 vs legacy speed: all bone matrices and sampled skin positions unchanged at matching distance/phase"
+  ],
+  "errors": [],
+  "samePhase": {
+    "comparisons": 12,
+    "maxBone": 7.133182933216631e-14,
+    "maxSkin": 5.684341886080802e-14
+  }
+}

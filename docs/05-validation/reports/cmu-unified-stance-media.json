@@ -1,0 +1,35 @@
+{
+  "testedAt": "2026-10-21T13:17:31.867Z",
+  "speed": 1,
+  "errors": [],
+  "recordings": [
+    {
+      "model": "male",
+      "view": "front",
+      "frames": 209,
+      "durationMs": 3467,
+      "maxFrameGapMs": 20.199999999999818
+    },
+    {
+      "model": "male",
+      "view": "side",
+      "frames": 211,
+      "durationMs": 3500.300000000001,
+      "maxFrameGapMs": 16.899999999999636
+    },
+    {
+      "model": "female",
+      "view": "front",
+      "frames": 210,
+      "durationMs": 3483.499999999998,
+      "maxFrameGapMs": 16.899999999999636
+    },
+    {
+      "model": "female",
+      "view": "side",
+      "frames": 210,
+      "durationMs": 3483.4000000000015,
+      "maxFrameGapMs": 16.899999999997817
+    }
+  ]
+}

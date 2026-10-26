@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="370" viewBox="0 0 1100 370">
+<rect width="1100" height="370" rx="20" fill="#f6f8f3"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#294632">
+<text x="36" y="45" font-size="23" font-weight="700">M92 · 좌표를 근거로 자동 계산</text>
+<text x="36" y="77" font-size="15">사용자 달리기 결과에 맞춘 M91 배율은 철회</text>
+<g><rect x="35" y="110" width="285" height="120" rx="16" fill="#e2ebdf"/><text x="55" y="145" font-size="20">① 원본 수집</text><text x="55" y="179" font-size="15">확인한 길 · OpenStreetMap</text><text x="55" y="207" font-size="15">좌표 / 연결 / 출처 / 시각</text></g>
+<path d="M332 168h40m-9-7 9 7-9 7" fill="none" stroke="#3e7560" stroke-width="3"/>
+<g><rect x="386" y="110" width="285" height="120" rx="16" fill="#e2ebdf"/><text x="406" y="145" font-size="20">② 자동 검사</text><text x="406" y="179" font-size="15">끊김 / 중복 / 경로 변경</text><text x="406" y="207" font-size="15">거리 검산 · 오류 시 적용 중단</text></g>
+<path d="M684 168h40m-9-7 9 7-9 7" fill="none" stroke="#3e7560" stroke-width="3"/>
+<g><rect x="738" y="110" width="327" height="120" rx="16" fill="#d0e4d8"/><text x="758" y="145" font-size="20">③ 같은 좌표로 계산</text><text x="758" y="179" font-size="15">출발 → 방향 → 목표 거리 → 도착</text><text x="758" y="207" font-size="15">지도와 주행에 같은 거리 적용</text></g>
+<text x="36" y="280" font-size="17" font-weight="700">구현 범위: 원본 자동 검증 + 거리·도착점 자동 계산</text>
+<text x="36" y="313" font-size="16" fill="#806344">현장 거리 일치는 미검증 · 지도 자료의 재검사는 실측 검증이 아닙니다.</text>
+</g></svg>

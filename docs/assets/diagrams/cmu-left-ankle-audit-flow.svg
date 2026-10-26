@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="190" viewBox="0 0 1120 190">
+<rect width="1120" height="190" fill="#faf9f6"/>
+<g font-family="Malgun Gothic,sans-serif" font-size="19" fill="#182e35">
+<text x="25" y="33">검증 완료 · 기준 방향을 유지하는 현재 코드 흐름</text>
+<rect x="20" y="63" width="230" height="100" rx="12" fill="#e7edef"/>
+<rect x="300" y="63" width="230" height="100" rx="12" fill="#e7edef"/>
+<rect x="580" y="63" width="230" height="100" rx="12" fill="#e7edef"/>
+<rect x="860" y="63" width="240" height="100" rx="12" fill="#f4dfd6"/>
+<text x="38" y="104">기존 착지 자세</text><text x="38" y="138">왼발 방향 비대칭</text>
+<text x="317" y="104">좌우 각자의 발 회전</text><text x="317" y="138">착지 기준으로 저장</text>
+<text x="597" y="104">M47 지지 / M48 접근</text><text x="597" y="138">같은 기준 유지·연결</text>
+<text x="877" y="104">왼발 방향 문제 잔존</text><text x="877" y="138">위치 교정만으로 미해결</text>
+<text x="263" y="120">→</text><text x="543" y="120">→</text><text x="823" y="120">→</text>
+</g></svg>

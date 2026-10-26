@@ -1,0 +1,734 @@
+{
+  "status": "passed",
+  "testedAt": "2026-10-20T15:54:38.178Z",
+  "errors": [],
+  "unchanged": [
+    "experiments/model-preview/review/ankle-relative.js",
+    "experiments/model-preview/review/ankle-weights.js",
+    "experiments/model-preview/review/arm-spacing.js",
+    "experiments/model-preview/review/arm-swing.js",
+    "experiments/model-preview/review/bilateral-pose.js",
+    "experiments/model-preview/review/bilateral-skin.js",
+    "experiments/model-preview/review/body-height.js",
+    "experiments/model-preview/review/cyclic-motion.js",
+    "experiments/model-preview/review/foot-frame.js",
+    "experiments/model-preview/review/fore-aft-release.js",
+    "experiments/model-preview/review/ground-contact.js",
+    "experiments/model-preview/review/hand-pose.js",
+    "experiments/model-preview/review/hip-landing.js",
+    "experiments/model-preview/review/knee-lateral.js",
+    "experiments/model-preview/review/landing-sole-alignment.js",
+    "experiments/model-preview/review/landing-width-comparison.js",
+    "experiments/model-preview/review/landing-width.js",
+    "experiments/model-preview/review/late-stance-sole.js",
+    "experiments/model-preview/review/late-toe-slip-trial.js",
+    "experiments/model-preview/review/left-ankle-direction.js",
+    "experiments/model-preview/review/mocap.html",
+    "experiments/model-preview/review/mocap.js",
+    "experiments/model-preview/review/pelvis-reference-restore.js",
+    "experiments/model-preview/review/pivot-release.js",
+    "experiments/model-preview/review/release-refinement.js",
+    "experiments/model-preview/review/root-travel.js",
+    "experiments/model-preview/review/shared-approach.js",
+    "experiments/model-preview/review/shared-gait.html",
+    "experiments/model-preview/review/shared-gait.js",
+    "experiments/model-preview/review/shared-release.js",
+    "experiments/model-preview/review/skin-point-batch.js",
+    "experiments/model-preview/review/sole-slip.js",
+    "experiments/model-preview/review/stance-chain.js",
+    "experiments/model-preview/review/stance-contact.js",
+    "experiments/model-preview/review/stance-width.js",
+    "experiments/model-preview/review/swing-approach.js",
+    "experiments/model-preview/review/toe-slip-path.js",
+    "experiments/model-preview/review/travel-comparison.js",
+    "experiments/model-preview/review/upper-center.js",
+    "experiments/model-preview/review/data/cmu.json",
+    "experiments/model-preview/public/review-data/shared-gait-reference.json",
+    "experiments/model-preview/public/models/runner-male.glb",
+    "experiments/model-preview/public/models/runner-female.glb"
+  ],
+  "results": [
+    {
+      "model": "male",
+      "enabled": true,
+      "excessMm": 1.5672061626600502,
+      "symmetry": {
+        "join": {
+          "before": {
+            "knee": {
+              "max": 0.19266369505857028,
+              "rms": 0.12106260185723008
+            },
+            "kneePoint": {
+              "max": 0.8292952571429557,
+              "rms": 0.5125458592428683
+            },
+            "ankle": {
+              "max": 7.472007661613302,
+              "rms": 4.692826169815041
+            },
+            "ball": {
+              "max": 7.472007585595107,
+              "rms": 4.692826123753488
+            }
+          },
+          "after": {
+            "knee": {
+              "max": 0.19266369505857028,
+              "rms": 0.11929116781477266
+            },
+            "kneePoint": {
+              "max": 0.8292952571429557,
+              "rms": 0.500886545293635
+            },
+            "ankle": {
+              "max": 7.472007661613302,
+              "rms": 4.658423776907156
+            },
+            "ball": {
+              "max": 7.472007585595107,
+              "rms": 4.658423733107085
+            }
+          }
+        },
+        "cycle": {
+          "before": {
+            "knee": {
+              "max": 0.24652628961345613,
+              "rms": 0.07742276059298259
+            },
+            "kneePoint": {
+              "max": 1.0990405047495415,
+              "rms": 0.3368506950441609
+            },
+            "ankle": {
+              "max": 7.472007661613302,
+              "rms": 2.699640037740199
+            },
+            "ball": {
+              "max": 7.472007585595107,
+              "rms": 2.6996400058801657
+            }
+          },
+          "after": {
+            "knee": {
+              "max": 0.24652628961345613,
+              "rms": 0.07703132088418609
+            },
+            "kneePoint": {
+              "max": 1.0990405047495415,
+              "rms": 0.334350907249671
+            },
+            "ankle": {
+              "max": 7.472007661613302,
+              "rms": 2.6911659499446765
+            },
+            "ball": {
+              "max": 7.472007585595107,
+              "rms": 2.691165918623812
+            }
+          }
+        }
+      },
+      "metrics": {
+        "protectedMm": 0,
+        "protectedDeg": 4.182619578303746e-06,
+        "hipPositionMm": 0,
+        "offsetMm": 0,
+        "footWorldDeg": 3.818191820832845e-06,
+        "footHeightMm": 5.780353973250385e-08,
+        "pointHeightMm": 4.049083290880162e-08,
+        "floorDeltaMm": 0.00011365366227311657,
+        "minFloorMm": 5.6262217107416745e-09,
+        "outsideMm": 0,
+        "outsideDeg": 3.818191820832845e-06,
+        "archiveMm": 0,
+        "archiveFootDeg": 0,
+        "kneeChangeDeg": 0.01821067598527293,
+        "kneeShiftMm": 0.24994967150433994,
+        "ankleRelativeDeg": 0.029224183267611042,
+        "hipLocalDeg": 0.02831750777544078,
+        "calfLocalDeg": 0.031464120828574055,
+        "residualMm": 1.5356040963716927e-07,
+        "kneeMinDeg": 26.695717247954263,
+        "velocityGapMps": 3.556129382599241e-05,
+        "angularGapDegps": 0.2677368160989473,
+        "repeatMm": 2.6645352591003757e-12,
+        "repeatDeg": 3.4150945850063755e-06,
+        "seekMm": 0,
+        "groupMm": 2.696865187951366e-12,
+        "symmetryKneeDeg": 0.24652628961345613
+      },
+      "paths": {
+        "r": {
+          "entry": {
+            "beforeMm": 1.6200106483793122,
+            "afterMm": 1.6200106483793122
+          },
+          "hold": {
+            "beforeMm": 3.326306768789135e-05,
+            "afterMm": 3.326306768789135e-05
+          },
+          "join": {
+            "beforeMm": 13.884611197063146,
+            "afterMm": 13.884611197063146
+          },
+          "early": {
+            "beforeMm": 3.960892347551246,
+            "afterMm": 3.960892347551246
+          },
+          "all": {
+            "beforeMm": 15.504655108510145,
+            "afterMm": 15.504655108510145
+          },
+          "nearGround": {
+            "beforeMm": 11.141590661420667,
+            "afterMm": 11.141590661420667
+          }
+        },
+        "l": {
+          "entry": {
+            "beforeMm": 1.214360944686439,
+            "afterMm": 1.214360944686439
+          },
+          "hold": {
+            "beforeMm": 1.99295582564476e-05,
+            "afterMm": 1.99295582564476e-05
+          },
+          "join": {
+            "beforeMm": 15.564770001884348,
+            "afterMm": 15.36058841664878
+          },
+          "early": {
+            "beforeMm": 3.2057066308698,
+            "afterMm": 3.2057066308698
+          },
+          "all": {
+            "beforeMm": 16.779150876129048,
+            "afterMm": 16.574969290893478
+          },
+          "nearGround": {
+            "beforeMm": 10.102629848049986,
+            "afterMm": 9.933698621835719
+          }
+        }
+      },
+      "neighbors": {
+        "r": [
+          {
+            "id": 6817,
+            "beforeMm": 15.504655108510145,
+            "afterMm": 15.504655108510145
+          },
+          {
+            "id": 6815,
+            "beforeMm": 15.425575895996085,
+            "afterMm": 15.425575895996085
+          },
+          {
+            "id": 6816,
+            "beforeMm": 16.249042456067073,
+            "afterMm": 16.249042456067073
+          },
+          {
+            "id": 6836,
+            "beforeMm": 15.383103509149024,
+            "afterMm": 15.383103509149024
+          },
+          {
+            "id": 7328,
+            "beforeMm": 15.698081901255525,
+            "afterMm": 15.698081901255525
+          },
+          {
+            "id": 7334,
+            "beforeMm": 15.329244605587013,
+            "afterMm": 15.329244605587013
+          },
+          {
+            "id": 7327,
+            "beforeMm": 16.56437383898063,
+            "afterMm": 16.56437383898063
+          },
+          {
+            "id": 6814,
+            "beforeMm": 17.21217369000058,
+            "afterMm": 17.21217369000058
+          },
+          {
+            "id": 7335,
+            "beforeMm": 15.221905291870344,
+            "afterMm": 15.221905291870344
+          },
+          {
+            "id": 6835,
+            "beforeMm": 15.32291164660379,
+            "afterMm": 15.32291164660379
+          },
+          {
+            "id": 6742,
+            "beforeMm": 18.163062352590238,
+            "afterMm": 18.163062352590238
+          },
+          {
+            "id": 6743,
+            "beforeMm": 18.163062352590238,
+            "afterMm": 18.163062352590238
+          }
+        ],
+        "l": [
+          {
+            "id": 13943,
+            "beforeMm": 16.779150876129048,
+            "afterMm": 16.574969290893478
+          },
+          {
+            "id": 13941,
+            "beforeMm": 16.726523249949626,
+            "afterMm": 16.520573061648445
+          },
+          {
+            "id": 13942,
+            "beforeMm": 17.48951549809526,
+            "afterMm": 17.291940478406666
+          },
+          {
+            "id": 13962,
+            "beforeMm": 16.747291917335826,
+            "afterMm": 16.539973345374328
+          },
+          {
+            "id": 14453,
+            "beforeMm": 17.286247365892564,
+            "afterMm": 17.076254392606376
+          },
+          {
+            "id": 14459,
+            "beforeMm": 17.018714905658857,
+            "afterMm": 16.804480972465022
+          },
+          {
+            "id": 14452,
+            "beforeMm": 18.044829613554427,
+            "afterMm": 17.846603226522152
+          },
+          {
+            "id": 13940,
+            "beforeMm": 18.408114059464044,
+            "afterMm": 18.221958695100422
+          },
+          {
+            "id": 14460,
+            "beforeMm": 16.991737465357716,
+            "afterMm": 16.776929330517444
+          },
+          {
+            "id": 13961,
+            "beforeMm": 16.800104940579786,
+            "afterMm": 16.5903123574004
+          },
+          {
+            "id": 13868,
+            "beforeMm": 19.3107172709656,
+            "afterMm": 19.139790957364628
+          },
+          {
+            "id": 13869,
+            "beforeMm": 19.3107172709656,
+            "afterMm": 19.139790957364628
+          }
+        ]
+      },
+      "speeds": {
+        "r": {
+          "before": 0.545356375383284,
+          "after": 0.545356375383284
+        },
+        "l": {
+          "before": 0.5622098252341404,
+          "after": 0.5397656364338418
+        }
+      },
+      "boundary": [
+        {
+          "t": 0,
+          "velocityGapMps": 1.5061401127518026e-06,
+          "angularGapDegps": 0.1519301229895547
+        },
+        {
+          "t": 0.88,
+          "velocityGapMps": 1.2865180165454672e-07,
+          "angularGapDegps": 0.21287412311567877
+        },
+        {
+          "t": 0.93,
+          "velocityGapMps": 3.556129382599241e-05,
+          "angularGapDegps": 0.2677368160989473
+        },
+        {
+          "t": 1,
+          "velocityGapMps": 1.5062843571109342e-06,
+          "angularGapDegps": 0.15193012686902435
+        }
+      ],
+      "vertices": {
+        "r": {
+          "mesh": "Human",
+          "id": 6817
+        },
+        "l": {
+          "mesh": "Human",
+          "id": 13943
+        }
+      },
+      "options": {
+        "start": 0.88,
+        "end": 0.93,
+        "lateralWeight": 0.125,
+        "forwardWeight": 0.1
+      },
+      "seconds": 0.7583333333333333
+    },
+    {
+      "model": "female",
+      "enabled": false,
+      "excessMm": 0.0009128782554896492,
+      "symmetry": {
+        "join": {
+          "before": {
+            "knee": {
+              "max": 0.1856215054401389,
+              "rms": 0.11693607912182626
+            },
+            "kneePoint": {
+              "max": 0.7079227839136213,
+              "rms": 0.43312195357213207
+            },
+            "ankle": {
+              "max": 6.702636202129677,
+              "rms": 4.209619137920329
+            },
+            "ball": {
+              "max": 6.702636167383682,
+              "rms": 4.2096191161259995
+            }
+          },
+          "after": {
+            "knee": {
+              "max": 0.1856215054401389,
+              "rms": 0.11693607912182626
+            },
+            "kneePoint": {
+              "max": 0.7079227839136213,
+              "rms": 0.43312195357213207
+            },
+            "ankle": {
+              "max": 6.702636202129677,
+              "rms": 4.209619137920329
+            },
+            "ball": {
+              "max": 6.702636167383682,
+              "rms": 4.2096191161259995
+            }
+          }
+        },
+        "cycle": {
+          "before": {
+            "knee": {
+              "max": 0.23711709202427755,
+              "rms": 0.07470263717750655
+            },
+            "kneePoint": {
+              "max": 0.9356401201788523,
+              "rms": 0.28434236806363106
+            },
+            "ankle": {
+              "max": 6.702636202129677,
+              "rms": 2.421665689336681
+            },
+            "ball": {
+              "max": 6.702636167383682,
+              "rms": 2.4216656757942214
+            }
+          },
+          "after": {
+            "knee": {
+              "max": 0.23711709202427755,
+              "rms": 0.07470263717750655
+            },
+            "kneePoint": {
+              "max": 0.9356401201788523,
+              "rms": 0.28434236806363106
+            },
+            "ankle": {
+              "max": 6.702636202129677,
+              "rms": 2.421665689336681
+            },
+            "ball": {
+              "max": 6.702636167383682,
+              "rms": 2.4216656757942214
+            }
+          }
+        }
+      },
+      "metrics": {
+        "protectedMm": 0,
+        "protectedDeg": 4.182619578303746e-06,
+        "hipPositionMm": 0,
+        "offsetMm": 0,
+        "footWorldDeg": 4.182619578303746e-06,
+        "footHeightMm": 0,
+        "pointHeightMm": 0,
+        "floorDeltaMm": 0,
+        "minFloorMm": 3.986144747614162e-09,
+        "outsideMm": 0,
+        "outsideDeg": 4.182619578303746e-06,
+        "archiveMm": 0,
+        "archiveFootDeg": 0,
+        "kneeChangeDeg": 0,
+        "kneeShiftMm": 0,
+        "ankleRelativeDeg": 3.4150945850063755e-06,
+        "hipLocalDeg": 2.9575586669421963e-06,
+        "calfLocalDeg": 2.9575586669421963e-06,
+        "residualMm": 0,
+        "kneeMinDeg": 27.193885313285904,
+        "velocityGapMps": 1.1246309123583319e-05,
+        "angularGapDegps": 0.2819693255955665,
+        "repeatMm": 2.6646798154688043e-12,
+        "repeatDeg": 3.4150945850063755e-06,
+        "seekMm": 0,
+        "groupMm": 3.1485149848380875e-12,
+        "symmetryKneeDeg": 0.23711709202427755
+      },
+      "paths": {
+        "r": {
+          "entry": {
+            "beforeMm": 1.062329006768321,
+            "afterMm": 1.062329006768321
+          },
+          "hold": {
+            "beforeMm": 9.741456193443485e-06,
+            "afterMm": 9.741456193443485e-06
+          },
+          "join": {
+            "beforeMm": 10.715965370967396,
+            "afterMm": 10.715965370967396
+          },
+          "early": {
+            "beforeMm": 2.4507275125759875,
+            "afterMm": 2.4507275125759875
+          },
+          "all": {
+            "beforeMm": 11.77830411919191,
+            "afterMm": 11.77830411919191
+          },
+          "nearGround": {
+            "beforeMm": 11.778300838623059,
+            "afterMm": 11.778300838623059
+          }
+        },
+        "l": {
+          "entry": {
+            "beforeMm": 0.9472668157988211,
+            "afterMm": 0.9472668157988211
+          },
+          "hold": {
+            "beforeMm": 9.880613664882456e-06,
+            "afterMm": 9.880613664882456e-06
+          },
+          "join": {
+            "beforeMm": 12.845683290678188,
+            "afterMm": 12.845683290678188
+          },
+          "early": {
+            "beforeMm": 2.549590319273105,
+            "afterMm": 2.549590319273105
+          },
+          "all": {
+            "beforeMm": 13.792959987090674,
+            "afterMm": 13.792959987090674
+          },
+          "nearGround": {
+            "beforeMm": 13.79295677019709,
+            "afterMm": 13.79295677019709
+          }
+        }
+      },
+      "neighbors": {
+        "r": [
+          {
+            "id": 6710,
+            "beforeMm": 11.77830411919191,
+            "afterMm": 11.77830411919191
+          },
+          {
+            "id": 6711,
+            "beforeMm": 11.980282404664088,
+            "afterMm": 11.980282404664088
+          },
+          {
+            "id": 6709,
+            "beforeMm": 11.865002696799232,
+            "afterMm": 11.865002696799232
+          },
+          {
+            "id": 5383,
+            "beforeMm": 12.56603432826571,
+            "afterMm": 12.56603432826571
+          },
+          {
+            "id": 5380,
+            "beforeMm": 12.147706288001684,
+            "afterMm": 12.147706288001684
+          },
+          {
+            "id": 6712,
+            "beforeMm": 12.543417099916486,
+            "afterMm": 12.543417099916486
+          },
+          {
+            "id": 5382,
+            "beforeMm": 12.558453076065925,
+            "afterMm": 12.558453076065925
+          },
+          {
+            "id": 5388,
+            "beforeMm": 12.844285788966877,
+            "afterMm": 12.844285788966877
+          },
+          {
+            "id": 5379,
+            "beforeMm": 12.397760408893816,
+            "afterMm": 12.397760408893816
+          },
+          {
+            "id": 5378,
+            "beforeMm": 12.090473998577583,
+            "afterMm": 12.090473998577583
+          },
+          {
+            "id": 5373,
+            "beforeMm": 12.706898791577352,
+            "afterMm": 12.706898791577352
+          },
+          {
+            "id": 5386,
+            "beforeMm": 12.617411347082253,
+            "afterMm": 12.617411347082253
+          }
+        ],
+        "l": [
+          {
+            "id": 13836,
+            "beforeMm": 13.792959987090674,
+            "afterMm": 13.792959987090674
+          },
+          {
+            "id": 13837,
+            "beforeMm": 13.88380124016907,
+            "afterMm": 13.88380124016907
+          },
+          {
+            "id": 13835,
+            "beforeMm": 14.023098979287468,
+            "afterMm": 14.023098979287468
+          },
+          {
+            "id": 12536,
+            "beforeMm": 14.466087891473354,
+            "afterMm": 14.466087891473354
+          },
+          {
+            "id": 12533,
+            "beforeMm": 14.126369156079422,
+            "afterMm": 14.126369156079422
+          },
+          {
+            "id": 13838,
+            "beforeMm": 14.261082349609048,
+            "afterMm": 14.261082349609048
+          },
+          {
+            "id": 12535,
+            "beforeMm": 14.542677379917404,
+            "afterMm": 14.542677379917404
+          },
+          {
+            "id": 12541,
+            "beforeMm": 14.61148442862668,
+            "afterMm": 14.61148442862668
+          },
+          {
+            "id": 12532,
+            "beforeMm": 14.196380575639923,
+            "afterMm": 14.196380575639923
+          },
+          {
+            "id": 12531,
+            "beforeMm": 14.245537027299374,
+            "afterMm": 14.245537027299374
+          },
+          {
+            "id": 12526,
+            "beforeMm": 14.35549929091645,
+            "afterMm": 14.35549929091645
+          },
+          {
+            "id": 12539,
+            "beforeMm": 14.718875075242444,
+            "afterMm": 14.718875075242444
+          }
+        ]
+      },
+      "speeds": {
+        "r": {
+          "before": 0.3557693612184954,
+          "after": 0.3557693612184954
+        },
+        "l": {
+          "before": 0.4253643523683816,
+          "after": 0.4253643523683816
+        }
+      },
+      "boundary": [
+        {
+          "t": 0,
+          "velocityGapMps": 1.321722209865778e-06,
+          "angularGapDegps": 0.14599142225922537
+        },
+        {
+          "t": 0.88,
+          "velocityGapMps": 8.295861347277806e-08,
+          "angularGapDegps": 0.2128718387399106
+        },
+        {
+          "t": 0.93,
+          "velocityGapMps": 1.1246309123583319e-05,
+          "angularGapDegps": 0.2819693255955665
+        },
+        {
+          "t": 1,
+          "velocityGapMps": 1.3216975483864812e-06,
+          "angularGapDegps": 0.14599140697597557
+        }
+      ],
+      "vertices": {
+        "r": {
+          "mesh": "Human",
+          "id": 6710
+        },
+        "l": {
+          "mesh": "Human",
+          "id": 13836
+        }
+      },
+      "options": {
+        "start": 0.88,
+        "end": 0.93,
+        "lateralWeight": 0.125,
+        "forwardWeight": 0.1
+      },
+      "seconds": 0.7583333333333333
+    }
+  ]
+}

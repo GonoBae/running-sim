@@ -2,11 +2,19 @@
 
 **내가 만든 러너와 자세로 실제 코스를 달리는 모습을 관찰하는 서비스입니다.**
 
-![트랙과 같은 시점의 자세를 함께 보여주는 정적 시안](docs/assets/images/running-dual-view-v2.png)
+![실제 코스 주행과 같은 시점 자세 · 구현 화면](docs/assets/images/course-running-side.png)
 
-시안이며 실제 코스 주행·프레임 편집·예상 기록 계산은 구현 전입니다. 현재는 모델·부위 길이·제한된 자세와 로컬 관리자 시험을 확인했습니다.
+위 그림은 실제 구현 화면입니다. **신체 세팅 → 자세 세팅 → 코스 세팅 → 백테스팅**으로 이어지며, [항공사진 대조·경로 수정](docs/05-validation/COURSE_IMAGERY.md)와 [목표 페이스·주행](docs/05-validation/COURSE_PACE.md)을 확인할 수 있습니다. 정밀 실측과 자세별 기록 예측은 미검증입니다. [문서 목록](docs/README.md) · [단계별 화면](docs/05-validation/STAGE_PAGES.md).
 
 ## 문서
+
+[신체를 직접 잡아 조절하는 현재 화면 →](docs/05-validation/BODY_EDITOR.md)
+
+[몸통·다리·아래팔로 자세를 조절하는 현재 화면 →](docs/05-validation/UPPER_LEAN.md)
+
+[뒤꿈치·미드풋·앞꿈치 선택·양발 접촉 비교 →](docs/05-validation/FOOT_STRIKE.md)
+
+[실제 코스 주행·재생 영상·검증 →](docs/05-validation/COURSE_RUNNING.md)
 
 **[문서 전체 목록과 작성 상태 →](docs/README.md)**
 

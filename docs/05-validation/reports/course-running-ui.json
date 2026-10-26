@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "Selected start/reverse/two laps retained; starts paused; play/pause/4x/seek/completion/restart/reset verified",
+    "Lap boundary keeps continuous clock; finish at selected start, stops exactly; visibility handler pauses; reload retains settings and resets playback",
+    "Body/pose parameters unchanged; route anchor on original segments; copied local bones and inverse-world skin match detail runtime at five phases per profile",
+    "Return to pose, edit leg, keep course and re-enter at start with new pose",
+    "Front/side and overview screens captured; full-course runner pin; 390px touch seek and no horizontal overflow",
+    "Missing model blocks playback then retry recovers; missing course redirects to selection and retry recovers without losing settings"
+  ],
+  "profiles": [
+    {
+      "model": "male",
+      "custom": false,
+      "strike": "original",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": false,
+      "strike": "heel",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": false,
+      "strike": "midfoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": false,
+      "strike": "forefoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "strike": "original",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "strike": "heel",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "strike": "midfoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "strike": "forefoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "strike": "original",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "strike": "heel",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "strike": "midfoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "strike": "forefoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "strike": "original",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "strike": "heel",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "strike": "midfoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "strike": "forefoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    }
+  ],
+  "errors": [],
+  "maxJointError": 2.446931546273845e-13,
+  "maxSkinError": 2.3907255389517414e-13
+}

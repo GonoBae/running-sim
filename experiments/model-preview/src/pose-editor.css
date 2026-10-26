@@ -1,0 +1,17 @@
+body[data-step=pose] #viewport canvas{touch-action:none}
+.pose-editor{position:absolute;inset:0;pointer-events:none}
+.pose-grip{position:absolute;width:32px;height:32px;padding:0;transform:translate(-50%,-50%);border-radius:50%;border:1px solid #719280;background:#ffffffe8;box-shadow:0 1px 7px #29463220;display:grid;place-items:center;pointer-events:auto;touch-action:none;cursor:ns-resize;color:#355840;font-size:21px}
+.pose-grip:hover,.pose-grip.selected{background:#294632;color:white}
+.pose-grip-label{position:absolute;left:37px;top:3px;font-size:11px;background:#294632;color:white;padding:4px 7px;border-radius:5px;white-space:nowrap;pointer-events:none;display:none}
+.pose-grip:hover .pose-grip-label,.pose-grip:focus-visible .pose-grip-label,.pose-grip.selected .pose-grip-label{display:block}
+.pose-meter{border-top:1px solid #dce4d9;padding:10px 18px;background:#ffffff70;display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;min-height:48px}
+.pose-values{font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}.pose-meter small{font-size:11px}
+@media(max-width:760px){
+ body[data-step=pose] header{height:50px}body[data-step=pose] .steps{margin:8px auto}body[data-step=pose] .heading{margin:10px 0 12px}body[data-step=pose] .eyebrow{display:none}
+ body[data-step=pose] h1{font-size:22px;margin-bottom:5px}body[data-step=pose] #viewport{height:clamp(300px,calc(100dvh - 335px),510px)}
+ .pose-meter{padding:9px 12px;gap:4px 12px}.pose-meter small{font-size:10px}.pose-grip{width:30px;height:30px}
+}
+
+.strike-tools{position:absolute;right:16px;top:15px;z-index:1;display:flex;align-items:center;gap:8px;font-size:11px;color:#67745f}
+.strike-tools select{width:115px;padding:8px 10px;font-size:12px;background:#ffffffeb}
+@media(max-width:760px){.strike-tools{right:12px;top:16px;gap:5px}.strike-tools select{width:96px;padding:8px 6px}}

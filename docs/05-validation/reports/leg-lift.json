@@ -1,0 +1,146 @@
+{
+  "testedAt": "2026-10-14T12:45:15.619Z",
+  "browser": "155.0.4283.45",
+  "scope": "M06 real male/female GLB; fixed 1.2s lift experiment, no contact validation; hidden-tab event simulated; 390px desktop viewport, not real mobile",
+  "measurements": [
+    {
+      "model": "male",
+      "maxError": 0.000025358465521208018,
+      "boundaryError": 0.0017819957005397854,
+      "independent": true,
+      "restored": true,
+      "peaks": [
+        {
+          "target": 0,
+          "left": 0,
+          "right": 0,
+          "min": -2.687606228811469e-7,
+          "max": 0
+        },
+        {
+          "target": 20,
+          "left": 20.000000811022765,
+          "right": 20.000000811022765,
+          "min": -2.687606228811469e-7,
+          "max": 20.000000811022765
+        },
+        {
+          "target": 50,
+          "left": 50.00000226553916,
+          "right": 50.00000226553916,
+          "min": -2.687606228811469e-7,
+          "max": 50.00000226553916
+        },
+        {
+          "target": 65,
+          "left": 65.00000248120803,
+          "right": 65.00000248120803,
+          "min": -2.687606228811469e-7,
+          "max": 65.00000248120803
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "maxError": 0.000013736527264995857,
+      "boundaryError": 0.001781995620861773,
+      "independent": true,
+      "restored": true,
+      "peaks": [
+        {
+          "target": 0,
+          "left": 0,
+          "right": 0,
+          "min": -6.340039597553817e-8,
+          "max": 0
+        },
+        {
+          "target": 20,
+          "left": 19.999999936774035,
+          "right": 19.999999936774035,
+          "min": -6.340039597553817e-8,
+          "max": 19.999999936774035
+        },
+        {
+          "target": 50,
+          "left": 49.99999993709217,
+          "right": 49.99999993709217,
+          "min": -6.340039597553817e-8,
+          "max": 49.99999993709217
+        },
+        {
+          "target": 65,
+          "left": 64.99999993729675,
+          "right": 64.99999993729675,
+          "min": -6.340039597553817e-8,
+          "max": 64.99999993729675
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "name": "male: physical angles, peak targets, full cycle, boundaries and editing independence",
+      "passed": true
+    },
+    {
+      "name": "male: UI live playback, stop, snapshot and telemetry isolation",
+      "passed": true
+    },
+    {
+      "name": "female: physical angles, peak targets, full cycle, boundaries and editing independence",
+      "passed": true
+    },
+    {
+      "name": "female: UI live playback, stop, snapshot and telemetry isolation",
+      "passed": true
+    },
+    {
+      "name": "continuous frames reject invalid values, preserve integer snapshot contract, and roll back exceptions",
+      "passed": true
+    },
+    {
+      "name": "invalid maximum angles never start playback",
+      "passed": true
+    },
+    {
+      "name": "editing, saving, restoring and applying stop before existing action",
+      "passed": true
+    },
+    {
+      "name": "body length edit stops and regenerated angles remain correct",
+      "passed": true
+    },
+    {
+      "name": "model load stops playback and disables play until ready",
+      "passed": true
+    },
+    {
+      "name": "failed model load prevents playback and recovery stays stopped",
+      "passed": true
+    },
+    {
+      "name": "hidden tab stops without automatic resume",
+      "passed": true
+    },
+    {
+      "name": "390px viewport and keyboard controls",
+      "passed": true
+    },
+    {
+      "name": "changed settings stop playing, stale policy blocks restart",
+      "passed": true
+    },
+    {
+      "name": "hidden thigh and policy excluding zero both block motion",
+      "passed": true
+    },
+    {
+      "name": "unreadable settings block playback on click",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 15,
+  "failed": 0
+}

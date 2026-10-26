@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "samples": 240,
+  "comparison": "Exact before/after hashes: bone world matrices and independent Three.js skin points, original and midfoot, both sexes/default and custom bodies"
+}

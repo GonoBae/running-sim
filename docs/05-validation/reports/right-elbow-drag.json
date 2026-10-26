@@ -1,0 +1,126 @@
+{
+  "testedAt": "2026-10-14T12:38:48.804Z",
+  "browser": "155.0.4283.45",
+  "scope": "M09 right elbow, M11 occlusion-aware regression (front/side cases rotate to near side before dragging), real male/female GLB, mouse and keyboard; cancellation events partly injected; 390px desktop viewport not physical touch device",
+  "measurements": [
+    {
+      "model": "male",
+      "view": "front",
+      "target": 100,
+      "measured": 100.00000107675564,
+      "error": 0.0000010767556375412823
+    },
+    {
+      "model": "male",
+      "view": "side",
+      "target": 100,
+      "measured": 100.00000107675564,
+      "error": 0.0000010767556375412823
+    },
+    {
+      "model": "male",
+      "view": "back",
+      "target": 100,
+      "measured": 100.00000107675564,
+      "error": 0.0000010767556375412823
+    },
+    {
+      "model": "female",
+      "view": "front",
+      "target": 100,
+      "measured": 100.00001287054792,
+      "error": 0.000012870547919874298
+    },
+    {
+      "model": "female",
+      "view": "side",
+      "target": 100,
+      "measured": 100.00001287054792,
+      "error": 0.000012870547919874298
+    },
+    {
+      "model": "female",
+      "view": "back",
+      "target": 100,
+      "measured": 100.00001287054792,
+      "error": 0.000012870547919874298
+    }
+  ],
+  "cases": [
+    {
+      "name": "body hides handle; pose shows a joint-anchored handle",
+      "passed": true
+    },
+    {
+      "name": "male/front: visible-side drag -> physical angle, UI sync, camera/shoulder/length invariants",
+      "passed": true
+    },
+    {
+      "name": "male/side: visible-side drag -> physical angle, UI sync, camera/shoulder/length invariants",
+      "passed": true
+    },
+    {
+      "name": "male/back: visible-side drag -> physical angle, UI sync, camera/shoulder/length invariants",
+      "passed": true
+    },
+    {
+      "name": "female/front: visible-side drag -> physical angle, UI sync, camera/shoulder/length invariants",
+      "passed": true
+    },
+    {
+      "name": "female/side: visible-side drag -> physical angle, UI sync, camera/shoulder/length invariants",
+      "passed": true
+    },
+    {
+      "name": "female/back: visible-side drag -> physical angle, UI sync, camera/shoulder/length invariants",
+      "passed": true
+    },
+    {
+      "name": "numeric edits and min/max drag stay synchronized",
+      "passed": true
+    },
+    {
+      "name": "Escape and pointer cancellation restore start; mouse capture releases cleanly",
+      "passed": true
+    },
+    {
+      "name": "keyboard arrows and endpoints adjust the same joint",
+      "passed": true
+    },
+    {
+      "name": "playback stops on grab; saved pose stays independent; no extra usage event",
+      "passed": true
+    },
+    {
+      "name": "empty canvas still orbits after releasing handle",
+      "passed": true
+    },
+    {
+      "name": "returning to body during drag cancels, hides handle and keeps pose",
+      "passed": true
+    },
+    {
+      "name": "body size changes preserve anchor and angle during drag",
+      "passed": true
+    },
+    {
+      "name": "390px handle drag remains usable with no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "policy change while dragging cancels and blocks further input",
+      "passed": true
+    },
+    {
+      "name": "narrowed policy clamps handle, hidden category suppresses it",
+      "passed": true
+    },
+    {
+      "name": "unsupported asset and loading hide the handle in admin preview",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 18,
+  "failed": 0
+}

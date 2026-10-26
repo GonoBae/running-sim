@@ -1,0 +1,19 @@
+{
+  "testedAt": "2026-10-20T02:51:14.942Z",
+  "results": [
+    {
+      "view": "front",
+      "width": 1202,
+      "height": 618,
+      "ready": 4,
+      "error": null
+    },
+    {
+      "view": "side",
+      "width": 1202,
+      "height": 618,
+      "ready": 4,
+      "error": null
+    }
+  ]
+}

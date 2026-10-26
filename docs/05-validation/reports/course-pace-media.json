@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "fixture": "Isolated custom female, 5 km reverse, target 6:00/km; user storage untouched",
+  "screens": 5,
+  "videoViews": [
+    "front",
+    "side"
+  ],
+  "decoded": [
+    {
+      "view": "front",
+      "seconds": 1
+    },
+    {
+      "view": "front",
+      "seconds": 3
+    },
+    {
+      "view": "front",
+      "seconds": 5
+    },
+    {
+      "view": "side",
+      "seconds": 1
+    },
+    {
+      "view": "side",
+      "seconds": 3
+    },
+    {
+      "view": "side",
+      "seconds": 5
+    }
+  ],
+  "speedMps": 2.7777777777777777,
+  "durationSeconds": 1800,
+  "errors": []
+}

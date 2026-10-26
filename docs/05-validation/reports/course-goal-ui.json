@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "Legacy B start migrated to identical physical point on C; reverse/6 laps and custom body/pose retained; shared start/finish label",
+    "Km 0.01/0.29/3/100 accepted; blank/zero/negative/over-max/sub-step rejected without overwriting or showing stale finish",
+    "2 directions × 3 partial-lap goals: settings finish = minimap finish = exact stopped runner; reload/reset and phase entry preserve every setting",
+    "Desktop / 390px touch controls and no horizontal overflow; front/side and finish screenshots captured",
+    "Removed tip start is not silently moved: direct playback blocked, reselection recovers and retains preferences"
+  ],
+  "errors": []
+}

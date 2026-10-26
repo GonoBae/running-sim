@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "Existing custom body/pose/start/direction/goal/pace preserved byte-for-byte; before/after 3km/4km markers and 5km finish agree with calibrated metric; toggle is display-only; both directions/reload verified",
+    "Playback 3/4/5km positions match map; exact finish/minimap, 4 completed laps at 5km, 30-minute km goal retained; 2-lap total/time recalculated and returns to same start; 3D path scale matches distance",
+    "Original start near lap end stays valid; legacy B start migrates to same physical point while preserving other settings",
+    "Both sexes/4 phases: calibrated scene does not scale runner or change copied joints/skin"
+  ],
+  "errors": [],
+  "gaitCopy": {
+    "samples": 8,
+    "boneError": 2.2648549702353193e-13,
+    "skinError": 2.2187207648743193e-13
+  }
+}

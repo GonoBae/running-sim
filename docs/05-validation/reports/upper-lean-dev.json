@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:5173/pose",
+  "ready": true,
+  "lean": 0,
+  "handle": true,
+  "error": false
+}

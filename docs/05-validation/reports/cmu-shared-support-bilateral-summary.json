@@ -1,0 +1,239 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "model": "male",
+      "metrics": {
+        "bodyMm": 0,
+        "bodyDeg": 3.4150945850063755e-06,
+        "boneOffsetMm": 0,
+        "rightRegressionMm": 0,
+        "rightRegressionDeg": 3.4150945850063755e-06,
+        "archivedRightMm": 0,
+        "archivedRightKneeDeg": 0,
+        "outsideMm": 0,
+        "outsideDeg": 2.9575586669421963e-06,
+        "worldFootDeg": 3.4150945850063755e-06,
+        "footHeightMm": 1.2579808139623339e-05,
+        "pointHeightMm": 3.357412431403972e-06,
+        "floorDeltaMm": 0.004296053367103259,
+        "minFloorMm": 5.551115123125783e-14,
+        "relativeAnkleDeg": {
+          "r": 2.8456515286498427,
+          "l": 1.7172397344512715
+        },
+        "kneeDeltaDeg": {
+          "r": 5.4225047821761905,
+          "l": 5.755993438760356
+        },
+        "minKneeDeg": 26.695717247954263,
+        "contactErrorMm": 9.889275204221104e-06,
+        "velocityGapMps": 9.275850248771792e-05,
+        "angularVelocityGapDegps": 0.2677368194686479,
+        "seamMm": 5.097135955591513e-13,
+        "seamDeg": 2.4148365394514667e-06,
+        "repeatMm": 4.93277275633461e-12,
+        "repeatDeg": 2.9575586669421963e-06,
+        "seekMm": 0,
+        "groupFrameMm": 3.4341005850828482e-12,
+        "halfCycleBeforeMm": 35.77868941395238,
+        "halfCycleAfterMm": 10.696279225152894,
+        "worstVelocity": {
+          "t": 0.6,
+          "n": "calf_r",
+          "gap": 9.275850248771792e-05
+        }
+      },
+      "holdSymmetry": {
+        "observedMm": 10.36439840696501,
+        "lateralExpectedMm": 10.364398406985673
+      },
+      "paths": {
+        "r": {
+          "hold": {
+            "beforeMm": 46.92933118766563,
+            "afterMm": 4.508692790408262e-05,
+            "start": 0.43,
+            "end": 0.55
+          },
+          "late": {
+            "beforeMm": 74.42077360612701,
+            "afterMm": 34.35208816005147,
+            "start": 0.43,
+            "end": 0.58
+          },
+          "all": {
+            "beforeMm": 108.97282870936587,
+            "afterMm": 64.09775712829345,
+            "start": 0.38,
+            "end": 0.6
+          },
+          "nearGround": {
+            "beforeMm": 31.282562133944914,
+            "afterMm": 4.490840908450148e-05,
+            "start": 0.435,
+            "end": 0.52
+          }
+        },
+        "l": {
+          "hold": {
+            "beforeMm": 46.62531763978665,
+            "afterMm": 4.81164239623857e-05,
+            "start": 0.9299999999999999,
+            "end": 1.05
+          },
+          "late": {
+            "beforeMm": 71.92244430825275,
+            "afterMm": 27.03646796748008,
+            "start": 0.9299999999999999,
+            "end": 1.08
+          },
+          "all": {
+            "beforeMm": 105.98918740647674,
+            "afterMm": 53.88332030571479,
+            "start": 0.88,
+            "end": 1.1
+          },
+          "nearGround": {
+            "beforeMm": 32.095219724378005,
+            "afterMm": 4.766920334584384e-05,
+            "start": 0.935,
+            "end": 1.02
+          }
+        }
+      },
+      "speeds": {
+        "r": {
+          "before": 2.1394998109519934,
+          "after": 2.422258524069991
+        },
+        "l": {
+          "before": 2.1897129418263264,
+          "after": 2.1916358675704912
+        }
+      },
+      "travel": [
+        -0.043184993362440305,
+        0,
+        2.7349401712854213
+      ]
+    },
+    {
+      "model": "female",
+      "metrics": {
+        "bodyMm": 0,
+        "bodyDeg": 3.4150945850063755e-06,
+        "boneOffsetMm": 0,
+        "rightRegressionMm": 0,
+        "rightRegressionDeg": 3.4150945850063755e-06,
+        "archivedRightMm": 0,
+        "archivedRightKneeDeg": 0,
+        "outsideMm": 0,
+        "outsideDeg": 2.9575586669421963e-06,
+        "worldFootDeg": 2.9575586669421963e-06,
+        "footHeightMm": 5.879663922403466e-06,
+        "pointHeightMm": 1.920717959680296e-06,
+        "floorDeltaMm": 1.920717959680296e-06,
+        "minFloorMm": 0,
+        "relativeAnkleDeg": {
+          "r": 2.939964166374354,
+          "l": 1.9256882971649991
+        },
+        "kneeDeltaDeg": {
+          "r": 6.450291054855427,
+          "l": 6.766564417409768
+        },
+        "minKneeDeg": 27.193885313285875,
+        "contactErrorMm": 9.947797331551864e-06,
+        "velocityGapMps": 8.049263899224247e-05,
+        "angularVelocityGapDegps": 0.28196932583727297,
+        "seamMm": 8.882868333007365e-13,
+        "seamDeg": 0,
+        "repeatMm": 2.6651134375294656e-12,
+        "repeatDeg": 2.4148365394514667e-06,
+        "seekMm": 0,
+        "groupFrameMm": 1.8190095636653154e-12,
+        "halfCycleBeforeMm": 39.52324091040002,
+        "halfCycleAfterMm": 9.594912114927267,
+        "worstVelocity": {
+          "t": 0.6,
+          "n": "calf_r",
+          "gap": 8.049263899224247e-05
+        }
+      },
+      "holdSymmetry": {
+        "observedMm": 9.297204406166738,
+        "lateralExpectedMm": 9.29720440617153
+      },
+      "paths": {
+        "r": {
+          "hold": {
+            "beforeMm": 45.151790505499456,
+            "afterMm": 4.174528465931649e-05,
+            "start": 0.43,
+            "end": 0.55
+          },
+          "late": {
+            "beforeMm": 70.30725774298226,
+            "afterMm": 33.66451691834382,
+            "start": 0.43,
+            "end": 0.58
+          },
+          "all": {
+            "beforeMm": 101.61667031524384,
+            "afterMm": 60.49052979939442,
+            "start": 0.38,
+            "end": 0.6
+          },
+          "nearGround": {
+            "beforeMm": 50.2931247872144,
+            "afterMm": 13.142682197072034,
+            "start": 0.472,
+            "end": 0.568
+          }
+        },
+        "l": {
+          "hold": {
+            "beforeMm": 45.18991611295931,
+            "afterMm": 4.266309679963511e-05,
+            "start": 0.9299999999999999,
+            "end": 1.05
+          },
+          "late": {
+            "beforeMm": 68.4134695323114,
+            "afterMm": 27.909332886527142,
+            "start": 0.9299999999999999,
+            "end": 1.08
+          },
+          "all": {
+            "beforeMm": 99.36453428066027,
+            "afterMm": 52.3189576237321,
+            "start": 0.88,
+            "end": 1.1
+          },
+          "nearGround": {
+            "beforeMm": 47.29947167628157,
+            "afterMm": 11.16215676315702,
+            "start": 0.972,
+            "end": 1.068
+          }
+        }
+      },
+      "speeds": {
+        "r": {
+          "before": 1.9524681223716855,
+          "after": 2.372889203228446
+        },
+        "l": {
+          "before": 1.9968062272149887,
+          "after": 1.9977232938255838
+        }
+      },
+      "travel": [
+        -0.03873835169238138,
+        0,
+        2.453330797661377
+      ]
+    }
+  ]
+}

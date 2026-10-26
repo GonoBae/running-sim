@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:5173/pose",
+  "checks": [
+    {
+      "mode": "heel",
+      "pitch": 10,
+      "contacts": 1
+    },
+    {
+      "mode": "midfoot",
+      "pitch": 0,
+      "contacts": 1
+    },
+    {
+      "mode": "forefoot",
+      "pitch": -10,
+      "contacts": 1
+    },
+    {
+      "mode": "original",
+      "pitch": 0,
+      "contacts": 0
+    }
+  ],
+  "errors": []
+}

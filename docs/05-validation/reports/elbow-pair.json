@@ -1,0 +1,26 @@
+{
+  "testedAt": "2026-10-14T12:38:41.778Z",
+  "browser": "155.0.4283.45",
+  "scope": "M09 pair regression with M11 occlusion replacing separation, male GLB; competing pointer/keyboard injected; normal mouse drag and camera orbit",
+  "cases": [
+    {
+      "name": "left and right edits remain independent and snapshot restores both",
+      "passed": true
+    },
+    {
+      "name": "right cancellation preserves previously committed left angle",
+      "passed": true
+    },
+    {
+      "name": "single drag lock rejects competing pointer/keyboard input and releases camera",
+      "passed": true
+    },
+    {
+      "name": "M11 side view hides rear elbow; near-side views allow independent edits without separation",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 4,
+  "failed": 0
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<rect width="1200" height="390" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#233b32">
+<text x="35" y="48" font-size="28" font-weight="700">M77 · 달리면서 양팔 팔꿈치 굽힘 조절</text>
+<text x="35" y="83" font-size="18">확정 요구: 기본 달리기·다리 들림 유지 / 같은 설정을 양팔에 반영</text>
+<rect x="35" y="115" width="330" height="126" rx="16" fill="#e4ebe5"/>
+<text x="59" y="153" font-size="23">기본 동작 + 다리 들림 설정</text>
+<text x="59" y="191" font-size="19">골반·몸 높이·양다리 유지</text>
+<text x="59" y="221" font-size="19">어깨·위팔의 흔들림 유지</text>
+<text x="382" y="186" font-size="34">→</text>
+<rect x="435" y="115" width="330" height="126" rx="16" fill="#dceaf0"/>
+<text x="459" y="153" font-size="23">기본 대비 −20° ~ +20°</text>
+<text x="459" y="191" font-size="19">양팔 각자의 굽힘 방향 사용</text>
+<text x="459" y="221" font-size="19">손은 아래팔을 따라 이동</text>
+<text x="782" y="186" font-size="34">→</text>
+<rect x="835" y="115" width="330" height="126" rx="16" fill="#e4ebe5"/>
+<text x="859" y="153" font-size="23">양팔 실제 굽힘 각도 표시</text>
+<text x="859" y="191" font-size="19">정면·측면 / 같은 다리 설정</text>
+<text x="859" y="221" font-size="19">0°로 복원 → 기존 팔 동작</text>
+<text x="35" y="290" font-size="21">검사: 기본값 / 양팔 각도·굽힘 방향 / 다리 높이 조합 / 손목·손가락 / 재생 중 변경</text>
+<text x="35" y="337" font-size="18" fill="#63736a">선택한 시험 설계: 각도의 주기 변화는 유지하고 오프셋만 추가. 모든 체형·충돌·인체 정상 범위 검증 아님.</text>
+</g></svg>

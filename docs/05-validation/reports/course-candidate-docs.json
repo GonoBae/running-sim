@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M86 candidate map and documentation; user confirmation pending; no application implementation",
+  "documents": 7,
+  "links": 2426,
+  "images": 373,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "candidateGeometry": {
+    "closed": true,
+    "distinctVerticesExceptClosure": true,
+    "everySegmentExistsInSource": true,
+    "noRepeatedUndirectedSegments": true,
+    "noSelfIntersections": true,
+    "allCoordinatesFinite": true,
+    "noExplicitAccessProhibitionInSelectedWayTags": true,
+    "planarVsSphericalLengthWithinHalfPercent": true
+  },
+  "candidateLengthM": 1323.8956037735945
+}

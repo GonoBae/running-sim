@@ -18,13 +18,20 @@ function note(x,y,w,value) {
   return `<rect x="${x}" y="${y}" width="${w}" height="48" rx="12" fill="#edf0f2"/>${text(x+w/2,y+30,value,17)}`;
 }
 function make(file,title,subtitle,height,body) {
+  // Optional filename selects one diagram without rewriting unrelated outputs.
+  if(process.argv[2] && process.argv[2]!==file)return;
   const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="${height}" viewBox="0 0 1120 ${height}" role="img" aria-labelledby="title desc"><title id="title">${esc(title)}</title><desc id="desc">${esc(subtitle)}</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#98a3ae"/></marker></defs><rect width="1120" height="${height}" rx="24" fill="#f7f8fa"/><g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, sans-serif">${text(40,48,title,28,'#202b36','start',700)}${text(40,78,subtitle,16,'#63717d','start')}${body}</g></svg>\n`;
   fs.writeFileSync(path.join(out,file+'.svg'),svg);
 }
-make('journey','서비스 이용 흐름','기존 화면 순서 유지 · 캐릭터 내 동작 편집은 추가 검토',360,
-  card(40,116,220,'메인',['내 러너 만들기'],'confirmed')+card(310,116,220,'캐릭터',['체형 + 자세 · 동작 편집 검토'],'confirmed')+card(580,116,220,'코스',['실제 트랙 + 실행 조건'],'confirmed')+card(850,116,230,'주행과 비교',['왼쪽 트랙 · 오른쪽 자세'],'confirmed')+
-  arrow('M 260 182 H 302')+arrow('M 530 182 H 572')+arrow('M 800 182 H 842')+
-  note(40,282,1040,'목표: 같은 능력·노력 조건에서 자세 A/B의 시뮬레이션 예상 기록 비교'));
+make('journey','신체 세팅 → 자세 세팅 → 코스 세팅 → 백테스팅','2026-10-21 사용자 확정 순서 · 각 단계의 구현 완료를 뜻하지 않습니다',460,
+  card(40,116,230,'01  신체 세팅',['SCR02 · 기존 체형 설정','모델 · 외형 · 부위 길이'],'confirmed',156)+
+  card(310,116,230,'02  자세 세팅',['SCR03 · 관절·수치 조절','설정대로 달리기 미리보기'],'confirmed',156)+
+  card(580,116,230,'03  코스 세팅',['SCR04 · 트랙·출발·방향','코스와 실행 조건 설정'],'confirmed',156)+
+  card(850,116,230,'04  백테스팅',['SCR05·06 · 주행·결과','입력·계산 모델 검토 전'],'confirmed',156)+
+  arrow('M 270 194 H 302')+arrow('M 540 194 H 572')+arrow('M 810 194 H 842')+
+  text(560,317,'M79: 변경 신체로 달리기 연결 / 코스·백테스팅은 준비 화면 / 실제 코스·계산 미구현',17,'#63717d')+
+  text(560,352,'단계 이동·새로고침 시 신체·자세 유지 / 직접 관절 재연결·물리 접지 검증 전',16,'#63717d')+
+  note(40,391,1040,'기준: R15 / R01–R08·R12 / D01–D04·D13 / 순서 확정과 계산 검증을 구분'));
 make('comparison','자세를 바꾸면 무엇을 비교하나요','실행 방식의 설계안 · 비용·능력·노력 모델은 아직 미선정',530,
   card(40,116,300,'고정 페이스',['거리 + 페이스 고정'],'proposed')+card(410,116,300,'동작 관찰',['자세 A / 자세 B'],'proposed')+card(780,116,300,'같은 소요 시간',['시간 = 거리 ÷ 속도'],'proposed')+
   arrow('M 340 182 H 402')+arrow('M 710 182 H 772')+
@@ -82,4 +89,4 @@ make('admin-flow','사용자와 관리자의 연결','운영 구조 제안 · �
   card(780,320,300,'사용자 설정 확정',['남성형/여성형 · 자세 · 체형'],'confirmed')+card(410,320,300,'사용 이벤트 수집',['중복·범위 검사 · 시험 제외'],'proposed')+card(40,320,300,'관리자 통계',['접속 · 인기 자세 · 인기 체형'],'confirmed')+
   arrow('M 930 252 V 312')+arrow('M 780 386 H 718')+arrow('M 410 386 H 348')+
   note(40,492,1040,'현재 로컬: 모델 파일은 IndexedDB · 설정·사용 기록은 같은 브라우저에만 저장'));
-console.log('Generated 11 SVG diagrams.');
+console.log(process.argv[2]?`Generated ${process.argv[2]}.svg`:'Generated 11 SVG diagrams.');

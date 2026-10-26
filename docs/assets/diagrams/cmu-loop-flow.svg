@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="260" viewBox="0 0 1120 260">
+<rect width="1120" height="260" rx="20" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#263c40">
+<text x="28" y="42" font-size="25">M19 · 반복 연결 구현 · 자연스러움은 사용자 검토</text>
+<g><rect x="28" y="76" width="240" height="116" rx="14" fill="#e5eae5"/><text x="46" y="111" font-size="21">① 같은 동작 구간 선정</text><text x="46" y="146" font-size="17">35_17: 54 → 145 프레임</text><text x="46" y="173" font-size="17">한 주기 91프레임 · 0.758초</text></g>
+<text x="278" y="141" font-size="25">→</text>
+<g><rect x="308" y="76" width="240" height="116" rx="14" fill="#e5eae5"/><text x="326" y="111" font-size="21">② 연결 부근만 혼합</text><text x="326" y="146" font-size="17">경계 양쪽 8프레임</text><text x="326" y="173" font-size="17">관절 회전 + 골반 높이</text></g>
+<text x="558" y="141" font-size="25">→</text>
+<g><rect x="588" y="76" width="240" height="116" rx="14" fill="#e5eae5"/><text x="606" y="111" font-size="21">③ 프레임 사이 보간</text><text x="606" y="146" font-size="17">주기형 곡선으로 연결</text><text x="606" y="173" font-size="17">위치·속도 연속성 검사</text></g>
+<text x="838" y="141" font-size="25">→</text>
+<g><rect x="868" y="76" width="224" height="116" rx="14" fill="#cfe5da"/><text x="886" y="111" font-size="21">④ 반복 재생</text><text x="886" y="146" font-size="17">끝 ↔ 시작 위치 차이 0</text><text x="886" y="173" font-size="17">원본 비교 모드 유지</text></g>
+<text x="28" y="231" font-size="17">프레임 번호는 0부터 시작 · 동작 위상으로 선택한 가공 구간 · 접지 보정은 아직 적용하지 않음</text>
+</g></svg>

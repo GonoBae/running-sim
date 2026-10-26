@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "productionReady": true,
+  "overflow": false,
+  "buttons": [
+    {
+      "label": "← 신체 세팅",
+      "nowrap": true
+    },
+    {
+      "label": "코스 세팅 →",
+      "nowrap": true
+    }
+  ]
+}

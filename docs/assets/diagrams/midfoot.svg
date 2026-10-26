@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="320" viewBox="0 0 1120 320"><rect width="1120" height="320" rx="20" fill="#f7f8f5"/><g fill="#294632" font-family="Malgun Gothic,sans-serif">
+<text x="28" y="45" font-size="25" font-weight="bold">미드풋 선택 → 양발 착지에 반영</text><text x="28" y="76" font-size="15">M83 · 확정 요구 / 접촉 구간·오차는 이번 모델의 기능 시험 기준</text>
+<rect x="28" y="110" width="316" height="138" rx="14" fill="white" stroke="#d5dfd6"/><text x="46" y="147" font-size="20">01 착지 방식 선택</text><text x="46" y="184" font-size="16">기본 동작 ↔ 미드풋</text><text x="46" y="218" font-size="15">신체·다리·팔·상체 값 유지</text><text x="360" y="184" font-size="24">→</text>
+<rect x="400" y="110" width="316" height="138" rx="14" fill="white" stroke="#d5dfd6"/><text x="418" y="147" font-size="20">02 착지 자세 연결</text><text x="418" y="184" font-size="16">뒤꿈치 + 앞발바닥 함께 닿기</text><text x="418" y="218" font-size="15">고관절·무릎·발목 연동</text><text x="732" y="184" font-size="24">→</text>
+<rect x="772" y="110" width="320" height="138" rx="14" fill="white" stroke="#d5dfd6"/><text x="790" y="147" font-size="20">03 양발 재생 확인</text><text x="790" y="184" font-size="16">같은 규칙 · 반 주기 차이</text><text x="790" y="218" font-size="15">지지 후반·회수로 부드럽게 연결</text>
+<text x="28" y="287" font-size="15">기본 동작은 그대로 보존 / 실제 압력 분포·충격·기록 효과를 계산하는 기능은 아님</text></g></svg>

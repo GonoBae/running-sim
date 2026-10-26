@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "model": "male",
+      "vertex": {
+        "mesh": "Human",
+        "id": 6707
+      },
+      "metrics": {
+        "pelvisMm": 0,
+        "bodyMm": 0,
+        "bodyDeg": 3.4150945850063755e-06,
+        "offsetMm": 0,
+        "leftMm": 0,
+        "leftDeg": 3.4150945850063755e-06,
+        "outsideMm": 0,
+        "outsideDeg": 3.4150945850063755e-06,
+        "footWorldDeg": 3.4150945850063755e-06,
+        "ankleRelativeDeg": 2.8456515286498427,
+        "footHeightMm": 1.2531639226320834e-05,
+        "pointHeightMm": 3.3036006014119934e-06,
+        "floorDeltaMm": 0.0026125246388869483,
+        "minFloorMm": 1.3877787807814457e-13,
+        "kneeDeltaDeg": 5.4225047821761905,
+        "kneeMinDeg": 26.695717247954292,
+        "kneeMaxDeg": 99.17486283039813,
+        "kneeShiftMm": 35.77868941395232,
+        "contactResidualMm": 9.608766000459065e-06,
+        "velocityGapMps": 9.275850248771792e-05,
+        "angularVelocityGapDegps": 0.2677368194686479,
+        "repeatMm": 2.4424906541753444e-12,
+        "repeatDeg": 2.9575586669421963e-06,
+        "seekMm": 0,
+        "groupFrameMm": 1.7936201880845448e-12,
+        "worstVelocity": {
+          "t": 0.6,
+          "n": "calf_r",
+          "gap": 9.275850248771792e-05
+        },
+        "worstAngular": {
+          "t": 0.43,
+          "n": "thigh_l",
+          "gap": 0.2677368194686479
+        }
+      },
+      "paths": {
+        "hold": {
+          "beforeMm": 46.92933118766563,
+          "afterMm": 4.508692790408262e-05,
+          "start": 0.43,
+          "end": 0.55
+        },
+        "late": {
+          "beforeMm": 74.42077360612701,
+          "afterMm": 34.35208816005147,
+          "start": 0.43,
+          "end": 0.58
+        },
+        "all": {
+          "beforeMm": 108.97282870936587,
+          "afterMm": 64.09775712829345,
+          "start": 0.38,
+          "end": 0.6
+        },
+        "nearGround": {
+          "beforeMm": 31.282562133944914,
+          "afterMm": 4.490840908450148e-05,
+          "start": 0.435,
+          "end": 0.52
+        }
+      },
+      "speeds": {
+        "before": 2.1394998109519934,
+        "after": 2.422258524069991
+      }
+    },
+    {
+      "model": "female",
+      "vertex": {
+        "mesh": "Human",
+        "id": 5462
+      },
+      "metrics": {
+        "pelvisMm": 0,
+        "bodyMm": 0,
+        "bodyDeg": 3.4150945850063755e-06,
+        "offsetMm": 0,
+        "leftMm": 0,
+        "leftDeg": 3.4150945850063755e-06,
+        "outsideMm": 0,
+        "outsideDeg": 3.4150945850063755e-06,
+        "footWorldDeg": 2.4148365394514667e-06,
+        "ankleRelativeDeg": 2.939964166374354,
+        "footHeightMm": 5.870865626977917e-06,
+        "pointHeightMm": 1.6790388801535272e-06,
+        "floorDeltaMm": 1.7537156449254354e-06,
+        "minFloorMm": 0,
+        "kneeDeltaDeg": 6.450291054855427,
+        "kneeMinDeg": 27.193885313285904,
+        "kneeMaxDeg": 99.17857054022771,
+        "kneeShiftMm": 39.5232409103999,
+        "contactResidualMm": 9.947797331551864e-06,
+        "velocityGapMps": 8.049263899224247e-05,
+        "angularVelocityGapDegps": 0.28196932583727297,
+        "repeatMm": 2.2211398302543545e-12,
+        "repeatDeg": 2.4148365394514667e-06,
+        "seekMm": 0,
+        "groupFrameMm": 5.44249965959353e-13,
+        "worstVelocity": {
+          "t": 0.6,
+          "n": "calf_r",
+          "gap": 8.049263899224247e-05
+        },
+        "worstAngular": {
+          "t": 0.43,
+          "n": "thigh_l",
+          "gap": 0.28196932583727297
+        }
+      },
+      "paths": {
+        "hold": {
+          "beforeMm": 45.151790505499456,
+          "afterMm": 4.174528465931649e-05,
+          "start": 0.43,
+          "end": 0.55
+        },
+        "late": {
+          "beforeMm": 70.30725774298226,
+          "afterMm": 33.66451691834382,
+          "start": 0.43,
+          "end": 0.58
+        },
+        "all": {
+          "beforeMm": 101.61667031524384,
+          "afterMm": 60.49052979939442,
+          "start": 0.38,
+          "end": 0.6
+        },
+        "nearGround": {
+          "beforeMm": 50.2931247872144,
+          "afterMm": 13.142682197072034,
+          "start": 0.472,
+          "end": 0.568
+        }
+      },
+      "speeds": {
+        "before": 1.9524681223716855,
+        "after": 2.372889203228446
+      }
+    }
+  ]
+}

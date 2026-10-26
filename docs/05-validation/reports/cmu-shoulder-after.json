@@ -1,0 +1,92 @@
+{
+  "testedAt": "2026-10-14T18:26:43.783Z",
+  "scope": "Default male/female, two CMU clips. Neutral clavicle and pelvis-relative posture preservation. M20 constant floor recalibration reported separately. No clinical posture judgement.",
+  "maxUntouchedRelativeError": 3.3306690738754696e-16,
+  "maxRootHeightShift": 0.011313673127235635,
+  "results": [
+    {
+      "model": "male",
+      "clip": "35_17",
+      "frames": 167,
+      "sides": [
+        {
+          "side": "l",
+          "neutralElevation": -9.841982885035506,
+          "maxSourceDelta": 0.000004829673078902933,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.10695307573501443
+        },
+        {
+          "side": "r",
+          "neutralElevation": -9.841982885035506,
+          "maxSourceDelta": 0.000004829673078902933,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.11625487697540636
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "clip": "127_06",
+      "frames": 173,
+      "sides": [
+        {
+          "side": "l",
+          "neutralElevation": -9.841982885035506,
+          "maxSourceDelta": 0.000005663293681020316,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.09678823029132218
+        },
+        {
+          "side": "r",
+          "neutralElevation": -9.841982885035506,
+          "maxSourceDelta": 0.000005663293681020316,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.11401828102980267
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "clip": "35_17",
+      "frames": 167,
+      "sides": [
+        {
+          "side": "l",
+          "neutralElevation": -6.337592876969121,
+          "maxSourceDelta": 0.000004829673078902933,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.08913861748536446
+        },
+        {
+          "side": "r",
+          "neutralElevation": -6.337592876969121,
+          "maxSourceDelta": 0.000004829673078902933,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.0969168802636749
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "clip": "127_06",
+      "frames": 173,
+      "sides": [
+        {
+          "side": "l",
+          "neutralElevation": -6.337592876969121,
+          "maxSourceDelta": 0.000005663293681020316,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.08175496301949443
+        },
+        {
+          "side": "r",
+          "neutralElevation": -6.337592876969121,
+          "maxSourceDelta": 0.000005663293681020316,
+          "maxRestDeviation": 0,
+          "meanShoulderRelativeToNeck": -0.0959016721026347
+        }
+      ]
+    }
+  ]
+}

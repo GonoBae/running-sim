@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="450" viewBox="0 0 1120 450"><rect width="1120" height="450" rx="16" fill="#f5f7f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#294632">
+<text x="32" y="40" font-size="24" font-weight="700">M91 · 사용자 위치 설명으로 거리 기준 보정</text><text x="32" y="72" font-size="16" fill="#667360">구현 검증 완료 / 현장 GPS 측량은 미검증 · 지도 선형과 저장한 출발점은 유지</text>
+<rect x="32" y="102" width="300" height="150" rx="14" fill="#e2e8dc"/><text x="52" y="135" font-size="18">기준: C 다음 구간 중간</text><text x="52" y="178" font-size="27" font-weight="700">지도상 4,140.149 m</text><text x="52" y="217" font-size="18">사용자 주행 거리 4,000 m</text>
+<path d="M345 176 H383 l-9 -8 m9 8 l-9 8" fill="none" stroke="#3e7560" stroke-width="3"/>
+<rect x="398" y="102" width="290" height="150" rx="14" fill="#e2e8dc"/><text x="418" y="135" font-size="18">전체에 같은 비율 적용</text><text x="418" y="178" font-size="27" font-weight="700">× 0.966149</text><text x="418" y="217" font-size="18">1.187 km → 1.147 km / 바퀴</text>
+<path d="M701 176 H739 l-9 -8 m9 8 l-9 8" fill="none" stroke="#3e7560" stroke-width="3"/>
+<rect x="754" y="102" width="334" height="150" rx="14" fill="#dcece3"/><text x="774" y="135" font-size="18">같은 출발점 · 반시계</text><text x="774" y="176" font-size="23" font-weight="700">3 km → B 이후 조금</text><text x="774" y="215" font-size="23" font-weight="700">4 km → C→B 중간</text>
+<path d="M32 280 H1088" stroke="#cad6c5"/>
+<text x="32" y="320" font-size="18" font-weight="700">한 가지 거리 기준</text><text x="240" y="320" font-size="18">지도 도착점 · 주행 위치 · 완료 바퀴 · 총거리 · 소요 시간</text>
+<text x="32" y="358" font-size="18" font-weight="700">그대로 유지</text><text x="240" y="358" font-size="18">신체 · 자세 · 출발 좌표 · 방향 · 목표 km/바퀴 · 목표 페이스</text>
+<text x="32" y="420" font-size="14" fill="#667360">R03·R04·R08·R15 / D06 / SCR04·SCR05 · 원본: 이 SVG · 기준 위치 해석: course-calibration.ts</text>
+</g></svg>

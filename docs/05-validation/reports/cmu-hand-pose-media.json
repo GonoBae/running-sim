@@ -1,0 +1,29 @@
+{
+  "testedAt": "2026-10-20T14:39:21.152Z",
+  "speed": 1,
+  "errors": [],
+  "recordings": [
+    {
+      "view": "front",
+      "frames": 209,
+      "durationMs": 3466.8999999999996,
+      "maxFrameGapMs": 16.90000000000009
+    },
+    {
+      "view": "side",
+      "frames": 211,
+      "durationMs": 3500.3,
+      "maxFrameGapMs": 16.80000000000109
+    }
+  ],
+  "closeups": [
+    "outputs/cmu-hand-pose/male-close-r-0.png",
+    "outputs/cmu-hand-pose/male-close-r-1.png",
+    "outputs/cmu-hand-pose/male-close-l-0.png",
+    "outputs/cmu-hand-pose/male-close-l-1.png",
+    "outputs/cmu-hand-pose/female-close-r-0.png",
+    "outputs/cmu-hand-pose/female-close-r-1.png",
+    "outputs/cmu-hand-pose/female-close-l-0.png",
+    "outputs/cmu-hand-pose/female-close-l-1.png"
+  ]
+}

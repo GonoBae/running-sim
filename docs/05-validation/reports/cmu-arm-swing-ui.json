@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    },
+    {
+      "model": "female",
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    }
+  ],
+  "previousComparison": {
+    "newArmPlanAbsent": true,
+    "title": "발을 뗄 때 무릎의 옆 우회 줄이기"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "testedAt": "2026-10-16T05:10:49.953Z",
+  "scope": "same frozen bones, temporary skin-weight toggle in isolated browser only",
+  "runtimeUnchanged": true,
+  "hashes": {
+    "swing-approach.js": "fa1140518d9ece2c1b107b4f25bc0f3b2c2d5a126ab9d5bb9e5467ed6e864965",
+    "stance-chain.js": "51b86e9486f6b811d8f690dae15276f152c9d54902d66954b9b135a9a4d1b15b",
+    "stance-contact.js": "6a425cce8a7f96fc4c584e3904f2c478365dc7eb8b7684d12e0ec30eec7e08e4",
+    "landing-width-comparison.js": "55f8a720864d5722ea9b5ad0579a5f041e6a4497934dc1d8fd53c7cf130617fd",
+    "mocap.js": "04ca746ee3c1d87f5cc40ce4d96acbedaa57c8a7556e1946c31bae2addae3a79"
+  },
+  "errors": [],
+  "results": [
+    {
+      "model": "male",
+      "side": "r",
+      "u": 0,
+      "phase": 0.28,
+      "enabled": true,
+      "skinVertices": 275,
+      "maxSurfaceChangeMm": 3.025906649768927,
+      "meanSurfaceChangeMm": 0.4707411330377324,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 191,
+          "maxWeightChange": 0.15687268874942062
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 191,
+          "maxWeightChange": 0.24978410418472097
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "side": "r",
+      "u": 0.5,
+      "phase": 0.43000000000000005,
+      "enabled": true,
+      "skinVertices": 275,
+      "maxSurfaceChangeMm": 9.458430422527373,
+      "meanSurfaceChangeMm": 1.2791168155100008,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 191,
+          "maxWeightChange": 0.15687268874942062
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 191,
+          "maxWeightChange": 0.24978410418472097
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "side": "l",
+      "u": 0,
+      "phase": 0.75,
+      "enabled": true,
+      "skinVertices": 275,
+      "maxSurfaceChangeMm": 2.3471421438401507,
+      "meanSurfaceChangeMm": 0.32029844947880054,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 191,
+          "maxWeightChange": 0.15687268874942062
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 191,
+          "maxWeightChange": 0.24978410418472097
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "side": "l",
+      "u": 0.5,
+      "phase": 0.92,
+      "enabled": true,
+      "skinVertices": 275,
+      "maxSurfaceChangeMm": 5.98478031014262,
+      "meanSurfaceChangeMm": 0.7751242624829082,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 191,
+          "maxWeightChange": 0.15687268874942062
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 191,
+          "maxWeightChange": 0.24978410418472097
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "side": "r",
+      "u": 0,
+      "phase": 0.28,
+      "enabled": true,
+      "skinVertices": 273,
+      "maxSurfaceChangeMm": 2.869754270566385,
+      "meanSurfaceChangeMm": 0.4875238265494056,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 186,
+          "maxWeightChange": 0.16246139228507028
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 186,
+          "maxWeightChange": 0.24976716883632377
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "side": "r",
+      "u": 0.5,
+      "phase": 0.43000000000000005,
+      "enabled": true,
+      "skinVertices": 273,
+      "maxSurfaceChangeMm": 8.516334872783483,
+      "meanSurfaceChangeMm": 1.3012292120389086,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 186,
+          "maxWeightChange": 0.16246139228507028
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 186,
+          "maxWeightChange": 0.24976716883632377
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "side": "l",
+      "u": 0,
+      "phase": 0.75,
+      "enabled": true,
+      "skinVertices": 273,
+      "maxSurfaceChangeMm": 2.263399743523218,
+      "meanSurfaceChangeMm": 0.31431494627535417,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 186,
+          "maxWeightChange": 0.16246139228507028
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 186,
+          "maxWeightChange": 0.24976716883632377
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "side": "l",
+      "u": 0.5,
+      "phase": 0.92,
+      "enabled": true,
+      "skinVertices": 273,
+      "maxSurfaceChangeMm": 5.415567683316688,
+      "meanSurfaceChangeMm": 0.7780894277433943,
+      "boneErrorMm": 0,
+      "weightStats": [
+        {
+          "mesh": "Human",
+          "side": "l",
+          "changed": 186,
+          "maxWeightChange": 0.16246139228507028
+        },
+        {
+          "mesh": "Human",
+          "side": "r",
+          "changed": 186,
+          "maxWeightChange": 0.24976716883632377
+        }
+      ]
+    }
+  ]
+}

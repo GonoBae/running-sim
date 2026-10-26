@@ -1,0 +1,450 @@
+[
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.1,
+    "hash": "34fc88b546bd672a184e9ddc730994490eaeafa5170810d0a07097bd0b8716d8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.28,
+    "hash": "ce01590b11d56ce96033bf1dfd1c51862d9d1449bfbc5ff4a9300f6d1c37dab7"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.6,
+    "hash": "c0a818bc4c3e6bc9803d42d8ca3d8f30f183183d8d27e1a25b5de46e35cc6af8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.78,
+    "hash": "23a34eaa8405cd9662fd701e97c31302dba3088b1d01f7671639a4f7491307bf"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.1,
+    "hash": "34fc88b546bd672a184e9ddc730994490eaeafa5170810d0a07097bd0b8716d8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.28,
+    "hash": "ffa041e023c6cc06692bff78c0665c608cd9e3fdcb1a800f63c563ccbb1e8a1f"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.6,
+    "hash": "c0a818bc4c3e6bc9803d42d8ca3d8f30f183183d8d27e1a25b5de46e35cc6af8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.78,
+    "hash": "88fcc52a24753e188ee65db7997f934cb069bbd0e19d00365af83344efd2ddf9"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.1,
+    "hash": "34fc88b546bd672a184e9ddc730994490eaeafa5170810d0a07097bd0b8716d8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.28,
+    "hash": "be4ae6c23bbb837342ba3848c390e9fceae0d5c2e5ffa1f8a91182b17081c7ee"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.6,
+    "hash": "c0a818bc4c3e6bc9803d42d8ca3d8f30f183183d8d27e1a25b5de46e35cc6af8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.78,
+    "hash": "ab7d538df3ff7ae64cd08bc1b02dd264324eaf5c0b5e1aadecdca029e361d30c"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.1,
+    "hash": "34fc88b546bd672a184e9ddc730994490eaeafa5170810d0a07097bd0b8716d8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.28,
+    "hash": "85cee6ea6b24187b93521378b93d28c4ac53b50e5813fb3e8e27d0dd8e4f8c4a"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.6,
+    "hash": "c0a818bc4c3e6bc9803d42d8ca3d8f30f183183d8d27e1a25b5de46e35cc6af8"
+  },
+  {
+    "model": "male",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.78,
+    "hash": "4355ded66bd4c23cfa6a0602f304b718151aabb0bad15985880248802825e778"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.1,
+    "hash": "333cc9813640e4926e5cbffffe4b822689615adf938ba6d9c81c0b7e58faac87"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.28,
+    "hash": "0dc339038fc4715885c4ff5e4589c38e073d6fb93246c991cc2e710f80f021fd"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.6,
+    "hash": "e5958f483dd42599af6913a753cb6c76eef37704bd2ded7bc777b595363e1a0b"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.78,
+    "hash": "b1005767243c7bf12644003506a9ed324d97473d84660edaa166160d227605e1"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.1,
+    "hash": "333cc9813640e4926e5cbffffe4b822689615adf938ba6d9c81c0b7e58faac87"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.28,
+    "hash": "8375ed5ba06e11bfb7e818928f930a805debaefd6b6bf6f2008d6f5040a33052"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.6,
+    "hash": "e5958f483dd42599af6913a753cb6c76eef37704bd2ded7bc777b595363e1a0b"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.78,
+    "hash": "603ba3c642450ebe5e777906726af3a8236364804a83e688124b4f8d3978b62f"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.1,
+    "hash": "333cc9813640e4926e5cbffffe4b822689615adf938ba6d9c81c0b7e58faac87"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.28,
+    "hash": "44730bf0d243fb015a57c2fcdd4d1d07c0b5c97bf588b2c377e94e28e5b558e2"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.6,
+    "hash": "e5958f483dd42599af6913a753cb6c76eef37704bd2ded7bc777b595363e1a0b"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.78,
+    "hash": "e65d58762edd06b2fffdcc164ac93c874f5fbb7604b6182d62823577f1ab34c6"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.1,
+    "hash": "333cc9813640e4926e5cbffffe4b822689615adf938ba6d9c81c0b7e58faac87"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.28,
+    "hash": "17775ec42ed164f5ad4e0e8ab22d333af1ed5c6d21907f16e95710c178dd0816"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.6,
+    "hash": "e5958f483dd42599af6913a753cb6c76eef37704bd2ded7bc777b595363e1a0b"
+  },
+  {
+    "model": "male",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.78,
+    "hash": "a86574b90199f4da9980b35eec98523d6e6d08eb8009bc29483b68c8e4b4f521"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.1,
+    "hash": "3f7f11c459c5a233eb9d9105fed38daadf75bf5f26aa97263f3f9dca85450e03"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.28,
+    "hash": "6901cb3cd755eabdbcdb010d04ff9ae1d39717f8a6d2253c22437c283fdbed6b"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.6,
+    "hash": "2ac7631e5b6227d34aa634ae4a276766793fc723997430904981cd861e3bd158"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "original",
+    "phase": 0.78,
+    "hash": "de4dd4b001cdc9459000e0915ee330e265dde4e5dd6c8724948c3ddcfe2ac0de"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.1,
+    "hash": "3f7f11c459c5a233eb9d9105fed38daadf75bf5f26aa97263f3f9dca85450e03"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.28,
+    "hash": "8a5d4258ff62815c5cfffdb0026c123a370ddbfb82ba53ad278843ec1b6caeed"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.6,
+    "hash": "2ac7631e5b6227d34aa634ae4a276766793fc723997430904981cd861e3bd158"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "heel",
+    "phase": 0.78,
+    "hash": "040624efc40d9ef89a939792c08cd6bc257d3dc2c4b4070869e5c6fab82036a3"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.1,
+    "hash": "3f7f11c459c5a233eb9d9105fed38daadf75bf5f26aa97263f3f9dca85450e03"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.28,
+    "hash": "d91a7250daafc5a950cbd38cc114d4ad188bc9695a3745c194d900559d1e2f13"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.6,
+    "hash": "2ac7631e5b6227d34aa634ae4a276766793fc723997430904981cd861e3bd158"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "midfoot",
+    "phase": 0.78,
+    "hash": "4257aaf60c11771563a9599d7980a415c5143961d487702731a7243d005e3d03"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.1,
+    "hash": "3f7f11c459c5a233eb9d9105fed38daadf75bf5f26aa97263f3f9dca85450e03"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.28,
+    "hash": "d70e708bcd9d4f7b1ad691b6b016d3098b9f0718df7280bc480b0292af13442c"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.6,
+    "hash": "2ac7631e5b6227d34aa634ae4a276766793fc723997430904981cd861e3bd158"
+  },
+  {
+    "model": "female",
+    "custom": false,
+    "strike": "forefoot",
+    "phase": 0.78,
+    "hash": "a6d486333b6515369cead6c489eba8928af2e8a77ac04b6d6972358a0e9aae0d"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.1,
+    "hash": "6f0e2fbef45bd270c9e3a4f27d9c9492b109917ff5d4ea94c635533ee71b4b6c"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.28,
+    "hash": "31724a27a5612c4b1ad2a01d58649ba321b114d35fc205b5df3277ab46ded042"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.6,
+    "hash": "65b9e175e857f57d9aff0e58a3f251fe6773e1eeb375c49e5f42ba18fa58ef2f"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "original",
+    "phase": 0.78,
+    "hash": "54e4acf6bc02454bdc0e71aafd180dde49c7fdb253a0ff50b026f9865bd8a4e2"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.1,
+    "hash": "6f0e2fbef45bd270c9e3a4f27d9c9492b109917ff5d4ea94c635533ee71b4b6c"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.28,
+    "hash": "0255b0288f45be6c39ccfc352c4474e5f8900eb4416a0b4c9af21fd91fcb7a58"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.6,
+    "hash": "65b9e175e857f57d9aff0e58a3f251fe6773e1eeb375c49e5f42ba18fa58ef2f"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "heel",
+    "phase": 0.78,
+    "hash": "2e5f453daa3e0c515ae3b1d151ff859e590a42eb0dd877aca130598bcf55a17a"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.1,
+    "hash": "6f0e2fbef45bd270c9e3a4f27d9c9492b109917ff5d4ea94c635533ee71b4b6c"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.28,
+    "hash": "d20cc0f426cffbfb06f6a869d05b95497515c281ff83061eb5bcbb0ed69cc693"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.6,
+    "hash": "65b9e175e857f57d9aff0e58a3f251fe6773e1eeb375c49e5f42ba18fa58ef2f"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "midfoot",
+    "phase": 0.78,
+    "hash": "d2fd577b1bcf57066ac44f6ec89c21fd9a6441fa9c54ac46368a5b9e1d9bb32d"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.1,
+    "hash": "6f0e2fbef45bd270c9e3a4f27d9c9492b109917ff5d4ea94c635533ee71b4b6c"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.28,
+    "hash": "82c47eda454052fceb83c1e6752717db7b539354c2a9f1a0ead4b09d8bab5422"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.6,
+    "hash": "65b9e175e857f57d9aff0e58a3f251fe6773e1eeb375c49e5f42ba18fa58ef2f"
+  },
+  {
+    "model": "female",
+    "custom": true,
+    "strike": "forefoot",
+    "phase": 0.78,
+    "hash": "da1b1e3fafc7811f5ad4e9e5fa3e00a15e0d4635d7ac5cb1ea7357486b961fc0"
+  }
+]

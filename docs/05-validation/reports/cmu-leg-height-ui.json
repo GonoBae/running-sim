@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "peakRightCm": 10,
+      "peakLeftCm": 10,
+      "readyMs": 3774.2999997138977,
+      "liveNoReload": true,
+      "resetExact": true,
+      "keyboard": true,
+      "playLoopPause": true
+    },
+    {
+      "model": "female",
+      "peakRightCm": 10,
+      "peakLeftCm": 10,
+      "readyMs": 3684.9000000953674,
+      "liveNoReload": true,
+      "resetExact": true,
+      "keyboard": true,
+      "playLoopPause": true
+    }
+  ],
+  "horizontalOverflow": false,
+  "refreshDefault": true,
+  "previousComparison": true
+}

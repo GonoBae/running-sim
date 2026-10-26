@@ -1,0 +1,55 @@
+{
+  "testedAt": "2026-10-15T09:13:44.231Z",
+  "scope": "User decision: 35_17 only. Selection, finite transforms, cameras, seek and playback. Selection smoke only; gait correction is tested separately. No naturalness validation.",
+  "results": [
+    {
+      "route": "original",
+      "model": "male",
+      "clip": "35_17",
+      "sampled": 5,
+      "playback": true,
+      "stanceCorrection": false
+    },
+    {
+      "route": "original",
+      "model": "female",
+      "clip": "35_17",
+      "sampled": 5,
+      "playback": true,
+      "stanceCorrection": false
+    },
+    {
+      "route": "?compare=travel",
+      "model": "male",
+      "clip": "35_17",
+      "sampled": 5,
+      "playback": true,
+      "stanceCorrection": false
+    },
+    {
+      "route": "?compare=travel",
+      "model": "female",
+      "clip": "35_17",
+      "sampled": 5,
+      "playback": true,
+      "stanceCorrection": false
+    },
+    {
+      "route": "?compare=slip",
+      "model": "male",
+      "clip": "35_17",
+      "sampled": 5,
+      "playback": true,
+      "stanceCorrection": false
+    },
+    {
+      "route": "?compare=slip",
+      "model": "female",
+      "clip": "35_17",
+      "sampled": 5,
+      "playback": true,
+      "stanceCorrection": false
+    }
+  ],
+  "errors": []
+}

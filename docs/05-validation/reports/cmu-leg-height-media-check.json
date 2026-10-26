@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "videos": [
+    {
+      "model": "male",
+      "view": "front",
+      "width": 1202,
+      "height": 678,
+      "error": null,
+      "decodedDifferentFrames": 3,
+      "bytes": 562897
+    },
+    {
+      "model": "male",
+      "view": "side",
+      "width": 1202,
+      "height": 678,
+      "error": null,
+      "decodedDifferentFrames": 3,
+      "bytes": 586750
+    },
+    {
+      "model": "female",
+      "view": "front",
+      "width": 1202,
+      "height": 678,
+      "error": null,
+      "decodedDifferentFrames": 3,
+      "bytes": 527654
+    },
+    {
+      "model": "female",
+      "view": "side",
+      "width": 1202,
+      "height": 678,
+      "error": null,
+      "decodedDifferentFrames": 3,
+      "bytes": 560204
+    }
+  ],
+  "unchangedAcceptedModules": {
+    "shared-gait.js": true,
+    "body-height.js": true
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "testedAt": "2026-10-26T07:46:32.539Z",
+  "scope": "M01-a logic; synthetic Three.js skeleton, no UI or production GLB validation",
+  "node": "v24.19.0",
+  "passed": 39,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "A -> B -> A restores all 8 values and bone transforms",
+      "passed": true
+    },
+    {
+      "name": "saved values are independent and externally immutable",
+      "passed": true
+    },
+    {
+      "name": "explicit save replaces the single slot; restore does not consume it",
+      "passed": true
+    },
+    {
+      "name": "empty and newly created page stores cannot restore",
+      "passed": true
+    },
+    {
+      "name": "loading rejects save and restore, preserves slot and model",
+      "passed": true
+    },
+    {
+      "name": "error rejects save and restore, preserves slot and model",
+      "passed": true
+    },
+    {
+      "name": "unsupported rejects save and restore, preserves slot and model",
+      "passed": true
+    },
+    {
+      "name": "missing pose controller blocks both operations",
+      "passed": true
+    },
+    {
+      "name": "different model blocks restore; returning to same model allows it",
+      "passed": true
+    },
+    {
+      "name": "a new model may explicitly replace the slot",
+      "passed": true
+    },
+    {
+      "name": "changed settingsRevision prevents both operations",
+      "passed": true
+    },
+    {
+      "name": "changed latestSettingsRevision prevents both operations",
+      "passed": true
+    },
+    {
+      "name": "old snapshot rejected even when new context and controller revisions agree",
+      "passed": true
+    },
+    {
+      "name": "snapshot metadata rejects schemaVersion mismatch",
+      "passed": true
+    },
+    {
+      "name": "snapshot metadata rejects unit mismatch",
+      "passed": true
+    },
+    {
+      "name": "snapshot metadata rejects poseDefinitionVersion mismatch",
+      "passed": true
+    },
+    {
+      "name": "snapshot metadata rejects settingsRevision mismatch",
+      "passed": true
+    },
+    {
+      "name": "snapshot metadata rejects modelHash mismatch",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 1 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 2 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 3 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 4 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 5 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 6 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 7 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 8 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 9 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 10 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 11 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid joint payload 12 is rejected without partial changes",
+      "passed": true
+    },
+    {
+      "name": "invalid current values cannot replace a good snapshot",
+      "passed": true
+    },
+    {
+      "name": "hidden joints accept only their policy default",
+      "passed": true
+    },
+    {
+      "name": "current narrowed policy rejects otherwise valid default-range angles",
+      "passed": true
+    },
+    {
+      "name": "exact policy endpoints survive save and restore without rounding or clamping",
+      "passed": true
+    },
+    {
+      "name": "mid-apply failure rolls back values, rotations and cached matrices",
+      "passed": true
+    },
+    {
+      "name": "restore retains changed segment length and overall scale/position",
+      "passed": true
+    },
+    {
+      "name": "save rejects a load change between validation and commit",
+      "passed": true
+    },
+    {
+      "name": "restore rejects a load change between validation and commit",
+      "passed": true
+    },
+    {
+      "name": "ordinary slider clamp and reset retain previous behavior",
+      "passed": true
+    }
+  ]
+}

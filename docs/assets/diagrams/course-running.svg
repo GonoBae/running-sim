@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="390" viewBox="0 0 1120 390">
+ <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#82977b"/></marker></defs>
+ <rect width="1120" height="390" rx="22" fill="#f3f5ef"/>
+ <g font-family="Malgun Gothic,sans-serif" fill="#294632">
+  <text x="32" y="40" font-size="22" font-weight="bold">M88 · 하나의 시간으로 위치와 자세를 함께 재생</text>
+  <text x="32" y="68" font-size="14">구현 구조 / 기존 동작 계산 유지 · 코스 위 배치만 추가</text>
+  <g transform="translate(32,102)"><rect width="260" height="86" rx="14" fill="white" stroke="#cbd6c5"/><text x="18" y="30" font-size="18">재생 시간</text><text x="18" y="57" font-size="13">재생·정지·이동·배속 → 같은 시계</text></g>
+  <g transform="translate(352,102)"><rect width="330" height="86" rx="14" fill="#dce9d4"/><text x="18" y="30" font-size="18">누적 거리 → 실제 경로 위치</text><text x="18" y="57" font-size="13">출발점 + 방향 × 이동 거리 / 목표에서 종료</text></g>
+  <g transform="translate(752,102)"><rect width="336" height="86" rx="14" fill="#dce9d4"/><text x="18" y="30" font-size="18">왼쪽 · 코스 위 러너</text><text x="18" y="57" font-size="13">동작 복제본 + 경로 위치·방향</text></g>
+  <g transform="translate(352,258)"><rect width="330" height="86" rx="14" fill="white" stroke="#cbd6c5"/><text x="18" y="30" font-size="18">동작 시점 → 기존 달리기 계산</text><text x="18" y="57" font-size="13">신체·다리·팔·상체·착지 그대로</text></g>
+  <g transform="translate(752,258)"><rect width="336" height="86" rx="14" fill="white" stroke="#cbd6c5"/><text x="18" y="30" font-size="18">오른쪽 · 자세 확인</text><text x="18" y="57" font-size="13">같은 시점의 정면·측면 / 좌표 일치 검사</text></g>
+  <g stroke="#82977b" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M298 145H342"/><path d="M688 145H742"/><path d="M162 194V301H342"/><path d="M688 301H742"/><path d="M517 252V218H920V198"/></g>
+  <text x="32" y="364" font-size="13" fill="#7a816d">지도상 평면 코스·동작 기준 속도 / 실측 거리·고도·코너 접지·기록 효과는 미검증</text>
+ </g>
+</svg>

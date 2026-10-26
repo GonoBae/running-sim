@@ -1,0 +1,378 @@
+{
+  "testedAt": "2026-10-14T17:42:06.569Z",
+  "browser": "155.0.4283.45",
+  "scope": "M16 planted toe X/Z, forward root motion, authored flight and camera follow; AB01 thighs/knees; right half-cycle assumed; real male/female GLB, sampled mesh clearance and bone lengths; 390px desktop viewport, not physical mobile; naturalness and contact mechanics not validated",
+  "measurements": [
+    {
+      "model": "male",
+      "periodMs": 780,
+      "frames": 131,
+      "maxReferenceError": 0.000024664873109259133,
+      "initialGap": {
+        "hip": 0.23652493953704834,
+        "knee": 0.23652492159610403,
+        "ankle": 0.2365249082218409
+      },
+      "minKneeGap": 0.22481540016245616,
+      "minAnkleGap": 0.22070575860905522,
+      "maxLengthError": 4.23320920428516e-7,
+      "maxFlexError": 0.000024664873109259133,
+      "minSkinHeight": 0.0000999999999999994,
+      "maxStepRotation": 0.043333313572928,
+      "maxStepPosition": 0.013899812327457085,
+      "maxFrameMs": 3.6999998092651367,
+      "boundaryDistance": 0.000044054215467773244,
+      "pauseStable": true,
+      "restored": true,
+      "positionsUnchanged": true,
+      "phaseError": 0,
+      "sampled": [
+        {
+          "ms": 0,
+          "feet": {
+            "left": 0.0000999999999999994,
+            "right": 0.03371922478927248
+          },
+          "root": [
+            0,
+            -0.021673580745058988,
+            -0.11103484796336928
+          ]
+        },
+        {
+          "ms": 78,
+          "feet": {
+            "left": 0.0000999999999999994,
+            "right": 0.16790929816159603
+          },
+          "root": [
+            -0.011912751644293368,
+            -0.011927877953100376,
+            0.009235266474903261
+          ]
+        },
+        {
+          "ms": 156,
+          "feet": {
+            "left": 0.0000999999999999994,
+            "right": 0.1991694013495416
+          },
+          "root": [
+            -0.010576989376964215,
+            -0.0167397126997533,
+            0.18512759780276414
+          ]
+        },
+        {
+          "ms": 234,
+          "feet": {
+            "left": 0.00010000000000000113,
+            "right": 0.12361047751457707
+          },
+          "root": [
+            -0.0016402290142697971,
+            -0.009479462519959257,
+            0.36444230761580354
+          ]
+        },
+        {
+          "ms": 312,
+          "feet": {
+            "left": 0.01062084844518285,
+            "right": 0.03587154689670588
+          },
+          "root": [
+            -0.0012211458442565994,
+            -0.0020111706644369617,
+            0.5149054211090923
+          ]
+        },
+        {
+          "ms": 390,
+          "feet": {
+            "left": 0.03371922478927248,
+            "right": 0.0000999999999999994
+          },
+          "root": [
+            -7.384573035805706e-19,
+            -0.021673580745058988,
+            0.597408259537626
+          ]
+        },
+        {
+          "ms": 468,
+          "feet": {
+            "left": 0.16790929816159605,
+            "right": 0.0000999999999999994
+          },
+          "root": [
+            0.011912751644293366,
+            -0.011927877953100356,
+            0.7176783739758987
+          ]
+        },
+        {
+          "ms": 546,
+          "feet": {
+            "left": 0.1991694013495416,
+            "right": 0.0000999999999999994
+          },
+          "root": [
+            0.010576989376964187,
+            -0.01673971269975331,
+            0.8935707053037594
+          ]
+        },
+        {
+          "ms": 624,
+          "feet": {
+            "left": 0.1236104775145773,
+            "right": 0.0000999999999999994
+          },
+          "root": [
+            0.001640229014269825,
+            -0.009479462519959042,
+            1.0728854151167988
+          ]
+        },
+        {
+          "ms": 702,
+          "feet": {
+            "left": 0.035871546896681004,
+            "right": 0.010620848445157793
+          },
+          "root": [
+            0.0012211458442504242,
+            -0.002011170664461841,
+            1.2233485286100956
+          ]
+        },
+        {
+          "ms": 780,
+          "feet": {
+            "left": 0.0000999999999999994,
+            "right": 0.03371922478927248
+          },
+          "root": [
+            0,
+            -0.021673580745058988,
+            1.305851367038621
+          ]
+        }
+      ],
+      "available": true
+    },
+    {
+      "model": "female",
+      "periodMs": 780,
+      "frames": 131,
+      "maxReferenceError": 0.000007278201863414324,
+      "initialGap": {
+        "hip": 0.2086191326379776,
+        "knee": 0.20861913280036223,
+        "ankle": 0.20861913087889208
+      },
+      "minKneeGap": 0.19796592584168043,
+      "minAnkleGap": 0.19437328106345325,
+      "maxLengthError": 1.3400362203208616e-7,
+      "maxFlexError": 0.00001668876382154849,
+      "minSkinHeight": 0.00009999999999990138,
+      "maxStepRotation": 0.04335624513693814,
+      "maxStepPosition": 0.012500061640253081,
+      "maxFrameMs": 3.5,
+      "boundaryDistance": 0.000038372362600666735,
+      "pauseStable": true,
+      "restored": true,
+      "positionsUnchanged": true,
+      "phaseError": 0,
+      "sampled": [
+        {
+          "ms": 0,
+          "feet": {
+            "left": 0.00010000000000000026,
+            "right": 0.030278260990488765
+          },
+          "root": [
+            0,
+            -0.018091611214965456,
+            -0.10081039006692288
+          ]
+        },
+        {
+          "ms": 78,
+          "feet": {
+            "left": 0.00010000000000000026,
+            "right": 0.14857307477057038
+          },
+          "root": [
+            -0.011428140753477398,
+            -0.008305933128469715,
+            0.005877667191393529
+          ]
+        },
+        {
+          "ms": 156,
+          "feet": {
+            "left": 0.00010000000000000026,
+            "right": 0.17571575199793493
+          },
+          "root": [
+            -0.01076416848726141,
+            -0.012323330657234111,
+            0.16216644018988513
+          ]
+        },
+        {
+          "ms": 234,
+          "feet": {
+            "left": 0.00010000000000000026,
+            "right": 0.11019967953460862
+          },
+          "root": [
+            -0.0027141205460123963,
+            -0.006357881189472463,
+            0.3236894218586027
+          ]
+        },
+        {
+          "ms": 312,
+          "feet": {
+            "left": 0.009678870702943237,
+            "right": 0.032550820708156146
+          },
+          "root": [
+            -0.0018269443322920108,
+            -0.000049840765597214745,
+            0.45979333677024214
+          ]
+        },
+        {
+          "ms": 390,
+          "feet": {
+            "left": 0.030278260990488765,
+            "right": 0.00010000000000000026
+          },
+          "root": [
+            -8.005518517409261e-19,
+            -0.018091611214965456,
+            0.5342779539489648
+          ]
+        },
+        {
+          "ms": 468,
+          "feet": {
+            "left": 0.14857307477057038,
+            "right": 0.00010000000000000026
+          },
+          "root": [
+            0.011428140753477398,
+            -0.008305933128469719,
+            0.6409660112072815
+          ]
+        },
+        {
+          "ms": 546,
+          "feet": {
+            "left": 0.17571575199793493,
+            "right": 0.00010000000000000026
+          },
+          "root": [
+            0.01076416848726141,
+            -0.012323330657234132,
+            0.7972547842057729
+          ]
+        },
+        {
+          "ms": 624,
+          "feet": {
+            "left": 0.11019967953460884,
+            "right": 0.00010000000000000026
+          },
+          "root": [
+            0.002714120546012424,
+            -0.006357881189472246,
+            0.9587777658744905
+          ]
+        },
+        {
+          "ms": 702,
+          "feet": {
+            "left": 0.03255082070816068,
+            "right": 0.009678870702948057
+          },
+          "root": [
+            0.001826944332289263,
+            -0.00004984076559268365,
+            1.09488168078615
+          ]
+        },
+        {
+          "ms": 780,
+          "feet": {
+            "left": 0.00010000000000000026,
+            "right": 0.030278260990488765
+          },
+          "root": [
+            0,
+            -0.018091611214965456,
+            1.1693662979648525
+          ]
+        }
+      ],
+      "available": true
+    }
+  ],
+  "cases": [
+    {
+      "name": "source timing, opposite arm swing and policy checks match the revised cycle",
+      "passed": true
+    },
+    {
+      "name": "male: real rig cycle, flexion, bone lengths, skin clearance, wrap continuity and restoration",
+      "passed": true
+    },
+    {
+      "name": "male: UI pause/resume/reset and edit restore preserve snapshot and camera",
+      "passed": true
+    },
+    {
+      "name": "female: real rig cycle, flexion, bone lengths, skin clearance, wrap continuity and restoration",
+      "passed": true
+    },
+    {
+      "name": "female: UI pause/resume/reset and edit restore preserve snapshot and camera",
+      "passed": true
+    },
+    {
+      "name": "basic run and leg lift are mutually exclusive; numeric editing stops run",
+      "passed": true
+    },
+    {
+      "name": "view controls keep playback; body step and model change restore safely",
+      "passed": true
+    },
+    {
+      "name": "edited leg length and height still preserve lengths and prevent foot penetration",
+      "passed": true
+    },
+    {
+      "name": "390px playback controls remain accessible without page overflow",
+      "passed": true
+    },
+    {
+      "name": "hidden tab pauses without automatic resume; frame failure restores edit pose",
+      "passed": true
+    },
+    {
+      "name": "policy revision stops running and blocks stale restart; narrow or hidden policy blocks baseline",
+      "passed": true
+    },
+    {
+      "name": "unsupported model cannot start baseline run",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 12,
+  "failed": 0
+}

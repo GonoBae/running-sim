@@ -1,0 +1,247 @@
+{
+  "status": "passed",
+  "testedAt": "2026-10-20T14:05:19.923Z",
+  "errors": [],
+  "playback": {
+    "repeat": true,
+    "singleStop": true,
+    "viewDuringPlay": true
+  },
+  "unchanged": [
+    "experiments/model-preview/review/shared-gait.js",
+    "experiments/model-preview/review/body-height.js",
+    "experiments/model-preview/review/upper-center.js",
+    "experiments/model-preview/review/bilateral-pose.js",
+    "experiments/model-preview/review/bilateral-skin.js",
+    "experiments/model-preview/review/shared-approach.js",
+    "experiments/model-preview/review/hip-landing.js",
+    "experiments/model-preview/review/ankle-weights.js",
+    "experiments/model-preview/public/review-data/shared-gait-reference.json",
+    "experiments/model-preview/public/models/runner-male.glb",
+    "experiments/model-preview/public/models/runner-female.glb"
+  ],
+  "results": [
+    {
+      "model": "male",
+      "samples": 1001,
+      "metrics": {
+        "bodyMm": 0,
+        "bodyDeg": 3.818191820832845e-06,
+        "boneOffsetMm": 0,
+        "archivedM68Mm": 0,
+        "archivedM68JointMm": 0,
+        "archivedM68KneeDeg": 0,
+        "outsideMm": 0,
+        "outsideDeg": 3.818191820832845e-06,
+        "footWorldDeg": 3.818191820832845e-06,
+        "ankleHeightMm": 3.2680745332136496e-06,
+        "pointHeightMm": 2.1664428584422524e-06,
+        "floorDeltaMm": 2.0097845609967635e-06,
+        "minFloorMm": 5.551115123125783e-14,
+        "relativeAnkleDeg": 1.3846308802540612,
+        "kneeDeltaDeg": 6.162432555356645e-07,
+        "maxAnkleMoveMm": 1.3068878853382834e-05,
+        "footBoneMm": 1.4573082080049345e-05,
+        "kneeMoveMm": 11.537849476553452,
+        "targetErrorMm": 5.27273426309538e-07,
+        "velocityGapMps": 2.2741775237250393e-05,
+        "seamMm": 5.097135955591513e-13,
+        "seamDeg": 2.4148365394514667e-06,
+        "repeatMm": 4.515636818788054e-12,
+        "seekMm": 0,
+        "groupFrameMm": 6.713178136967715e-13
+      },
+      "motion": {
+        "r": {
+          "before": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 377.7492417718879,
+            "peakAccelerationDegps2": 25404.554130873745
+          },
+          "after": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 377.7492417835065,
+            "peakAccelerationDegps2": 25404.55406603057
+          },
+          "toeSpeed": {
+            "before": 3.7512328131325847,
+            "after": 3.7512328127827184
+          },
+          "kneePosition": {
+            "before": {
+              "peakLateralSpeedMps": 0.7105270751449024,
+              "peakLateralAccelerationMps2": 50.35471708421111,
+              "peakSpeedMps": 5.133274367929953,
+              "peakAccelerationMps2": 371.72210780529304,
+              "lateralExtraPathMm": 17.66711051594891
+            },
+            "after": {
+              "peakLateralSpeedMps": 0.5709550124459679,
+              "peakLateralAccelerationMps2": 47.58597340382804,
+              "peakSpeedMps": 5.136453592692646,
+              "peakAccelerationMps2": 373.5844952039055,
+              "lateralExtraPathMm": 0
+            }
+          },
+          "nearGround": {
+            "beforeMm": 0,
+            "afterMm": 0
+          }
+        },
+        "l": {
+          "before": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 377.69775147395836,
+            "peakAccelerationDegps2": 24981.427216490065
+          },
+          "after": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 377.697751483628,
+            "peakAccelerationDegps2": 24981.427438597442
+          },
+          "toeSpeed": {
+            "before": 3.7097087527125243,
+            "after": 3.7097087524169767
+          },
+          "kneePosition": {
+            "before": {
+              "peakLateralSpeedMps": 0.6907102867096356,
+              "peakLateralAccelerationMps2": 56.609569384943185,
+              "peakSpeedMps": 5.126829424328075,
+              "peakAccelerationMps2": 373.1823083708957,
+              "lateralExtraPathMm": 18.776609136108153
+            },
+            "after": {
+              "peakLateralSpeedMps": 0.567193803085703,
+              "peakLateralAccelerationMps2": 47.47697455234253,
+              "peakSpeedMps": 5.126405482977623,
+              "peakAccelerationMps2": 374.068786776265,
+              "lateralExtraPathMm": 0
+            }
+          },
+          "nearGround": {
+            "beforeMm": 0,
+            "afterMm": 0
+          }
+        }
+      },
+      "degrees": {
+        "r": 10,
+        "l": 10
+      }
+    },
+    {
+      "model": "female",
+      "samples": 1001,
+      "metrics": {
+        "bodyMm": 0,
+        "bodyDeg": 4.182619578303746e-06,
+        "boneOffsetMm": 0,
+        "archivedM68Mm": 0,
+        "archivedM68JointMm": 0,
+        "archivedM68KneeDeg": 0,
+        "outsideMm": 0,
+        "outsideDeg": 4.182619578303746e-06,
+        "footWorldDeg": 4.182619578303746e-06,
+        "ankleHeightMm": 1.6426506266320473e-06,
+        "pointHeightMm": 1.1682777523169818e-06,
+        "floorDeltaMm": 1.1349718109787688e-06,
+        "minFloorMm": 0,
+        "relativeAnkleDeg": 1.4750171570862438,
+        "kneeDeltaDeg": 3.3912198205143795e-07,
+        "maxAnkleMoveMm": 6.379165209988443e-06,
+        "footBoneMm": 7.057443761941443e-06,
+        "kneeMoveMm": 10.852880062857675,
+        "targetErrorMm": 6.325113141580907e-07,
+        "velocityGapMps": 1.7931580721789105e-05,
+        "seamMm": 8.882868333007365e-13,
+        "seamDeg": 2.9575586669421963e-06,
+        "repeatMm": 2.2235771858605495e-12,
+        "seekMm": 0,
+        "groupFrameMm": 9.535363269142996e-13
+      },
+      "motion": {
+        "r": {
+          "before": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 378.88721422951016,
+            "peakAccelerationDegps2": 22262.905128565395
+          },
+          "after": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 378.88721423333305,
+            "peakAccelerationDegps2": 22262.905823009198
+          },
+          "toeSpeed": {
+            "before": 3.41651999525726,
+            "after": 3.416519995163969
+          },
+          "kneePosition": {
+            "before": {
+              "peakLateralSpeedMps": 0.6717078579657534,
+              "peakLateralAccelerationMps2": 48.55748029566789,
+              "peakSpeedMps": 4.643891804159451,
+              "peakAccelerationMps2": 261.5555220092609,
+              "lateralExtraPathMm": 18.637186432201137
+            },
+            "after": {
+              "peakLateralSpeedMps": 0.5422186711066431,
+              "peakLateralAccelerationMps2": 43.96378723453986,
+              "peakSpeedMps": 4.645132881387115,
+              "peakAccelerationMps2": 263.36345441710057,
+              "lateralExtraPathMm": 0
+            }
+          },
+          "nearGround": {
+            "start": 0.53,
+            "end": 0.568,
+            "beforeMm": 5.597596467599637,
+            "afterMm": 5.597598014330618
+          }
+        },
+        "l": {
+          "before": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 378.8830452290663,
+            "peakAccelerationDegps2": 22043.820626543315
+          },
+          "after": {
+            "reverseDeg": 0,
+            "peakSpeedDegps": 378.8830452343883,
+            "peakAccelerationDegps2": 22043.821244381405
+          },
+          "toeSpeed": {
+            "before": 3.3805541824620615,
+            "after": 3.3805541823215295
+          },
+          "kneePosition": {
+            "before": {
+              "peakLateralSpeedMps": 0.6437594585254912,
+              "peakLateralAccelerationMps2": 54.76404867030943,
+              "peakSpeedMps": 4.640547211812224,
+              "peakAccelerationMps2": 263.3546846741242,
+              "lateralExtraPathMm": 18.921383086689698
+            },
+            "after": {
+              "peakLateralSpeedMps": 0.5130131573690329,
+              "peakLateralAccelerationMps2": 43.100563973608715,
+              "peakSpeedMps": 4.638566996878145,
+              "peakAccelerationMps2": 264.1990170796174,
+              "lateralExtraPathMm": 0
+            }
+          },
+          "nearGround": {
+            "start": 0.53,
+            "end": 0.568,
+            "beforeMm": 5.3895425709282465,
+            "afterMm": 5.389544383423388
+          }
+        }
+      },
+      "degrees": {
+        "r": 9,
+        "l": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440">
+<rect width="1120" height="440" rx="20" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#263c40">
+<text x="28" y="42" font-size="26">전신 교정 현황 · 전체 품질 검증은 미완료</text>
+<g><rect x="28" y="76" width="336" height="130" rx="14" fill="#dcece2"/><text x="46" y="110" font-size="23">어깨 · M18 유지</text><text x="46" y="148" font-size="18">우리 모델의 중립 쇄골 방향 보존</text><text x="46" y="178" font-size="17">남녀·두 동작 회귀 검사 통과</text></g>
+<g><rect x="392" y="76" width="336" height="130" rx="14" fill="#f2dfcf"/><text x="410" y="110" font-size="23">발목 · M24 피부 개선</text><text x="410" y="148" font-size="18">관절 유지 · 가중치만 국소 수정</text><text x="410" y="178" font-size="17">압축 개선 확인 · 외형 검토 전</text></g>
+<g><rect x="756" y="76" width="336" height="130" rx="14" fill="#dcece2"/><text x="774" y="110" font-size="23">팔 · M22 간격 보정</text><text x="774" y="148" font-size="18">어깨 위치·앞뒤 흔들림 유지</text><text x="774" y="178" font-size="17">표면 표본 간격 10mm 이상</text></g>
+<g><rect x="28" y="232" width="336" height="130" rx="14" fill="#e5e8ec"/><text x="46" y="266" font-size="23">무릎 · 다리</text><text x="46" y="304" font-size="18">뼈 방향·길이 전달 검사 통과</text><text x="46" y="334" font-size="17">골반·다리 기울기 원본과 일치</text></g>
+<g><rect x="392" y="232" width="336" height="130" rx="14" fill="#e5e8ec"/><text x="410" y="266" font-size="23">골반 · 몸통</text><text x="410" y="304" font-size="18">상대 관절 위치·반복 연결 유지</text><text x="410" y="334" font-size="17">M21 수직 지지 연동 검사 통과</text></g>
+<g><rect x="756" y="232" width="336" height="130" rx="14" fill="#f2dfcf"/><text x="774" y="266" font-size="23">발바닥 · 발가락</text><text x="774" y="304" font-size="18">M21 지지 높이 1mm 이내 검사</text><text x="774" y="334" font-size="17">수평 고정·발가락 굽힘 미완료</text></g>
+<text x="28" y="407" font-size="18">다음 검토안: M24 피부 확인 → 다리 기울기·원본 동작 적합성 검토 → 무릎 축·수평 발 고정</text>
+</g></svg>

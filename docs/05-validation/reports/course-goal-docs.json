@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M89 distance goal, finish markers and northeast shortcut: actual screenshots, diagrams and links",
+  "documents": 17,
+  "links": 2596,
+  "images": 390,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "historicalSourceSurveyGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "currentCourse": {
+    "id": "gimhae-lotte-garden-b",
+    "revision": "c-3471370ec877",
+    "geometryMatchesRequestedC": true,
+    "computedLengthM": 1187.295901981294,
+    "surveyedLengthM": null
+  }
+}

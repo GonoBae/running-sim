@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "profiles": [
+    {
+      "model": "male",
+      "custom": false,
+      "directSkin": true,
+      "handleVisibility": {
+        "front": true,
+        "side": true
+      },
+      "samples": 189,
+      "max": {
+        "lowerMatrix": 0,
+        "rootMatrix": 0,
+        "soleHeight": 0,
+        "rigidPositionM": 9.828372497791161e-9,
+        "rigidQuaternion": 1.8762769116165146e-14,
+        "elbowAngleDeg": 0.0000012426181257296776,
+        "legRiseCm": 0,
+        "zeroRepeat": 0
+      },
+      "headForwardM": 0.08728710556594821,
+      "soleRangeM": [
+        5.790382738568578e-7,
+        0.18698515681510894
+      ]
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "directSkin": true,
+      "handleVisibility": {
+        "front": true,
+        "side": true
+      },
+      "samples": 189,
+      "max": {
+        "lowerMatrix": 0,
+        "rootMatrix": 0,
+        "soleHeight": 0,
+        "rigidPositionM": 1.2157745636009315e-8,
+        "rigidQuaternion": 1.887379141862766e-14,
+        "elbowAngleDeg": 0.000001242618154151387,
+        "legRiseCm": 0,
+        "zeroRepeat": 0
+      },
+      "headForwardM": 0.10784419230612852,
+      "soleRangeM": [
+        6.396906412908798e-7,
+        0.18306418222384532
+      ]
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "directSkin": true,
+      "handleVisibility": {
+        "front": true,
+        "side": true
+      },
+      "samples": 189,
+      "max": {
+        "lowerMatrix": 0,
+        "rootMatrix": 0,
+        "soleHeight": 0,
+        "rigidPositionM": 9.88217297729879e-10,
+        "rigidQuaternion": 5.950795411990839e-14,
+        "elbowAngleDeg": 6.031825705576921e-8,
+        "legRiseCm": 0,
+        "zeroRepeat": 0
+      },
+      "headForwardM": 0.08543046663060216,
+      "soleRangeM": [
+        0.0000020462525388009745,
+        0.16222706378591292
+      ]
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "directSkin": true,
+      "handleVisibility": {
+        "front": true,
+        "side": false
+      },
+      "samples": 189,
+      "max": {
+        "lowerMatrix": 0,
+        "rootMatrix": 0,
+        "soleHeight": 0,
+        "rigidPositionM": 1.0870390075655547e-9,
+        "rigidQuaternion": 5.950795411990839e-14,
+        "elbowAngleDeg": 6.031825705576921e-8,
+        "legRiseCm": 0,
+        "zeroRepeat": 0
+      },
+      "headForwardM": 0.09397351329366255,
+      "soleRangeM": [
+        0.0000022657227421105097,
+        0.17407108383547062
+      ]
+    }
+  ],
+  "checks": [
+    "Four profiles: torso handle and actual skin / clamp / keyboard / Escape / pause and replay / independent reset / stage round-trip and reload",
+    "756 pose samples: lower-body matrices, soles, leg lift and elbow flex preserved; entire upper subtree follows specified rotation; zero restores exactly",
+    "390px native browser touch and cancellation; no canvas scrolling or horizontal overflow",
+    "Old version-1 drafts without lean default to zero; invalid and out-of-range saved lean safely normalized"
+  ],
+  "errors": []
+}

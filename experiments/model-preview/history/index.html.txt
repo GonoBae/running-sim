@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>러너 모델 테스트 · running sim</title>
+  </head>
+  <body>
+    <header><strong>running sim<span> / runner lab</span></strong><div class="header-actions"><a id="admin-link" href="/admin" hidden>관리자 작업실 ↗</a><label id="file-label" class="file-button" hidden>GLB 열기<input id="file" type="file" accept=".glb" /></label></div></header>
+    <main>
+      <section class="stage" aria-label="3D 러너 미리보기">
+        <div class="stage-heading"><span id="stage-label" class="eyebrow">01 — BODY</span><h1 id="stage-title">내 몸에 맞춰 보기.</h1><p id="status" role="status">모델을 불러오는 중입니다.</p></div>
+        <div id="viewport"></div>
+        <nav class="views" aria-label="모델 시점"><button data-view="front">정면</button><button data-view="side">좌측면</button><button data-view="right">우측면</button><button data-view="back">후면</button><button id="fit">화면에 맞추기</button></nav>
+        <p class="hint">드래그로 회전 · 휠로 확대 · 우클릭 드래그로 이동</p>
+      </section>
+      <aside>
+        <nav id="setup-progress" aria-label="설정 순서" data-user-steps>
+          <ol class="setup-progress"><li data-setup-indicator="body" aria-current="step"><span>01</span>체형</li><li data-setup-indicator="pose"><span>02</span>자세</li><li class="pending-step"><span>03</span>코스 · 준비 중</li></ol>
+        </nav>
+        <h2 id="setup-title" tabindex="-1">체형 설정</h2>
+        <div id="body-panel" aria-labelledby="setup-title">
+        <div class="intro"><div class="model-picker" aria-label="러너 모델 유형"><button data-model-type="male" aria-pressed="false">남성형</button><button data-model-type="female" aria-pressed="false">여성형</button></div><p>캐릭터 외형을 선택합니다.</p><p id="filename"></p></div>
+        <dl id="model-stats" class="stats"><div><dt>뼈대</dt><dd id="bones-count">—</dd></div><div><dt>애니메이션</dt><dd id="clips-count">—</dd></div></dl>
+        <section id="length-section" class="control-section"><h3>부위별 길이</h3><label for="body-part">조절할 부위 · 좌우 함께</label><select id="body-part" disabled></select><div class="pose-control"><label for="part-length">길이</label><div class="pose-value"><input id="part-length" type="range" step="0.1" disabled aria-describedby="length-reference" /><label class="number-angle"><input id="part-number" type="number" step="0.1" disabled aria-label="부위 길이 cm 직접 입력" />cm</label></div><p id="length-reference" class="note"></p><p id="length-measured"></p><p id="length-feedback" role="status"></p></div><button id="reset-lengths" disabled>부위 길이 초기화</button><p class="note">외형과 뼈대를 함께 조절합니다. 현재는 기본 길이의 ±15% 미리보기 범위입니다. 줄자로 잰 신체 치수와는 기준이 다릅니다.</p></section>
+        <section id="height-section" class="control-section" aria-labelledby="body-title"><h3 id="body-title">전체 크기</h3><label class="height-label" for="body-height">기준 자세 높이 <output id="height-out">—</output></label><input id="body-height" type="range" step="0.1" disabled aria-describedby="height-note" /><p id="saved-height" class="note">모델 높이를 확인하는 중입니다.</p><button id="reset-height" disabled>전체 배율 초기화</button><p id="height-note" class="note">현재 신체 비율을 유지한 채 전체를 확대·축소합니다. 부위 길이를 바꾸면 기준 높이도 바뀝니다. 전체 배율 범위는 ±10%입니다.</p></section>
+          <div class="step-actions" data-user-steps><button id="next-pose" type="button" disabled>다음: 자세 설정 →</button><p id="step-message" class="note" role="status"></p></div>
+        </div>
+        <div id="pose-panel" aria-labelledby="setup-title" hidden>
+        <section id="run-section" class="control-section" aria-labelledby="run-title">
+          <span class="eyebrow">RUN PREVIEW</span><h3 id="run-title">기본 달리기</h3>
+          <p class="note">발을 디디며 전진하고 카메라가 따라갑니다. 허벅지·무릎은 공개 자료를 반영했으며 한 주기는 0.78초입니다.</p>
+          <div class="run-actions"><button id="play-run" type="button" disabled>달리기 재생</button><button id="reset-run" type="button" disabled>처음으로</button><button id="edit-run" type="button" disabled>자세 편집</button></div>
+          <progress id="run-progress" max="100" value="0" aria-label="달리기 한 주기 진행"></progress>
+          <p id="run-message" class="note" role="status" aria-live="polite"></p>
+          <p class="note">접지 시점·공중 이동은 시각적 설계입니다. 아래 자세 설정의 반영과 착지 유형 선택은 다음 단계입니다.</p>
+          <p id="reference-link" class="note" hidden><a href="/gait-compare" target="_blank" rel="noopener">실측 왼다리 비교 ↗</a></p>
+        </section>
+          <p id="elbow-help" class="note">오른쪽 아래팔이나 팔꿈치 점을 잡아 위로 끌면 굽히고, 아래로 끌면 폅니다. 아래팔은 선택하면 색으로 표시됩니다. 몸 뒤에 가려진 점은 숨기며, 화면을 돌리거나 부위 목록으로 조절할 수 있습니다.</p>
+          <p id="elbow-message" class="note" role="status" aria-live="polite">팔꿈치 점은 방향키로도 조절할 수 있습니다. 드래그 중 Escape를 누르면 취소합니다.</p>
+        <section class="control-section"><h3>러닝 자세</h3><label class="check"><input id="skeleton" type="checkbox" />뼈대 표시</label><label for="bone">조절할 부위</label><select id="bone" disabled></select>
+          <div class="pose-control"><label id="pose-action" for="pose-angle">앞뒤 움직임</label><div class="pose-value"><input id="pose-angle" type="range" step="1" disabled aria-describedby="pose-range pose-reference" /><label class="number-angle"><input id="pose-number" type="number" step="1" disabled aria-label="각도 직접 입력" aria-describedby="pose-range pose-reference" />°</label></div><p id="pose-range"></p><p id="pose-reference" class="note"></p><p id="pose-feedback" role="status"></p></div>
+          <button id="reset-pose" disabled>러닝 기본 자세로</button><p class="note">러닝 미리보기용으로 방향과 범위를 제한했습니다. 손가락·머리는 고정합니다.</p>
+        </section>
+        <section id="lift-section" class="control-section" aria-labelledby="lift-title">
+          <h3 id="lift-title">다리 올림 재생 · 첫 실험</h3>
+          <label for="lift-angle">최대 다리 올림 · 좌우 함께</label>
+          <div class="pose-value"><input id="lift-angle" type="range" min="0" max="65" step="1" value="30" disabled aria-describedby="lift-reference" /><label class="number-angle"><input id="lift-number" type="number" min="0" max="65" step="1" value="30" disabled aria-label="최대 다리 올림 각도" aria-describedby="lift-reference" />°</label></div>
+          <p id="lift-reference" class="note">허벅지가 아래로 향하면 0°입니다. 좌우 교대 한 주기는 1.2초이며 팔·무릎은 위에서 설정한 각도를 유지합니다.</p>
+          <div class="snapshot-actions"><button id="play-lift" type="button" disabled>재생</button><button id="stop-lift" type="button" disabled>정지</button></div>
+          <p id="lift-message" class="note" role="status" aria-live="polite"></p>
+          <p class="note">다리 올림만 확인하는 제자리 실험입니다. 발 접지·미드풋 착지는 아직 적용하지 않았습니다. 자세·체형·저장 조작 시 정지하고 편집 자세로 돌아갑니다.</p>
+        </section>
+        <section id="snapshot-section" class="control-section" aria-labelledby="snapshot-title"><h3 id="snapshot-title">임시 저장한 자세</h3><p id="snapshot-message" class="note" role="status" aria-live="polite">아직 저장한 자세가 없습니다.</p><div class="snapshot-actions"><button id="save-pose" type="button" disabled>현재 자세 저장</button><button id="load-pose" type="button" disabled>불러오기</button></div><p class="note">이 페이지에서만 임시 보관됩니다. 새로고침하면 사라집니다.<br />키·부위 길이는 현재 값을 유지합니다.</p></section>
+        <section id="apply-section" class="control-section"><button id="apply-settings" disabled>이 설정 적용</button><p id="apply-message" class="note" role="status"></p><p id="usage-note" class="note"></p></section>
+          <div class="step-actions" data-user-steps><button id="previous-body" type="button">← 이전: 체형 설정</button><button id="next-course" type="button" disabled aria-describedby="course-pending">다음: 코스 설정</button><p id="course-pending" class="note">코스 설정 화면은 준비 중입니다.</p></div>
+        </div>
+        <footer>현재 모델의 전달과 움직임을 확인하는 검증 화면입니다. 피부·복장 적용 전 상태를 표시합니다.</footer>
+      </aside>
+    </main>
+    <script type="module" src="/src/entry.ts"></script>
+  </body>
+</html>

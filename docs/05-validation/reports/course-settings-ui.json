@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "No auto-selected start; navigation gate, map projection, outside click ignored, reverse arrows and unchanged start",
+    "Laps blank/0/101/fraction reject without overwriting draft; 1/100 limits, +/- and total 3.63 km at 3 laps",
+    "16 model/body/strike combinations: pose->course->backtest->browser back->pose, exact body/pose values and exact bone matrices; 4 profile reloads",
+    "Body scale and pose edits keep selected course; existing runtime plays in the course preview",
+    "Front/side live preview capture; valid backtest direct reload retains summary; 390px touch map and no horizontal overflow",
+    "Old no-course storage, stale revision, out-of-range start and invalid laps: gate and explicit reselection; original body/pose retained",
+    "404 retry recovers; malformed open-loop asset blocks progression"
+  ],
+  "profiles": [
+    {
+      "model": "male",
+      "custom": false,
+      "strikes": 4,
+      "bodyPoseExact": true,
+      "poseCourseBoneMatricesExact": true,
+      "refreshExact": true
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "strikes": 4,
+      "bodyPoseExact": true,
+      "poseCourseBoneMatricesExact": true,
+      "refreshExact": true
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "strikes": 4,
+      "bodyPoseExact": true,
+      "poseCourseBoneMatricesExact": true,
+      "refreshExact": true
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "strikes": 4,
+      "bodyPoseExact": true,
+      "poseCourseBoneMatricesExact": true,
+      "refreshExact": true
+    }
+  ],
+  "errors": []
+}

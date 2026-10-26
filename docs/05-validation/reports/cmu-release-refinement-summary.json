@@ -1,0 +1,123 @@
+{
+  "testedAt": "2026-10-16T02:51:46.096Z",
+  "scope": "M45 acceptance and tradeoffs; core toe height excludes preserved endpoints",
+  "hashes": {
+    "release-refinement.js": "63701bb086fcf7a56582750a9d6d8b962b17f36bf425324d69ccc0b9007844ea",
+    "pivot-release.js": "4b1ed809377ae6373b34b95db1adf9071541db93770e8f36ecb0a85bb480c6b1",
+    "stance-chain.js": "06437b66e48a4a848efa8bfdea75dec3a7891bc91bf6b7f069506dea94ba6140",
+    "landing-width-comparison.js": "407ed6a73ace559e975044bc9ee305e8a0deced82972d2de95ec51a41027b742",
+    "mocap.js": "8eab2f540046c26b6d5cc697c2e10ff04de2c49f85e8c300044e298a9864fdd5"
+  },
+  "results": [
+    {
+      "model": "male",
+      "toeCore47to57": {
+        "before": {
+          "maxMm": 8.36590121535323,
+          "meanMm": 3.901098083386934
+        },
+        "after": {
+          "maxMm": 5.243914950503692,
+          "meanMm": 2.708697423824482
+        }
+      },
+      "maxLateralChangeMm": 7.983775914971014,
+      "bands": [
+        {
+          "bandMm": 1,
+          "before": {
+            "rmsX": 1.1344923080189218,
+            "rmsZ": 0.2672216291460449,
+            "peakX": 2.2735173679582505
+          },
+          "after": {
+            "rmsX": 1.131409816127942,
+            "rmsZ": 0.2899939192123894,
+            "peakX": 1.7057342902524644
+          }
+        },
+        {
+          "bandMm": 4,
+          "before": {
+            "rmsX": 1.1612244548872812,
+            "rmsZ": 0.23847974449676465,
+            "peakX": 2.2331099172962277
+          },
+          "after": {
+            "rmsX": 1.0439031289953906,
+            "rmsZ": 0.2681218885658158,
+            "peakX": 1.7006581747873315
+          }
+        },
+        {
+          "bandMm": 8,
+          "before": {
+            "rmsX": 1.2293205212409426,
+            "rmsZ": 0.22267026935075288,
+            "peakX": 2.1989932661221845
+          },
+          "after": {
+            "rmsX": 1.126718485370849,
+            "rmsZ": 0.24827776251666744,
+            "peakX": 1.6917754487901704
+          }
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "toeCore47to57": {
+        "before": {
+          "maxMm": 7.696400560199337,
+          "meanMm": 3.5258470075598867
+        },
+        "after": {
+          "maxMm": 5.569921346408352,
+          "meanMm": 2.1674925790774004
+        }
+      },
+      "maxLateralChangeMm": 7.9861580660860465,
+      "bands": [
+        {
+          "bandMm": 1,
+          "before": {
+            "rmsX": 1.1862934026113652,
+            "rmsZ": 0.24938981842236277,
+            "peakX": 2.1116195775995363
+          },
+          "after": {
+            "rmsX": 1.119439343492904,
+            "rmsZ": 0.2722072892966903,
+            "peakX": 1.605890755798191
+          }
+        },
+        {
+          "bandMm": 4,
+          "before": {
+            "rmsX": 1.2476677752330754,
+            "rmsZ": 0.24057889020408546,
+            "peakX": 2.1043186078622567
+          },
+          "after": {
+            "rmsX": 1.1684994521426606,
+            "rmsZ": 0.25324911600794575,
+            "peakX": 1.5980374983626704
+          }
+        },
+        {
+          "bandMm": 8,
+          "before": {
+            "rmsX": 1.2710780879662353,
+            "rmsZ": 0.21043113606088062,
+            "peakX": 2.1066617833272563
+          },
+          "after": {
+            "rmsX": 1.1835056570039129,
+            "rmsZ": 0.22576652301003705,
+            "peakX": 1.580305227922829
+          }
+        }
+      ]
+    }
+  ]
+}

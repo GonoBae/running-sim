@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440">
+<rect width="1120" height="440" rx="16" fill="#f5f7f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#294632">
+<text x="32" y="40" font-size="24" font-weight="700">M90 · 목표 페이스 → 같은 동작의 시간 조절</text>
+<text x="32" y="70" font-size="16" fill="#657560">구현·계산 검증 완료 / 자세에 따른 기록 예측과 현장 거리 보정은 별도</text>
+<rect x="32" y="102" width="290" height="145" rx="14" fill="#e3ebdc"/>
+<text x="54" y="135" font-size="18">코스 세팅</text><text x="54" y="173" font-size="27" font-weight="700">5 km × 6:00/km</text><text x="54" y="209" font-size="17">예상 30:00 · 선택 필드로 저장</text>
+<path d="M337 173 H385 l-10 -8 m10 8 l-10 8" stroke="#3e7560" stroke-width="3" fill="none"/>
+<rect x="400" y="102" width="295" height="145" rx="14" fill="#e3ebdc"/>
+<text x="422" y="135" font-size="18">한 개의 재생 시계</text><text x="422" y="173" font-size="26" font-weight="700">속도 10.00 km/h</text><text x="422" y="209" font-size="17">한 주기 거리 유지 · 시간만 변경</text>
+<path d="M710 173 H758 l-10 -8 m10 8 l-10 8" stroke="#3e7560" stroke-width="3" fill="none"/>
+<rect x="773" y="102" width="315" height="145" rx="14" fill="#e3ebdc"/>
+<text x="795" y="135" font-size="18">코스 주행 + 정면 / 측면</text><text x="795" y="173" font-size="25" font-weight="700">이동과 자세를 함께 재생</text><text x="795" y="209" font-size="17">5 km 도착점에서 정확히 정지</text>
+<path d="M32 278 H1088" stroke="#cad5c4"/>
+<text x="32" y="316" font-size="19" font-weight="700">유지 확인</text><text x="170" y="316" font-size="18">신체 · 다리 들림 · 팔꿈치 · 상체 · 착지 방식 · 출발점 · 방향 · 목표 거리</text>
+<text x="32" y="354" font-size="19" font-weight="700">검증 한계</text><text x="170" y="354" font-size="18">실측 거리 미확정 / 속도별 보폭·케이던스를 새로 생성하는 기능은 아님</text>
+<text x="32" y="410" font-size="14" fill="#657560">R03·R04·R08·R15 / D06 / SCR04·SCR05 · 원본: 이 SVG · 구현: course-playback.ts</text>
+</g></svg>

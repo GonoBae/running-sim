@@ -1,0 +1,208 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "16 handle edits, 8 direct skin drags: both sexes / base and changed body / left and right sources",
+    "Leg peak inspection frame and elbow current-frame pause; shared settings affect both sides with +5cm / +10° measured",
+    "Drag range clamps, keyboard fine changes, Escape restores original input and phase; body settings untouched",
+    "Moving skin can be grabbed to pause; restart plays modified run; step round-trip and reload preserve state",
+    "Known occluded male far forearm hidden at side/.04; model-specific visible skin determines other handles",
+    "390px touch: leg and forearm edits with no canvas scroll or horizontal overflow",
+    "Browser touchCancel restores starting value/phase"
+  ],
+  "profiles": [
+    {
+      "model": "male",
+      "custom": false,
+      "handles": [
+        {
+          "key": "leg-r",
+          "value": 5,
+          "phase": 0.040000000000000036
+        },
+        {
+          "key": "leg-l",
+          "value": 5,
+          "phase": 0.54
+        },
+        {
+          "key": "elbow-r",
+          "value": 10,
+          "phase": 0.24
+        },
+        {
+          "key": "elbow-l",
+          "value": 10,
+          "phase": 0.24
+        }
+      ],
+      "skin": [
+        "leg-r",
+        "elbow-l"
+      ],
+      "bilateral": [
+        {
+          "side": "r",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000000215617277,
+            10.000000174637407
+          ]
+        },
+        {
+          "side": "l",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000000174637378,
+            10.000000215617234
+          ]
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "custom": true,
+      "handles": [
+        {
+          "key": "leg-r",
+          "value": 5,
+          "phase": 0.040000000000000036
+        },
+        {
+          "key": "leg-l",
+          "value": 5,
+          "phase": 0.54
+        },
+        {
+          "key": "elbow-r",
+          "value": 10,
+          "phase": 0.24
+        },
+        {
+          "key": "elbow-l",
+          "value": 10,
+          "phase": 0.24
+        }
+      ],
+      "skin": [
+        "leg-r",
+        "elbow-l"
+      ],
+      "bilateral": [
+        {
+          "side": "r",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000000215617249,
+            10.000000174637378
+          ]
+        },
+        {
+          "side": "l",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000000174637407,
+            10.00000021561722
+          ]
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "custom": false,
+      "handles": [
+        {
+          "key": "leg-r",
+          "value": 5,
+          "phase": 0.040000000000000036
+        },
+        {
+          "key": "leg-l",
+          "value": 5,
+          "phase": 0.54
+        },
+        {
+          "key": "elbow-r",
+          "value": 10,
+          "phase": 0.24
+        },
+        {
+          "key": "elbow-l",
+          "value": 10,
+          "phase": 0.24
+        }
+      ],
+      "skin": [
+        "leg-r",
+        "elbow-l"
+      ],
+      "bilateral": [
+        {
+          "side": "r",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000002448114003,
+            10.000001219672725
+          ]
+        },
+        {
+          "side": "l",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000001219672598,
+            10.000002448113989
+          ]
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "custom": true,
+      "handles": [
+        {
+          "key": "leg-r",
+          "value": 5,
+          "phase": 0.040000000000000036
+        },
+        {
+          "key": "leg-l",
+          "value": 5,
+          "phase": 0.54
+        },
+        {
+          "key": "elbow-r",
+          "value": 10,
+          "phase": 0.24
+        },
+        {
+          "key": "elbow-l",
+          "value": 10,
+          "phase": 0.24
+        }
+      ],
+      "skin": [
+        "leg-r",
+        "elbow-l"
+      ],
+      "bilateral": [
+        {
+          "side": "r",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000002448114003,
+            10.00000121967274
+          ]
+        },
+        {
+          "side": "l",
+          "kneeRiseCm": 5,
+          "elbows": [
+            10.000001219672626,
+            10.000002448114031
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,27 @@
+{
+  "baseline": "M76 / CMU 35_17 / 2026-10-21",
+  "geometry": "cmu-leg-height.json",
+  "hashes": {
+    "experiments/model-preview/public/models/runner-female.glb": "fa58d9bf54263cedc3439065316a60d84d4d5ce9e918614ac43c8211266991f6",
+    "experiments/model-preview/public/models/runner-male.glb": "2a5f6609bb2f6b2833fcf385ad88fefe1139c7e83deb65fdcf8718dce26700d4",
+    "experiments/model-preview/public/review-data/shared-gait-reference.json": "60d7cf9a048997da0028b3281a43e0466c2c572d9aae81614fc6dafdfce64439",
+    "experiments/model-preview/review/ankle-weights.js": "3d44e39b936664396a4017e4b7a94e9da608c92f19c71a977f57f49181c9e9a5",
+    "experiments/model-preview/review/arm-swing.js": "87f86dd5128a7247d000e0e84d3edad6879661499667abd073a6c83d81a750ba",
+    "experiments/model-preview/review/bilateral-pose.js": "37c9404b9e0986f3e275d1f392f89b4542072bc7f1fd4f68766be05df76216c8",
+    "experiments/model-preview/review/bilateral-skin.js": "5dcaa59c3a274ca305a661265ab30ac80761fff1f6c27407993a98b82612a215",
+    "experiments/model-preview/review/body-height.js": "538c2d65203651a658196641f1ce341902d1baf480d4a63b8ccef69f284a7b8e",
+    "experiments/model-preview/review/early-support.js": "0ab90729ea8b8e6efac5ead559f74df5febcfcc47005efa5be5e834fbd84f9a7",
+    "experiments/model-preview/review/hand-pose.js": "0b7824230a58087f9a42a288cbeb64c85a9d30d89a46e1c94b7daf8e9d93d0b0",
+    "experiments/model-preview/review/hip-landing.js": "a3f009135ff53f372092929db623c7dcebe6f716e6ac0c353025114a6bf591b8",
+    "experiments/model-preview/review/knee-lateral.js": "919c6addc737d0dd448631002ac586d31774c2d8cea9d3b082a435756d29ff5e",
+    "experiments/model-preview/review/shared-approach.js": "5038069df4e0eaa3f39ac0a4ca318740eefa3e3813622f91c27ecc1e2986873c",
+    "experiments/model-preview/review/shared-gait.js": "9dad3dcbece7dcdc83b178c91ad8ac55173052407e8c2b88b8e69e0d214f3cdb",
+    "experiments/model-preview/review/shared-release.js": "24f41634e218702000d12d56d4b76e805de61a6a5787e91611c2eda1f2e7013f",
+    "experiments/model-preview/review/shared-support.js": "eea75ca0ab8e82d999df1fc25aba2f81de408fd4847410057458a2517c616697",
+    "experiments/model-preview/review/skin-point-batch.js": "e08888478d410766feed018ca7cb7695526b38ea18815cdf0da95aae4ef8b72e",
+    "experiments/model-preview/review/support-join.js": "1863321fc27945dad4b14bed7250e00944868bfe3de389d8adffb920e455866b",
+    "experiments/model-preview/review/unified-stance.js": "66fd96fac82b1509479fd002e421c74faa8bd00bc6ade4b2dff04735210ffa65",
+    "experiments/model-preview/review/upper-center.js": "4197d0af4dad2333fc945b84e8df0cb9b46d9bbff72fc03f10f398a79ff6baee",
+    "experiments/model-preview/review/leg-height.js": "266317ebe6af2eaf36044f60635955ceca0b86fa3282b38607916a5f71581617"
+  }
+}

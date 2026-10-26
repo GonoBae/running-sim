@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "22 bilateral/torso/shoulder handle drags: only selected ratio changes; measured rig lengths match within 0.001cm",
+    "Both models: scale and length clamps, Escape rollback, keyboard endpoints and 0.1cm/1% fine adjustment",
+    "6 direct visible-skin drags outside handles",
+    "Side view hides far-side handles and edge-on shoulder width",
+    "Changed body propagates to playing pose; +5cm leg / +10° elbow retained; refresh and stage round-trip retain values",
+    "Window blur cancels an active edit",
+    "390px: model controls visible without settings scroll; real touch drag edits length without scrolling; no horizontal overflow",
+    "Optional precision controls remain usable and share the same state"
+  ],
+  "drags": [
+    {
+      "model": "male",
+      "key": "upperArm-r",
+      "before": 1,
+      "after": 1.0666550018161705
+    },
+    {
+      "model": "male",
+      "key": "upperArm-l",
+      "before": 1.0666550018161705,
+      "after": 1.133310003632341
+    },
+    {
+      "model": "male",
+      "key": "forearm-r",
+      "before": 1,
+      "after": 1.095071572712023
+    },
+    {
+      "model": "male",
+      "key": "forearm-l",
+      "before": 1.095071572712023,
+      "after": 1.15
+    },
+    {
+      "model": "male",
+      "key": "thigh-r",
+      "before": 1,
+      "after": 1.038902775292729
+    },
+    {
+      "model": "male",
+      "key": "thigh-l",
+      "before": 1.038902775292729,
+      "after": 1.0778055505854576
+    },
+    {
+      "model": "male",
+      "key": "shin-r",
+      "before": 1,
+      "after": 1.041133875663618
+    },
+    {
+      "model": "male",
+      "key": "shin-l",
+      "before": 1.041133875663618,
+      "after": 1.0822677513272358
+    },
+    {
+      "model": "male",
+      "key": "torso",
+      "before": 1,
+      "after": 1.03161463997708
+    },
+    {
+      "model": "male",
+      "key": "shoulders-r",
+      "before": 1,
+      "after": 1.0971403970919449
+    },
+    {
+      "model": "male",
+      "key": "shoulders-l",
+      "before": 1.0971403970919449,
+      "after": 1.15
+    },
+    {
+      "model": "female",
+      "key": "upperArm-r",
+      "before": 1,
+      "after": 1.0662851161276439
+    },
+    {
+      "model": "female",
+      "key": "upperArm-l",
+      "before": 1.0662851161276439,
+      "after": 1.1325702322552877
+    },
+    {
+      "model": "female",
+      "key": "forearm-r",
+      "before": 1,
+      "after": 1.099768839260027
+    },
+    {
+      "model": "female",
+      "key": "forearm-l",
+      "before": 1.099768839260027,
+      "after": 1.15
+    },
+    {
+      "model": "female",
+      "key": "thigh-r",
+      "before": 1,
+      "after": 1.0397099678365702
+    },
+    {
+      "model": "female",
+      "key": "thigh-l",
+      "before": 1.0397099678365702,
+      "after": 1.0794199356731404
+    },
+    {
+      "model": "female",
+      "key": "shin-r",
+      "before": 1,
+      "after": 1.0433342836808928
+    },
+    {
+      "model": "female",
+      "key": "shin-l",
+      "before": 1.0433342836808928,
+      "after": 1.0866685673617855
+    },
+    {
+      "model": "female",
+      "key": "torso",
+      "before": 1,
+      "after": 1.0313667397494526
+    },
+    {
+      "model": "female",
+      "key": "shoulders-r",
+      "before": 1,
+      "after": 1.1074261123625717
+    },
+    {
+      "model": "female",
+      "key": "shoulders-l",
+      "before": 1.1074261123625717,
+      "after": 1.15
+    }
+  ],
+  "errors": []
+}

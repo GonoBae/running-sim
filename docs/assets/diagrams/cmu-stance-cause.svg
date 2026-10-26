@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="400" viewBox="0 0 1120 400">
+<rect width="1120" height="400" rx="18" fill="#f6f5f1"/>
+<style>text{font-family:Malgun Gothic,sans-serif;fill:#233b32}.title{font-size:25px;font-weight:700}.label{font-size:19px}.value{font-size:26px;font-weight:700}.small{font-size:16px;fill:#63736a}</style>
+<text x="30" y="43" class="title">원인 분해 · 오른발이 가장 안쪽인 순간</text>
+<text x="30" y="73" class="small">35_17 남성형 · 주기 37.36% · 보정 전 측정 · 추정 지지 구간</text>
+<g fill="white" stroke="#d4ddd7"><rect x="30" y="100" width="238" height="115" rx="10"/><rect x="303" y="100" width="238" height="115" rx="10"/><rect x="576" y="100" width="238" height="115" rx="10"/><rect x="849" y="100" width="238" height="115" rx="10"/></g>
+<text x="50" y="132" class="label">골반 중심 → 고관절</text><text x="50" y="179" class="value">바깥 +11.71cm</text>
+<text x="323" y="132" class="label">허벅지의 좌우 성분</text><text x="323" y="179" class="value">안쪽 −9.04cm</text>
+<text x="596" y="132" class="label">종아리의 좌우 성분</text><text x="596" y="179" class="value">안쪽 −8.58cm</text>
+<text x="869" y="132" class="label">발목 위치 · 합계</text><text x="869" y="179" class="value">반대쪽 −5.90cm</text>
+<g class="value"><text x="277" y="167">+</text><text x="550" y="167">+</text><text x="823" y="167">≈</text></g>
+<text x="30" y="257" class="label">원본 재구성도 교차: −7.25cm · 같은 순간 원본 골반 좌우 기울기: 2.79°</text>
+<path d="M40 295H1080" stroke="#cbd7cf"/>
+<text x="30" y="329" class="label">작은 수정: 고관절에서 일정한 바깥 회전 → 발 방향 복원 → 착지 높이 재계산</text>
+<text x="30" y="370" class="small">골반 이동·회전과 무릎 굽힘 유지 · 원본 재구성의 독립 검증, 물리적 안정성·최적 자세는 미검증</text>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "scope": "M12 real GLB default stance, joint-center distance in cm; not a skin collision test",
+  "before": [
+    {
+      "sex": "male",
+      "hipCm": 23.652493953704834,
+      "kneeCm": 32.467976604174346,
+      "ankleCm": 40.75873000127204
+    },
+    {
+      "sex": "female",
+      "hipCm": 20.86191326379776,
+      "kneeCm": 28.88650982628874,
+      "ankleCm": 36.20721113941069
+    }
+  ],
+  "after": [
+    {
+      "sex": "male",
+      "hipCm": 23.652493953704834,
+      "kneeCm": 23.652492159610404,
+      "ankleCm": 23.65249082218409
+    },
+    {
+      "sex": "female",
+      "hipCm": 20.86191326379776,
+      "kneeCm": 20.861913280036223,
+      "ankleCm": 20.86191308788921
+    }
+  ]
+}

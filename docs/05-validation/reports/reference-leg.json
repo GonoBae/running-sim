@@ -1,0 +1,48 @@
+{
+  "testedAt": "2026-10-14T17:37:52.837Z",
+  "scope": "M13 fixed male GLB, two left-leg angles only; no ground contact or full-body biomechanics validation",
+  "measurements": {
+    "frames": 299,
+    "maxAngleError": 0.000025271775200508273,
+    "maxLengthError": 4.1845747261737287e-7,
+    "seamDistance": 0.000007607001184704007,
+    "restored": true,
+    "closure": {
+      "thigh": 0.023407142857145402,
+      "knee": 0.00524571428571452
+    }
+  },
+  "cases": [
+    {
+      "name": "Reference samples map to measured left leg, including interpolation and loop seam",
+      "passed": true
+    },
+    {
+      "name": "Play, pause, resume, scrub and stop restore baseline",
+      "passed": true
+    },
+    {
+      "name": "Hidden tab pauses without auto resume; viewing does not interrupt playback",
+      "passed": true
+    },
+    {
+      "name": "Invalid phase, missing bones and frame failure do not retain a partial pose",
+      "passed": true
+    },
+    {
+      "name": "390px layout, keyboard phase adjustment and unselectable page text",
+      "passed": true
+    },
+    {
+      "name": "Model load failure and hash mismatch block playback",
+      "passed": true
+    },
+    {
+      "name": "Separate tab preserves main pose, snapshot, model and local usage records",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 7,
+  "failed": 0
+}

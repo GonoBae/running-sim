@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300">
+<rect width="1120" height="300" fill="#f7f8f5"/><g font-family="Malgun Gothic, sans-serif" fill="#294632">
+<text x="28" y="42" font-size="25">착지 방식 선택 → 양발 달리기 반영</text>
+<text x="28" y="75" font-size="17">M84 · 사용자 확정 / 구현·접촉·보존 검사 완료 · 신체·다리·팔·상체 설정 유지</text>
+<g fill="white" stroke="#cdd5ca"><rect x="28" y="105" width="320" height="155" rx="15"/><rect x="400" y="105" width="320" height="155" rx="15"/><rect x="772" y="105" width="320" height="155" rx="15"/></g>
+<text x="49" y="141" font-size="21">뒤꿈치 / 미드풋 / 앞꿈치</text><text x="49" y="180" font-size="17">착지 순간의 발 기울기 선택</text><text x="49" y="216" font-size="17">기본 동작도 그대로 선택 가능</text>
+<text x="367" y="184" font-size="26">→</text><text x="421" y="141" font-size="21">발 · 고관절 · 무릎 연동</text><text x="421" y="180" font-size="17">발바닥 높이 · 기준 위치 유지</text><text x="421" y="216" font-size="17">앞꿈치: 발가락 관절 함께 조절</text>
+<text x="739" y="184" font-size="26">→</text><text x="793" y="141" font-size="21">양발 · 반 주기 차이 적용</text><text x="793" y="180" font-size="17">지지 동작으로 부드럽게 연결</text><text x="793" y="216" font-size="17">재생 · 단계 이동 · 저장 유지</text></g></svg>

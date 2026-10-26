@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "errors": [],
+  "videos": [
+    {
+      "view": "front",
+      "file": "outputs/pose-editor/direct-front.webm",
+      "frames": 156,
+      "durationMs": 2600.2,
+      "decodedDifferentFrames": 3,
+      "error": null
+    },
+    {
+      "view": "side",
+      "file": "outputs/pose-editor/direct-side.webm",
+      "frames": 158,
+      "durationMs": 2616.7999999999993,
+      "decodedDifferentFrames": 3,
+      "error": null
+    }
+  ]
+}

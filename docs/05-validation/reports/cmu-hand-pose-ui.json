@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    },
+    {
+      "model": "female",
+      "singleStop": true,
+      "repeatWrap": true,
+      "pause": true,
+      "views": true
+    }
+  ],
+  "previousComparison": {
+    "newHandPlanAbsent": true,
+    "title": "몸통을 따라 팔 앞뒤 움직임 연결"
+  }
+}

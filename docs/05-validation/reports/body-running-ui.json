@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "M77 male/female motion unchanged at 84 phase/leg/elbow combinations",
+    "Playback, live transitions and independent leg/elbow resets",
+    "Four steps, browser back, refresh and gender change preserve pose values; unfinished stages are explicit",
+    "Changed body runs, keeps inputs after refresh, reset restores original body and retains pose",
+    "All four direct URLs and retired review/admin URLs route correctly",
+    "390px layout without horizontal overflow",
+    "Corrupt storage recovery and bounded persisted settings",
+    "Missing model shows retry; retry recovers",
+    "All existing gait source files unchanged"
+  ],
+  "errors": [],
+  "regression": [
+    {
+      "model": "male",
+      "samples": 42,
+      "maxBoneMatrixAndSkinDelta": 0
+    },
+    {
+      "model": "female",
+      "samples": 42,
+      "maxBoneMatrixAndSkinDelta": 0
+    }
+  ]
+}

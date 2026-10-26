@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M92 source verification automation, manual scale withdrawn, actual screen and preserved settings; not field-surveyed",
+  "documents": 16,
+  "links": 2699,
+  "images": 405,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "historicalSourceSurveyGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "currentCourse": {
+    "id": "gimhae-lotte-garden-b",
+    "revision": "c-3471370ec877",
+    "geometryMatchesRequestedC": true,
+    "computedLengthM": 1187.295901981294,
+    "surveyedLengthM": null
+  }
+}

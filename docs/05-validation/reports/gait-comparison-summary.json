@@ -1,0 +1,19 @@
+{
+  "thighAbsolute": {
+    "referencePeakDeg": 26.202964966442956,
+    "referencePeakPercent": 85.90604026845638,
+    "currentPeakDeg": 33.96398893323419,
+    "currentPeakPercent": 70.46979865771812
+  },
+  "knee": {
+    "referencePeakDeg": 70.66830431447747,
+    "referencePeakPercent": 71.81208053691275,
+    "currentPeakDeg": 107.99490479409775,
+    "currentPeakPercent": 50.335570469798654
+  },
+  "period": {
+    "referenceMedianSeconds": 0.78,
+    "currentSeconds": 0.72
+  },
+  "scope": "AB01 left 35 cycles, nominal s2x0/i0; not population range, same-speed accuracy or clinical validation"
+}

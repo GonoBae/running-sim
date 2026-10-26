@@ -1,0 +1,108 @@
+[
+  {
+    "model": "male",
+    "beforeExtraMm": 105.05731032737837,
+    "afterExtraMm": 11.52793732541124,
+    "reductionPercent": 89.02700127245976,
+    "window": {
+      "start": 0.8704488804008801,
+      "end": 1.2785841399317142,
+      "x0": -0.006364242236894996,
+      "x1": 0.08029174306729392,
+      "degree": 19
+    },
+    "preservedBodyMm": 0,
+    "preservedUpperDeg": 3.4150945850063755e-06,
+    "boneOffsetMm": 0,
+    "ankleWorldDeg": 2.9575586669421963e-06,
+    "ankleLocalDeg": 2.4148365394514667e-06,
+    "calfWorldDeg": 2.9575586669421963e-06,
+    "footHeightMm": 2.3461001669167203e-05,
+    "surfaceHeightMm": 2.432184814660232e-05,
+    "minSurfaceMm": 0,
+    "stanceMm": 0,
+    "outsideMm": 0,
+    "outsideDeg": 2.9575586669421963e-06,
+    "maxForwardChangeMm": 4.00729412531875,
+    "maxLateralChangeMm": 36.75553441219323,
+    "mirrorMm": 1.2645833629317303e-05,
+    "mirrorDeg": 9.352621701108683e-06,
+    "seamMm": 3.567968179846848e-13,
+    "seamDeg": 2.4148365394514667e-06,
+    "velocityGapMps": 2.1851632248643622e-06,
+    "velocityGapDegps": 0.17019308798605318,
+    "reseekMm": 0,
+    "worstVelocity": {
+      "t": 0.8704488804008801,
+      "n": "ball_r",
+      "vl": [
+        0.025467534568403602,
+        -1.0834469766187347,
+        4.62251320412319
+      ],
+      "vr": [
+        0.02546971583639035,
+        -1.0834469766626555,
+        4.622513334539015
+      ]
+    },
+    "skin": {
+      "vertices": 14517,
+      "matched": 14517,
+      "maxMirrorMm": 6.652747508034473e-05
+    }
+  },
+  {
+    "model": "female",
+    "beforeExtraMm": 87.4649101734171,
+    "afterExtraMm": 8.363855310777769,
+    "reductionPercent": 90.43747338881991,
+    "window": {
+      "start": 0.870365798799011,
+      "end": 1.2544283691622276,
+      "x0": -0.0059093493823688115,
+      "x1": 0.068819181336667,
+      "degree": 18
+    },
+    "preservedBodyMm": 0,
+    "preservedUpperDeg": 3.4150945850063755e-06,
+    "boneOffsetMm": 0,
+    "ankleWorldDeg": 2.4148365394514667e-06,
+    "ankleLocalDeg": 2.4148365394514667e-06,
+    "calfWorldDeg": 2.4148365394514667e-06,
+    "footHeightMm": 9.899285446923756e-06,
+    "surfaceHeightMm": 1.0346853707154935e-05,
+    "minSurfaceMm": 0.0003368937632752811,
+    "stanceMm": 0,
+    "outsideMm": 0,
+    "outsideDeg": 2.4148365394514667e-06,
+    "maxForwardChangeMm": 2.935033897529471,
+    "maxLateralChangeMm": 33.38361149133556,
+    "mirrorMm": 2.115374504514421e-05,
+    "mirrorDeg": 2.366046933553761e-05,
+    "seamMm": 7.772800161809615e-13,
+    "seamDeg": 0,
+    "velocityGapMps": 1.993935359320661e-06,
+    "velocityGapDegps": 0.22447733941423734,
+    "reseekMm": 0,
+    "worstVelocity": {
+      "t": 0.370365798799011,
+      "n": "ball_l",
+      "vl": [
+        -0.02258160667247919,
+        -0.9321419766098423,
+        4.181904165784295
+      ],
+      "vr": [
+        -0.022583597045547018,
+        -0.9321419766976842,
+        4.181904284919765
+      ]
+    },
+    "skin": {
+      "vertices": 14517,
+      "matched": 14517,
+      "maxMirrorMm": 6.379948280741703e-05
+    }
+  }
+]

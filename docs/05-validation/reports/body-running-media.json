@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "errors": [],
+  "recordings": [
+    {
+      "type": "male",
+      "view": "front",
+      "settings": {
+        "version": 1,
+        "model": "male",
+        "scale": 1.1,
+        "ratios": {
+          "upperArm": 1.1481206505547323,
+          "forearm": 0.8517050275230263,
+          "thigh": 1.1488307102422313,
+          "shin": 0.8503588610702916,
+          "torso": 1.1490807680121409,
+          "shoulders": 1.1485149844623632
+        },
+        "leg": 5,
+        "elbow": 10
+      },
+      "frames": 211,
+      "durationMs": 3500.2000000000007,
+      "maxFrameGapMs": 19.300000000000182
+    },
+    {
+      "type": "male",
+      "view": "side",
+      "settings": {
+        "version": 1,
+        "model": "male",
+        "scale": 1.1,
+        "ratios": {
+          "upperArm": 1.1481206505547323,
+          "forearm": 0.8517050275230263,
+          "thigh": 1.1488307102422313,
+          "shin": 0.8503588610702916,
+          "torso": 1.1490807680121409,
+          "shoulders": 1.1485149844623632
+        },
+        "leg": 5,
+        "elbow": 10
+      },
+      "frames": 210,
+      "durationMs": 3483.6000000000004,
+      "maxFrameGapMs": 16.80000000000109
+    },
+    {
+      "type": "female",
+      "view": "front",
+      "settings": {
+        "version": 1,
+        "model": "female",
+        "scale": 1.1,
+        "ratios": {
+          "upperArm": 1.1481961099670295,
+          "forearm": 0.8504433420572325,
+          "thigh": 1.149101718792938,
+          "shin": 0.8515535357142778,
+          "torso": 1.1497101950705937,
+          "shoulders": 1.1487880188080373
+        },
+        "leg": 5,
+        "elbow": 10
+      },
+      "frames": 211,
+      "durationMs": 3500.100000000002,
+      "maxFrameGapMs": 16.80000000000291
+    },
+    {
+      "type": "female",
+      "view": "side",
+      "settings": {
+        "version": 1,
+        "model": "female",
+        "scale": 1.1,
+        "ratios": {
+          "upperArm": 1.1481961099670295,
+          "forearm": 0.8504433420572325,
+          "thigh": 1.149101718792938,
+          "shin": 0.8515535357142778,
+          "torso": 1.1497101950705937,
+          "shoulders": 1.1487880188080373
+        },
+        "leg": 5,
+        "elbow": 10
+      },
+      "frames": 210,
+      "durationMs": 3483.5,
+      "maxFrameGapMs": 16.80000000000291
+    }
+  ]
+}

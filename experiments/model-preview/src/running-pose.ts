@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import {defaults, type Settings, type Category} from './settings';
+import {poseDefinitionVersion, validatePoseValues, type PoseResult} from './pose-values';
 
 // Preview limits, not population-wide anatomical ranges or clinical guidance.
 export const joints = (['l', 'r'] as const).flatMap(side => {
@@ -18,6 +19,10 @@ export function createRunningPose(model: THREE.Group, bones: THREE.Bone[], setti
   const required = ['upperarm','lowerarm','hand','thigh','calf','foot'].flatMap(n=>[`${n}_l`,`${n}_r`]);
   if (required.some(n=>!byName.has(n))) return undefined;
   const base = bones.map(b=>b.quaternion.clone());
+  model.updateMatrixWorld(true);
+  // Keep the asset's neutral foot orientation; ankle-to-toe is not a sole plane.
+  const rootInverse=model.getWorldQuaternion(new THREE.Quaternion()).invert();
+  const neutralFeet=Object.fromEntries(['l','r'].map(side=>[side,rootInverse.clone().multiply(byName.get(`foot_${side}`)!.getWorldQuaternion(new THREE.Quaternion())).normalize()]));
   const configured=joints.map(j=>{
     const config=settings.categories[j.id.split('_')[0] as Category];
     return {...j,...config, label:j.label,range:`${config.min}° ~ ${config.max}°`};
@@ -46,24 +51,55 @@ export function createRunningPose(model: THREE.Group, bones: THREE.Bone[], setti
     const sagittal = Math.sqrt(1-lateral*lateral);
     return new THREE.Vector3(lateral,-Math.cos(rad)*sagittal,Math.sin(rad)*sagittal);
   };
-  function apply() {
+  function apply(frameValues=values, compactStride=false) {
     // Recompute from the saved rest state: no accumulated rotations or unlocked axes.
     bones.forEach((b,i)=>b.quaternion.copy(base[i]));
     model.updateMatrixWorld(true);
     for(const side of ['l','r']) {
       const sign = side==='l'?1:-1;
-      const arm = direction(values[`upperarm_${side}`],sign*Math.sin(THREE.MathUtils.degToRad(12)));
+      const arm = direction(frameValues[`upperarm_${side}`],sign*Math.sin(THREE.MathUtils.degToRad(compactStride?6:12)));
       aim(`upperarm_${side}`,`lowerarm_${side}`,arm);
-      aim(`lowerarm_${side}`,`hand_${side}`,flex(arm,1,values[`lowerarm_${side}`]));
-      const leg = direction(values[`thigh_${side}`],sign*Math.sin(THREE.MathUtils.degToRad(5)));
+      aim(`lowerarm_${side}`,`hand_${side}`,flex(arm,1,frameValues[`lowerarm_${side}`]));
+      // Keep each leg in the forward/back plane beneath its own hip.
+      // A fixed outward tilt widened the stance further with each leg segment.
+      const leg = direction(frameValues[`thigh_${side}`],0);
       aim(`thigh_${side}`,`calf_${side}`,leg);
-      aim(`calf_${side}`,`foot_${side}`,flex(leg,-1,values[`calf_${side}`]));
+      aim(`calf_${side}`,`foot_${side}`,flex(leg,-1,frameValues[`calf_${side}`]));
     }
   }
+  function applyCandidate(candidate:unknown, continuous=false,compactStride=false):PoseResult {
+      const checked=validatePoseValues(candidate,configured,continuous);
+      if (!checked.ok) return checked;
+      const previous={...values}, rotations=bones.map(b=>b.quaternion.clone());
+      // Preserve matrix caches too: rollback must not invoke a failing update again.
+      const matrices:{node:THREE.Object3D; local:THREE.Matrix4; world:THREE.Matrix4; dirty:boolean}[]=[];
+      model.traverse(node=>matrices.push({node,local:node.matrix.clone(),world:node.matrixWorld.clone(),dirty:node.matrixWorldNeedsUpdate}));
+      try {
+        if(!continuous)Object.assign(values,checked.values);
+        apply(checked.values,compactStride);
+        return {ok:true};
+      } catch {
+        Object.assign(values,previous);
+        bones.forEach((b,i)=>b.quaternion.copy(rotations[i]));
+        matrices.forEach(({node,local,world,dirty})=>{
+          node.matrix.copy(local);node.matrixWorld.copy(world);node.matrixWorldNeedsUpdate=dirty;
+        });
+        return {ok:false,reason:'apply-failed'};
+      }
+  }
   return {
+    definitionVersion:poseDefinitionVersion,
+    settingsRevision:settings.revision,
     definitions:configured.filter(j=>j.enabled),
     values,
-    apply,
+    neutralFootRotation:(side:'l'|'r')=>neutralFeet[side].clone(),
+    apply:()=>apply(),
+    validate(candidate:unknown) {return validatePoseValues(candidate,configured);},
+    restore:(candidate:unknown)=>applyCandidate(candidate),
+    // Generated frames may be fractional; editing and snapshot contracts stay integer-only.
+    applyFrame:(candidate:unknown)=>applyCandidate(candidate,true),
+    // Baseline run uses a narrow arm swing without changing edit values or bone lengths.
+    applyRunFrame:(candidate:unknown)=>applyCandidate(candidate,true,true),
     set(id: string, value: number) {
       const joint = configured.find(j=>j.id===id);
       if (!joint || !joint.enabled || !Number.isFinite(value)) return false;

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "errors": [],
+  "models": [
+    {
+      "model": "male",
+      "readyMs": 3643.800000190735,
+      "actualAngleReadout": true,
+      "independentResets": true,
+      "liveBothInputs": true,
+      "noReload": true,
+      "keyboard": true,
+      "playLoopPause": true
+    },
+    {
+      "model": "female",
+      "readyMs": 3475.199999809265,
+      "actualAngleReadout": true,
+      "independentResets": true,
+      "liveBothInputs": true,
+      "noReload": true,
+      "keyboard": true,
+      "playLoopPause": true
+    }
+  ],
+  "horizontalOverflow": false,
+  "refreshDefault": true,
+  "previousLegHeightPage": true
+}

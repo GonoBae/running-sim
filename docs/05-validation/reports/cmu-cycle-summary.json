@@ -1,0 +1,33 @@
+{
+  "scope": "Derived M29 metrics; support/recovery labels are estimates. No new correction.",
+  "recovery": [
+    {
+      "model": "male",
+      "side": "l",
+      "recoverySamples": 120,
+      "meanOutwardCm": 7.394325492861538,
+      "maxOutwardCm": 8.903117013851844
+    },
+    {
+      "model": "male",
+      "side": "r",
+      "recoverySamples": 127,
+      "meanOutwardCm": 7.634618839197684,
+      "maxOutwardCm": 9.276889781770334
+    },
+    {
+      "model": "female",
+      "side": "l",
+      "recoverySamples": 120,
+      "meanOutwardCm": 6.376513232099611,
+      "maxOutwardCm": 7.651432997262968
+    },
+    {
+      "model": "female",
+      "side": "r",
+      "recoverySamples": 127,
+      "meanOutwardCm": 6.9791163082211805,
+      "maxOutwardCm": 8.44733837680429
+    }
+  ]
+}

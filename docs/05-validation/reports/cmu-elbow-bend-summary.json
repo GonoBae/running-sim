@@ -1,0 +1,351 @@
+{
+  "status": "passed",
+  "testedAt": "2026-10-21T13:39:36.121Z",
+  "errors": [],
+  "unchanged": [
+    {
+      "path": "experiments/model-preview/public/models/runner-female.glb",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/public/models/runner-male.glb",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/public/review-data/shared-gait-reference.json",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/ankle-weights.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/arm-swing.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/bilateral-pose.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/bilateral-skin.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/body-height.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/early-support.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/hand-pose.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/hip-landing.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/knee-lateral.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-approach.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-gait.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-release.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-support.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/skin-point-batch.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/support-join.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/unified-stance.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/upper-center.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/leg-height.js",
+      "ok": true
+    }
+  ],
+  "results": [
+    {
+      "model": "male",
+      "metrics": {
+        "zeroMm": 0,
+        "zeroDeg": 4.182619578303746e-06,
+        "protectedMm": 0,
+        "protectedDeg": 3.818191820832845e-06,
+        "protectedSkinMm": 0,
+        "elbowPositionMm": 0,
+        "offsetMm": 0,
+        "handLocalDeg": 1.7075472925031877e-06,
+        "angleErrorDeg": 8.242278539682957e-07,
+        "planeChangeDeg": 1.4787793334710982e-06,
+        "archiveLegMm": 0,
+        "archiveFloorMm": 0,
+        "floorDeltaMm": 0,
+        "minFlexDeg": 82.36414639625504,
+        "maxFlexDeg": 133.62283914246945,
+        "seekMm": 0,
+        "repeatMm": 2.667460998691198e-12,
+        "repeatDeg": 3.4150945850063755e-06,
+        "groupMm": 7.043575467574348e-13,
+        "symmetryOffsetDeg": 1.1368683772161603e-13,
+        "loopVelocityGapMps": 0.0005950452597540551
+      },
+      "poses": 7515,
+      "integerSamples": 861,
+      "skinChecks": 12,
+      "protectedSkinVertices": 10151,
+      "ranges": [
+        {
+          "cm": 0,
+          "offset": -20,
+          "samples": 501,
+          "maxErrorDeg": 8.242278539682957e-07
+        },
+        {
+          "cm": 0,
+          "offset": -10,
+          "samples": 501,
+          "maxErrorDeg": 4.015452361727512e-07
+        },
+        {
+          "cm": 0,
+          "offset": 0,
+          "samples": 501,
+          "maxErrorDeg": 0
+        },
+        {
+          "cm": 0,
+          "offset": 10,
+          "samples": 501,
+          "maxErrorDeg": 3.319754711128553e-07
+        },
+        {
+          "cm": 0,
+          "offset": 20,
+          "samples": 501,
+          "maxErrorDeg": 5.554998949719447e-07
+        },
+        {
+          "cm": 5,
+          "offset": -20,
+          "samples": 501,
+          "maxErrorDeg": 8.242278539682957e-07
+        },
+        {
+          "cm": 5,
+          "offset": -10,
+          "samples": 501,
+          "maxErrorDeg": 4.015452361727512e-07
+        },
+        {
+          "cm": 5,
+          "offset": 0,
+          "samples": 501,
+          "maxErrorDeg": 0
+        },
+        {
+          "cm": 5,
+          "offset": 10,
+          "samples": 501,
+          "maxErrorDeg": 3.319754711128553e-07
+        },
+        {
+          "cm": 5,
+          "offset": 20,
+          "samples": 501,
+          "maxErrorDeg": 5.554998949719447e-07
+        },
+        {
+          "cm": 10,
+          "offset": -20,
+          "samples": 501,
+          "maxErrorDeg": 8.242278539682957e-07
+        },
+        {
+          "cm": 10,
+          "offset": -10,
+          "samples": 501,
+          "maxErrorDeg": 4.015452361727512e-07
+        },
+        {
+          "cm": 10,
+          "offset": 0,
+          "samples": 501,
+          "maxErrorDeg": 0
+        },
+        {
+          "cm": 10,
+          "offset": 10,
+          "samples": 501,
+          "maxErrorDeg": 3.319754711128553e-07
+        },
+        {
+          "cm": 10,
+          "offset": 20,
+          "samples": 501,
+          "maxErrorDeg": 5.554998949719447e-07
+        }
+      ],
+      "invalidRejected": 4,
+      "transition": {
+        "min": -20,
+        "max": 20,
+        "end": 0
+      },
+      "bilateralActualAngleDeg": 7.713909440099087e-07
+    },
+    {
+      "model": "female",
+      "metrics": {
+        "zeroMm": 0,
+        "zeroDeg": 4.182619578303746e-06,
+        "protectedMm": 0,
+        "protectedDeg": 3.818191820832845e-06,
+        "protectedSkinMm": 0,
+        "elbowPositionMm": 0,
+        "offsetMm": 0,
+        "handLocalDeg": 0,
+        "angleErrorDeg": 5.430407568951523e-06,
+        "planeChangeDeg": 2.2588727439225506e-06,
+        "archiveLegMm": 0,
+        "archiveFloorMm": 0,
+        "floorDeltaMm": 0,
+        "minFlexDeg": 82.37151761838628,
+        "maxFlexDeg": 133.6290291049148,
+        "seekMm": 0,
+        "repeatMm": 2.6740952283932166e-12,
+        "repeatDeg": 3.818191820832845e-06,
+        "groupMm": 5.347902362062199e-13,
+        "symmetryOffsetDeg": 4.121147867408581e-13,
+        "loopVelocityGapMps": 0.000500702069033471
+      },
+      "poses": 7515,
+      "integerSamples": 861,
+      "skinChecks": 12,
+      "protectedSkinVertices": 10151,
+      "ranges": [
+        {
+          "cm": 0,
+          "offset": -20,
+          "samples": 501,
+          "maxErrorDeg": 5.430407568951523e-06
+        },
+        {
+          "cm": 0,
+          "offset": -10,
+          "samples": 501,
+          "maxErrorDeg": 2.715887291060426e-06
+        },
+        {
+          "cm": 0,
+          "offset": 0,
+          "samples": 501,
+          "maxErrorDeg": 0
+        },
+        {
+          "cm": 0,
+          "offset": 10,
+          "samples": 501,
+          "maxErrorDeg": 2.6176251992637845e-06
+        },
+        {
+          "cm": 0,
+          "offset": 20,
+          "samples": 501,
+          "maxErrorDeg": 5.008467525158267e-06
+        },
+        {
+          "cm": 5,
+          "offset": -20,
+          "samples": 501,
+          "maxErrorDeg": 5.430407568951523e-06
+        },
+        {
+          "cm": 5,
+          "offset": -10,
+          "samples": 501,
+          "maxErrorDeg": 2.715887291060426e-06
+        },
+        {
+          "cm": 5,
+          "offset": 0,
+          "samples": 501,
+          "maxErrorDeg": 0
+        },
+        {
+          "cm": 5,
+          "offset": 10,
+          "samples": 501,
+          "maxErrorDeg": 2.6176251992637845e-06
+        },
+        {
+          "cm": 5,
+          "offset": 20,
+          "samples": 501,
+          "maxErrorDeg": 5.008467525158267e-06
+        },
+        {
+          "cm": 10,
+          "offset": -20,
+          "samples": 501,
+          "maxErrorDeg": 5.430407568951523e-06
+        },
+        {
+          "cm": 10,
+          "offset": -10,
+          "samples": 501,
+          "maxErrorDeg": 2.715887291060426e-06
+        },
+        {
+          "cm": 10,
+          "offset": 0,
+          "samples": 501,
+          "maxErrorDeg": 0
+        },
+        {
+          "cm": 10,
+          "offset": 10,
+          "samples": 501,
+          "maxErrorDeg": 2.6176251992637845e-06
+        },
+        {
+          "cm": 10,
+          "offset": 20,
+          "samples": 501,
+          "maxErrorDeg": 5.008467525158267e-06
+        }
+      ],
+      "invalidRejected": 4,
+      "transition": {
+        "min": -20,
+        "max": 20,
+        "end": 0
+      },
+      "bilateralActualAngleDeg": 3.809765985351987e-06
+    }
+  ]
+}

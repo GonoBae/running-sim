@@ -1,0 +1,13 @@
+const {chromium}=require('C:/Users/PC/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const report={status:'running',checks:[],errors:[]},base=process.env.STAGE_URL||'http://127.0.0.1:4173';
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true,args:['--enable-unsafe-swiftshader']});try{
+ const p=await b.newPage({viewport:{width:1280,height:950}});p.on('pageerror',e=>report.errors.push(e.message));await p.goto(base+'/body');await p.waitForFunction(()=>window.stagePreview?.ready);
+ const state=()=>p.evaluate(()=>window.stagePreview.state),read=(key='thigh-l')=>p.locator(`[data-body-part="${key}"]`).evaluate(e=>{const r=e.getBoundingClientRect(),m=new DOMMatrixReadOnly(getComputedStyle(e.querySelector('.grip-arrow')).transform);return {x:r.x+r.width/2,y:r.y+r.height/2,ax:m.a,ay:m.b};});
+ const original=await state(),c=await read();await p.mouse.move(c.x,c.y);await p.mouse.down();await p.mouse.move(c.x+c.ax,c.y+c.ay);await p.evaluate(()=>new Promise(requestAnimationFrame));assert.deepEqual(await state(),original);
+ await p.mouse.move(c.x+c.ax*8,c.y+c.ay*8);await p.waitForFunction(()=>window.stagePreview.state.ratios.thigh>1);await p.mouse.move(c.x,c.y);await p.mouse.up();assert.deepEqual(await state(),original);report.checks.push('Sub-3px click jitter does not edit; after moving, returning to the exact start restores the exact starting value');
+ const torso=await read('torso');await p.mouse.move(torso.x,torso.y);await p.mouse.down();await p.mouse.move(torso.x+10,torso.y);await p.mouse.up();assert.deepEqual(await state(),original);report.checks.push('Movement perpendicular to the selected limb does not change its length');
+ await p.click('#reset-body');await p.waitForFunction(()=>window.stagePreview.ready);const before=await state(),d=await read(),cdp=await p.context().newCDPSession(p);
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:d.x,y:d.y}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:d.x+d.ax*9,y:d.y+d.ay*9}]});await p.waitForFunction(()=>window.stagePreview.state.ratios.thigh>1);await cdp.send('Input.dispatchTouchEvent',{type:'touchCancel',touchPoints:[]});assert.deepEqual(await state(),before);report.checks.push('Browser touch cancellation restores the drag start');
+ assert.deepEqual(report.errors,[]);report.status='passed';
+}catch(e){report.status='failed';report.failure=e.stack;process.exitCode=1;}finally{await b.close();fs.writeFileSync('docs/05-validation/reports/body-editor-pointer.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));}})();

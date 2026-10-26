@@ -1,0 +1,82 @@
+{
+  "testedAt": "2026-10-14T12:38:36.453Z",
+  "browser": "155.0.4283.45",
+  "scope": "M11 real male/female GLB, right forearm surface vs elbow handle, skinned occlusion; mouse/keyboard, injected cancellation/policy events, 390px desktop not real touch device",
+  "measurements": [
+    {
+      "model": "male",
+      "surfaceAngle": 100.00000107675564,
+      "dotAngle": 100.00000107675564
+    },
+    {
+      "model": "female",
+      "surfaceAngle": 100.00001287054792,
+      "dotAngle": 100.00001287054792
+    }
+  ],
+  "cases": [
+    {
+      "name": "male: opposite elbow hidden, near elbow visible at actual joint without separation",
+      "passed": true
+    },
+    {
+      "name": "male: surface click selects and highlights only visible right forearm",
+      "passed": true
+    },
+    {
+      "name": "male: surface and point drag produce same angle, preserve camera/other values/lengths",
+      "passed": true
+    },
+    {
+      "name": "male: surface clamps at range endpoints and Escape/cancel restore starting angle",
+      "passed": true
+    },
+    {
+      "name": "male: torso occlusion rejects through-body forearm selection; nearest non-target surface stays orbitable",
+      "passed": true
+    },
+    {
+      "name": "female: opposite elbow hidden, near elbow visible at actual joint without separation",
+      "passed": true
+    },
+    {
+      "name": "female: surface click selects and highlights only visible right forearm",
+      "passed": true
+    },
+    {
+      "name": "female: surface and point drag produce same angle, preserve camera/other values/lengths",
+      "passed": true
+    },
+    {
+      "name": "female: surface clamps at range endpoints and Escape/cancel restore starting angle",
+      "passed": true
+    },
+    {
+      "name": "female: torso occlusion rejects through-body forearm selection; nearest non-target surface stays orbitable",
+      "passed": true
+    },
+    {
+      "name": "snapshot independent, drag cancellation on step navigation, camera released",
+      "passed": true
+    },
+    {
+      "name": "basic run and pause block picking; edit mode re-enables; legacy playback stops on grab",
+      "passed": true
+    },
+    {
+      "name": "changed shape updates surface and occlusion bounds without changing bone length on drag",
+      "passed": true
+    },
+    {
+      "name": "390px surface drag, view buttons and numeric fallback fit viewport",
+      "passed": true
+    },
+    {
+      "name": "policy change cancels captured surface drag and hides/blocks interaction",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 15,
+  "failed": 0
+}

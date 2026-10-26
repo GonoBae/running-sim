@@ -1,0 +1,16 @@
+{
+  "testedAt": "2026-10-20T07:04:20.507Z",
+  "errors": [],
+  "recordings": [
+    {
+      "view": "front",
+      "frames": 196,
+      "durationMs": 3267
+    },
+    {
+      "view": "side",
+      "frames": 197,
+      "durationMs": 3266.8999999999996
+    }
+  ]
+}

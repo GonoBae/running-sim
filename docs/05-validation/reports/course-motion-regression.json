@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "samples": 64,
+  "scope": "Exact pre/post bone matrices and sampled skin positions; two sexes, default/custom body, four strike modes, four phases"
+}

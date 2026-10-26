@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M91 user-described B/C distance calibration: actual before/after map, settings preservation and shared distance metric; not field-surveyed",
+  "documents": 16,
+  "links": 2683,
+  "images": 403,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "historicalSourceSurveyGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "currentCourse": {
+    "id": "gimhae-lotte-garden-b",
+    "revision": "c-3471370ec877",
+    "geometryMatchesRequestedC": true,
+    "computedLengthM": 1187.295901981294,
+    "surveyedLengthM": null,
+    "calibrationId": "field-bc-v1",
+    "distanceScale": 0.9661488207898548,
+    "calibratedLengthM": 1147.1045356278541
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "Independent 100m square length and projection",
+    "Forward/reverse travel, wrap and negative wrap",
+    "Strict draft validation and previous-data compatibility",
+    "Broken/open/overlapping/nonfinite geometry rejected",
+    "Active path removes only the imagery-confirmed C plaza detour",
+    "Every landmark and path vertex snaps to its original location",
+    "500 starts in both directions preserve start, one-lap return and total"
+  ],
+  "revision": "d-ebb99e9a6425",
+  "lengthM": 1182.1409678536525,
+  "travelCombinations": 2000,
+  "geometryMatchesImageryCorrection": true
+}

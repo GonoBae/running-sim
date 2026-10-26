@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "rejections": [
+    "missing way",
+    "duplicate way",
+    "truncated geometry",
+    "changed source coordinate",
+    "invalid coordinate",
+    "server partial response",
+    "missing provenance time",
+    "missing source version",
+    "closed pedestrian access",
+    "wrong feature type",
+    "disconnected node chain",
+    "unclosed route",
+    "duplicate route node",
+    "unconfirmed asset geometry",
+    "wrong revision"
+  ],
+  "endpointSamples": 1200,
+  "lapLengthM": 1187.295901981294,
+  "arithmeticErrorM": 5.446736395242624e-9,
+  "checks": [
+    "network failure preserves asset/cache",
+    "changed coordinates preserve asset/cache",
+    "successful publish changes source metadata only",
+    "offline build validates published source",
+    "official API fallback verified"
+  ],
+  "fieldAccuracyVerified": false
+}

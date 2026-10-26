@@ -1,0 +1,92 @@
+{
+  "testedAt": "2026-10-14T12:37:23.274Z",
+  "browser": "155.0.4283.45",
+  "scope": "M01-b Edge desktop UI, real male/female GLB; narrow viewport is not mobile-device coverage",
+  "models": [
+    {
+      "type": "male",
+      "pointError": 0,
+      "angleError": 0.00001943430944351121,
+      "cameraError": 0
+    },
+    {
+      "type": "female",
+      "pointError": 0,
+      "angleError": 0.00001613151133028623,
+      "cameraError": 0
+    }
+  ],
+  "cases": [
+    {
+      "name": "empty slot: save enabled, restore disabled, lifetime notice visible",
+      "passed": true
+    },
+    {
+      "name": "male: A -> B -> A through buttons, numeric inputs and skin points",
+      "passed": true
+    },
+    {
+      "name": "male: explicit replacement and default reset keep saved B",
+      "passed": true
+    },
+    {
+      "name": "male: restore preserves edited body length, height and side camera",
+      "passed": true
+    },
+    {
+      "name": "female: A -> B -> A through buttons, numeric inputs and skin points",
+      "passed": true
+    },
+    {
+      "name": "female: explicit replacement and default reset keep saved B",
+      "passed": true
+    },
+    {
+      "name": "female: restore preserves edited body length, height and side camera",
+      "passed": true
+    },
+    {
+      "name": "different model blocks restore, returning to saved model restores B",
+      "passed": true
+    },
+    {
+      "name": "both buttons disabled during an in-flight model load",
+      "passed": true
+    },
+    {
+      "name": "failed model load disables operations; saved slot survives recovery",
+      "passed": true
+    },
+    {
+      "name": "save/restore do not create usage events; explicit apply creates one",
+      "passed": true
+    },
+    {
+      "name": "apply failure shows rollback message and preserves current pose and saved slot",
+      "passed": true
+    },
+    {
+      "name": "unsupported GLB in admin preview disables both snapshot buttons",
+      "passed": true
+    },
+    {
+      "name": "another tab changes settings: immediate block, no pose mutation",
+      "passed": true
+    },
+    {
+      "name": "reload removes the temporary slot and reads new policy",
+      "passed": true
+    },
+    {
+      "name": "same-tab unreadable settings fail closed on click and recover without losing slot",
+      "passed": true
+    },
+    {
+      "name": "narrow screen: visible controls fit, keyboard activates save/restore",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": 17,
+  "failed": 0
+}

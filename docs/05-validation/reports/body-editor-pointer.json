@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "Sub-3px click jitter does not edit; after moving, returning to the exact start restores the exact starting value",
+    "Movement perpendicular to the selected limb does not change its length",
+    "Browser touch cancellation restores the drag start"
+  ],
+  "errors": []
+}

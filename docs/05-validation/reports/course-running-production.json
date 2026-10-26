@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "Selected start/reverse/two laps retained; starts paused; play/pause/4x/seek/completion/restart/reset verified",
+    "Lap boundary keeps continuous clock; finish at selected start, stops exactly; visibility handler pauses; reload retains settings and resets playback",
+    "Body/pose parameters unchanged; route anchor on original segments; copied local bones and inverse-world skin match detail runtime at five phases per profile",
+    "Return to pose, edit leg, keep course and re-enter at start with new pose"
+  ],
+  "profiles": [
+    {
+      "model": "male",
+      "custom": false,
+      "strike": "midfoot",
+      "frames": 5,
+      "routeAndPosePreserved": true
+    }
+  ],
+  "errors": [],
+  "maxJointError": 1.0220990720455347e-13,
+  "maxSkinError": 1.2243835494069478e-13
+}

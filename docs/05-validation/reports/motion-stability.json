@@ -1,0 +1,32 @@
+{
+  "testedAt": "2026-10-14T17:42:07.361Z",
+  "scope": "M16 geometry and deterministic 1ms sampling; not real-device FPS or naturalness validation",
+  "measurements": [
+    {
+      "model": "male",
+      "frames": 1561,
+      "bindError": 4.1509831777763796e-7,
+      "maxVerticalStep": 0.0003946083275123101,
+      "maxVerticalVelocityChange": 0.0001409896673192218,
+      "maxWristError": 0.0000022588727439225506,
+      "maxFootOrientationError": 0.000044527385665136487,
+      "maxBoneStep": 0.41392822739126833,
+      "minClearance": 0.000030046960280156326,
+      "restored": true,
+      "stableAcrossRates": true
+    },
+    {
+      "model": "female",
+      "frames": 1561,
+      "bindError": 1.1920928955078128e-7,
+      "maxVerticalStep": 0.0003599127323309012,
+      "maxVerticalVelocityChange": 0.00016473330826470567,
+      "maxWristError": 0.000006502146373618259,
+      "maxFootOrientationError": 0.00002372200512043724,
+      "maxBoneStep": 0.414197557928959,
+      "minClearance": 0.00004149384386321984,
+      "restored": true,
+      "stableAcrossRates": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "120 combinations of start/direction/1,3,100 laps: exact path, initial point, completion and restart; seven positions each",
+    "30/60fps same displacement; pause freezes, resume and 4x rate advance one shared clock; reset pauses",
+    "Lap seam continuity in both directions; gait phase does not reset at a lap",
+    "Invalid clock values, unsupported rate, invalid course and zero cycle time rejected"
+  ],
+  "routeCases": 120,
+  "positions": 840
+}

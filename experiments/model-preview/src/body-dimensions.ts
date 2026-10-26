@@ -111,6 +111,16 @@ export function createBodyDimensions(model:THREE.Group,bones:THREE.Bone[],enable
     baseline,ratios,measure,
     get referenceHeight(){return referenceHeight;},
     get anchorPosition(){return anchorPosition.clone();},
+    setRatios(next:Record<LengthId,number>){
+      let changed=false;
+      for(const f of lengthFields){
+        if(!enabled[f.id]||!Number.isFinite(next[f.id]))continue;
+        const value=THREE.MathUtils.clamp(next[f.id],.85,1.15);
+        if(Math.abs(ratios[f.id]-value)>1e-10){ratios[f.id]=value;changed=true;}
+      }
+      if(changed)rebuild();
+      return changed;
+    },
     set(id:LengthId,centimeters:number,scale=1){
       if(!enabled[id]||!Number.isFinite(centimeters)||!Number.isFinite(scale)||scale<=0)return false;
       ratios[id]=THREE.MathUtils.clamp(centimeters/(baseline[id]*scale),.85,1.15);

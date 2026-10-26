@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "date": "2026-10-22",
+  "scope": "M88 course playback documentation, actual screenshots, SVG and links",
+  "documents": 16,
+  "links": 2545,
+  "images": 382,
+  "broken": [],
+  "unbalanced": [],
+  "overflow": [],
+  "renderErrors": [],
+  "sourceCounts": {
+    "returnedElements": 294,
+    "pedestrianLineWaysInQuery": 180,
+    "pedestrianLineWaysWithVertexInsidePark": 107,
+    "trackOrRunningTaggedElements": 0
+  },
+  "historicalSourceSurveyGeometry": {
+    "allGeometryCoordinatesFiniteAndInRange": true,
+    "parkRingClosed": true,
+    "parkBoundaryIsNotRunningRoute": true,
+    "runningLoopSelected": false,
+    "surveyedLengthM": null,
+    "computedLoopLengthM": null,
+    "elevationVerified": false
+  },
+  "currentCourse": {
+    "id": "gimhae-lotte-garden-b",
+    "userConfirmed": true,
+    "geometryMatchesCandidateB": true,
+    "computedLengthM": 1209.65258663289,
+    "surveyedLengthM": null
+  }
+}

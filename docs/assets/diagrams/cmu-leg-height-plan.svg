@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410">
+<rect width="1200" height="410" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic,sans-serif" fill="#233b32">
+<text x="35" y="48" font-size="28" font-weight="700">M76 · 기본 달리기에서 다리 들림 높이 조절</text>
+<text x="35" y="83" font-size="18">확정 요구: M75 기본값 보존 · 양쪽 다리 적용 · 중간 검토 없이 구현과 검사</text>
+<rect x="35" y="115" width="330" height="126" rx="16" fill="#e4ebe5"/>
+<text x="59" y="151" font-size="23">0cm · 현재 달리기 그대로</text>
+<text x="59" y="189" font-size="19">기존 접촉 경로·몸 높이·상체</text>
+<text x="59" y="220" font-size="19">비교 왼쪽 칸에 항상 유지</text>
+<text x="382" y="186" font-size="34">→</text>
+<rect x="435" y="115" width="330" height="126" rx="16" fill="#dceaf0"/>
+<text x="459" y="151" font-size="23">무릎 추가 높이 · 0~10cm</text>
+<text x="459" y="189" font-size="19">고관절 회전 → 굽힌 다리 함께</text>
+<text x="459" y="220" font-size="19">오른다리 / 왼다리 + 반 주기</text>
+<text x="782" y="186" font-size="34">→</text>
+<rect x="835" y="115" width="330" height="126" rx="16" fill="#e4ebe5"/>
+<text x="859" y="151" font-size="23">기존 착지로 부드럽게 합류</text>
+<text x="859" y="189" font-size="19">발이 향하는 방향 유지</text>
+<text x="859" y="220" font-size="19">착지·지지 구간 변경 없음</text>
+<text x="35" y="290" font-size="21">선택한 시험 설계: 앞으로 드는 구간에서만 높이 추가 · 정면/측면 비교 · 기본값 복원</text>
+<text x="35" y="332" font-size="19">검사: 0cm 일치 / 양발 높이 대응 / 경계 연결 / 피부 바닥 침투 / 재생 중 입력</text>
+<text x="35" y="375" font-size="18" fill="#63736a">미검증: 다양한 체형·속도·다른 자세 조합·실제 추진력. CMU 35_17와 현재 남녀 모델의 기능 시험.</text>
+</g></svg>

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "errors": [],
+  "videos": [
+    {
+      "view": "front",
+      "file": "outputs/midfoot/direct-front.webm",
+      "frames": 157,
+      "durationMs": 2600.1000000000004,
+      "decodedDifferentFrames": 3,
+      "error": null
+    },
+    {
+      "view": "side",
+      "file": "outputs/midfoot/direct-side.webm",
+      "frames": 157,
+      "durationMs": 2600.0999999999985,
+      "decodedDifferentFrames": 3,
+      "error": null
+    }
+  ]
+}

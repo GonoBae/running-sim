@@ -1,0 +1,67 @@
+{
+  "testedAt": "2026-10-14T19:02:07.511Z",
+  "scope": "Isolated full-body transfer feasibility. No foot IK, looping, user settings, policy limits or biomechanical validation. ASF parser visual verification only; not independently compared with C3D.",
+  "results": [
+    {
+      "model": "male",
+      "clip": "35_17",
+      "frames": 167,
+      "mappedBones": 20,
+      "targetBones": 53,
+      "maxDirectionError": 0.00011326587362042476,
+      "maxLengthError": 4.23503125290825e-7,
+      "maxSourceLengthError": 1.3863095360555633e-7,
+      "minFoot": -0.03205832937112252,
+      "loopGap": 0.3786550693438471,
+      "asfSha256": "2a8e2eda3c0d7d828566b2a9a8ab36b2b8b3864110574e8b73c8f069fded416c",
+      "amcSha256": "8096cd53878242dbc35e987288cef6ae81d4e1c0e207086639bbed5cc06c8fee"
+    },
+    {
+      "model": "male",
+      "clip": "127_06",
+      "frames": 173,
+      "mappedBones": 20,
+      "targetBones": 53,
+      "maxDirectionError": 0.00010936303870901386,
+      "maxLengthError": 4.070999740646286e-7,
+      "maxSourceLengthError": 1.3426147871253846e-7,
+      "minFoot": -0.04478791177547378,
+      "loopGap": 0.6574977588713938,
+      "asfSha256": "5c28c8c780fd5ae9ece226fbfce83dbce140a11394f183cca3376d238a33f395",
+      "amcSha256": "e1074859e02662a89eb6ebdaa2416967815f1ac45ed6ea05321f943d065a2d66"
+    },
+    {
+      "model": "female",
+      "clip": "35_17",
+      "frames": 167,
+      "mappedBones": 20,
+      "targetBones": 53,
+      "maxDirectionError": 0.00005688977684356021,
+      "maxLengthError": 1.2678583682923517e-7,
+      "maxSourceLengthError": 1.3863095360555633e-7,
+      "minFoot": -0.028691339373965896,
+      "loopGap": 0.3404223558855953,
+      "asfSha256": "2a8e2eda3c0d7d828566b2a9a8ab36b2b8b3864110574e8b73c8f069fded416c",
+      "amcSha256": "8096cd53878242dbc35e987288cef6ae81d4e1c0e207086639bbed5cc06c8fee"
+    },
+    {
+      "model": "female",
+      "clip": "127_06",
+      "frames": 173,
+      "mappedBones": 20,
+      "targetBones": 53,
+      "maxDirectionError": 0.000055567482431249055,
+      "maxLengthError": 1.3107479202023598e-7,
+      "maxSourceLengthError": 1.3426147871253846e-7,
+      "minFoot": -0.036516915468475436,
+      "loopGap": 0.5669862533688499,
+      "asfSha256": "5c28c8c780fd5ae9ece226fbfce83dbce140a11394f183cca3376d238a33f395",
+      "amcSha256": "e1074859e02662a89eb6ebdaa2416967815f1ac45ed6ea05321f943d065a2d66"
+    },
+    {
+      "test": "play/pause, view changes and no app storage writes",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

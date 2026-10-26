@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "correction": {
+    "id": "southeast-track-connection-v1",
+    "method": "imagery-confirmed-connector",
+    "baseRevision": "c-3471370ec877",
+    "baseGeometrySha256": "e110a1e080ef22ad77cb6d4d9f490872b84977d06cb4064f577305eb31b1cb43",
+    "geometrySha256": "ebb99e9a6425063295e98872fd99547a8c0069792c253a5862c89cbb5a42cc5f",
+    "removedNodeId": 13502643119,
+    "removedCoordinate": [
+      128.8284025,
+      35.1820705
+    ],
+    "from": [
+      128.828512,
+      35.1819884
+    ],
+    "to": [
+      128.8281956,
+      35.1819987
+    ],
+    "oldRangeM": [
+      687.7598832929456,
+      721.692881647073
+    ],
+    "maxStartSnapM": 8.735827568484503,
+    "beforeLengthM": 1187.295901981294,
+    "afterLengthM": 1182.1409678536525,
+    "shorterByM": 5.154934127641582,
+    "evidence": "course-imagery",
+    "surveyed": false
+  },
+  "revision": "d-ebb99e9a6425",
+  "observedStartBeforeM": 1121.8640021884382,
+  "observedStartAfterM": 1116.7090680607967,
+  "physicalStartUnchanged": true,
+  "migration": {
+    "samples": 2000,
+    "exact": 1943,
+    "snapped": 57,
+    "maxSnapM": 8.618363743344196,
+    "legacyB": {
+      "migrated": 962,
+      "refused": 38
+    }
+  },
+  "playbackPositions": 180,
+  "milestones": [
+    {
+      "km": 1,
+      "before": [
+        119.835737048457,
+        20.696413654803667
+      ],
+      "after": [
+        114.69353628701278,
+        20.334146703646326
+      ],
+      "positionShiftM": 5.154945781955272
+    },
+    {
+      "km": 2,
+      "before": [
+        306.55343658883555,
+        35.044839580692624
+      ],
+      "after": [
+        296.28850431915686,
+        34.08291307493706
+      ],
+      "positionShiftM": 10.30990480574705
+    },
+    {
+      "km": 3,
+      "before": [
+        428.47637166412056,
+        -15.087023365304137
+      ],
+      "after": [
+        432.55102113029807,
+        -0.1714753622463774
+      ],
+      "positionShiftM": 15.462093664951748
+    },
+    {
+      "km": 4,
+      "before": [
+        383.72776812506163,
+        -176.78931499198998
+      ],
+      "after": [
+        404.21344131223174,
+        -174.445296538855
+      ],
+      "positionShiftM": 20.619341125268228
+    },
+    {
+      "km": 5,
+      "before": [
+        207.83040133345187,
+        -168.94028975543142
+      ],
+      "after": [
+        224.39870421358188,
+        -180.62997572132224
+      ],
+      "positionShiftM": 20.27701699730187
+    }
+  ],
+  "landmarkReport": [
+    {
+      "km": 3,
+      "corner": "B",
+      "beforeDistanceToCornerM": 3067.372024467278,
+      "afterDistanceToCornerM": 3051.9072220843536
+    },
+    {
+      "km": 4,
+      "corner": "C",
+      "beforeDistanceToCornerM": 4025.629919860206,
+      "afterDistanceToCornerM": 4005.01018334964
+    }
+  ],
+  "fieldEndpointMatchVerified": false,
+  "remaining": "3km is still before B; the local 5.155m fix does not explain all reported endpoint differences."
+}

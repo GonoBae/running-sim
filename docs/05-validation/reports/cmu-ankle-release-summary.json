@@ -1,0 +1,181 @@
+{
+  "scope": "M56 read-only; authored release intervals r .58-.70, l 1.09-1.21; calf-relative quaternion angular increments, not Euler heading",
+  "durationSeconds": 0.091,
+  "status": "verified-observation-no-correction",
+  "models": [
+    {
+      "model": "male",
+      "stages": {
+        "r": {
+          "source": {
+            "peakDegPerSecond": 370.3306964220946,
+            "pathDeg": 17.079305873151057
+          },
+          "retarget": {
+            "peakDegPerSecond": 370.3307052938777,
+            "pathDeg": 17.079275501830036
+          },
+          "preContact": {
+            "peakDegPerSecond": 370.3307052938777,
+            "pathDeg": 17.079275501830036
+          },
+          "contact": {
+            "peakDegPerSecond": 341.5085642160926,
+            "pathDeg": 16.702517710301795
+          },
+          "swing": {
+            "peakDegPerSecond": 341.5085642160926,
+            "pathDeg": 16.702517710301795
+          },
+          "leftDirection": {
+            "peakDegPerSecond": 341.5085642160926,
+            "pathDeg": 16.702517710301795
+          },
+          "landingSole": {
+            "peakDegPerSecond": 341.5085642160926,
+            "pathDeg": 16.702517710301795
+          },
+          "lateSole": {
+            "peakDegPerSecond": 341.5085642160926,
+            "pathDeg": 16.702517710301795
+          },
+          "toePath": {
+            "peakDegPerSecond": 341.5085642160926,
+            "pathDeg": 16.702517710301795
+          }
+        },
+        "l": {
+          "source": {
+            "peakDegPerSecond": 424.70892432531446,
+            "pathDeg": 22.83183425559173
+          },
+          "retarget": {
+            "peakDegPerSecond": 424.7089432232898,
+            "pathDeg": 22.831833502101322
+          },
+          "preContact": {
+            "peakDegPerSecond": 424.7089432232898,
+            "pathDeg": 22.831833502101322
+          },
+          "contact": {
+            "peakDegPerSecond": 555.4603613758231,
+            "pathDeg": 29.479355951349763
+          },
+          "swing": {
+            "peakDegPerSecond": 555.4603613758231,
+            "pathDeg": 29.479355951349763
+          },
+          "leftDirection": {
+            "peakDegPerSecond": 964.7779460185517,
+            "pathDeg": 45.03080920893992
+          },
+          "landingSole": {
+            "peakDegPerSecond": 964.7779460185517,
+            "pathDeg": 45.03080920893992
+          },
+          "lateSole": {
+            "peakDegPerSecond": 964.7779460185517,
+            "pathDeg": 45.03080920893992
+          },
+          "toePath": {
+            "peakDegPerSecond": 964.7779460185517,
+            "pathDeg": 45.03080920893992
+          }
+        }
+      },
+      "leftRightPeakRatio": 2.8250475891669873,
+      "regression": {
+        "maxPositionMm": 0,
+        "maxRotationDeg": 3.818191820832845e-06,
+        "maxSkinMm": 0
+      }
+    },
+    {
+      "model": "female",
+      "stages": {
+        "r": {
+          "source": {
+            "peakDegPerSecond": 370.3306964220946,
+            "pathDeg": 17.079305873151057
+          },
+          "retarget": {
+            "peakDegPerSecond": 370.3307124337462,
+            "pathDeg": 17.079290805522806
+          },
+          "preContact": {
+            "peakDegPerSecond": 370.3307124337462,
+            "pathDeg": 17.079290805522806
+          },
+          "contact": {
+            "peakDegPerSecond": 346.2399136447409,
+            "pathDeg": 16.739962059423195
+          },
+          "swing": {
+            "peakDegPerSecond": 346.2399136447409,
+            "pathDeg": 16.739962059423195
+          },
+          "leftDirection": {
+            "peakDegPerSecond": 346.2399136447409,
+            "pathDeg": 16.739962059423195
+          },
+          "landingSole": {
+            "peakDegPerSecond": 346.2399136447409,
+            "pathDeg": 16.739962059423195
+          },
+          "lateSole": {
+            "peakDegPerSecond": 346.2399136447409,
+            "pathDeg": 16.739962059423195
+          },
+          "toePath": {
+            "peakDegPerSecond": 346.2399136447409,
+            "pathDeg": 16.739962059423195
+          }
+        },
+        "l": {
+          "source": {
+            "peakDegPerSecond": 424.70892432531446,
+            "pathDeg": 22.83183425559173
+          },
+          "retarget": {
+            "peakDegPerSecond": 424.7089591367454,
+            "pathDeg": 22.831834415446185
+          },
+          "preContact": {
+            "peakDegPerSecond": 424.7089591367454,
+            "pathDeg": 22.831834415446185
+          },
+          "contact": {
+            "peakDegPerSecond": 564.283624506326,
+            "pathDeg": 29.40632344369425
+          },
+          "swing": {
+            "peakDegPerSecond": 564.283624506326,
+            "pathDeg": 29.40632344369425
+          },
+          "leftDirection": {
+            "peakDegPerSecond": 983.7610300700767,
+            "pathDeg": 47.04076033656621
+          },
+          "landingSole": {
+            "peakDegPerSecond": 983.7610300700767,
+            "pathDeg": 47.04076033656621
+          },
+          "lateSole": {
+            "peakDegPerSecond": 983.7610300700767,
+            "pathDeg": 47.04076033656621
+          },
+          "toePath": {
+            "peakDegPerSecond": 983.7610300700767,
+            "pathDeg": 47.04076033656621
+          }
+        }
+      },
+      "leftRightPeakRatio": 2.841269857407207,
+      "regression": {
+        "maxPositionMm": 7.316702799947359e-08,
+        "maxRotationDeg": 3.4150945850063755e-06,
+        "maxSkinMm": 7.317235723294646e-08
+      }
+    }
+  ]
+}

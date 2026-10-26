@@ -1,0 +1,567 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "profiles": [
+    {
+      "model": "male",
+      "profile": "base",
+      "scale": 1,
+      "ratios": {
+        "torso": 1,
+        "shoulders": 1,
+        "upperArm": 1,
+        "forearm": 1,
+        "thigh": 1,
+        "shin": 1
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.00003999149589262174,
+        "floorChangeMm": 0.000007604653767812053,
+        "anchorShiftMm": 0.0000898146672409682,
+        "contactAboveFloorMm": 0,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 8.841673199174361e-7,
+        "symmetryGapMm": 1.6822543358330222e-8
+      },
+      "minFloorMm": 0.0005790383846432379,
+      "minSeparationMm": {
+        "heel": 25.765281226434276,
+        "forefoot": 23.486885547568324
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.00722010854470323,
+          "forefootMm": 25.841175938570785,
+          "floorMm": 0.00722010854470323,
+          "gapMm": 25.83395583002608
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.007220108544814252,
+          "forefootMm": 25.84117595539344,
+          "floorMm": 0.007220108544814252,
+          "gapMm": 25.833955846848625
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 23.907339918397206,
+          "forefootMm": 0.007220108631911248,
+          "floorMm": 0.007220108631911248,
+          "gapMm": -23.900119809765293
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 23.90733991511923,
+          "forefootMm": 0.007220108630884292,
+          "floorMm": 0.007220108630884292,
+          "gapMm": -23.900119806488345
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "profile": "mixed",
+      "scale": 1.1,
+      "ratios": {
+        "torso": 1.15,
+        "shoulders": 0.85,
+        "upperArm": 1.15,
+        "forearm": 0.85,
+        "thigh": 1.15,
+        "shin": 0.85
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000037285608073256427,
+        "floorChangeMm": 0.000006292248555528346,
+        "anchorShiftMm": 0.00008316692370525195,
+        "contactAboveFloorMm": 0,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 9.743306350900618e-7,
+        "symmetryGapMm": 2.0642918485691553e-8
+      },
+      "minFloorMm": 0.0006396908587280592,
+      "minSeparationMm": {
+        "heel": 28.40415134150927,
+        "forefoot": 25.799887882777927
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.007976391396241622,
+          "forefootMm": 28.47604932719891,
+          "floorMm": 0.007976391396241622,
+          "gapMm": 28.468072935802667
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.007976391395977944,
+          "forefootMm": 28.476049347841563,
+          "floorMm": 0.007976391395977944,
+          "gapMm": 28.468072956445585
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 26.25285662375633,
+          "forefootMm": 0.007976391550784667,
+          "floorMm": 0.007976391550784667,
+          "gapMm": -26.244880232205546
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 26.252856618320873,
+          "forefootMm": 0.007976391551187123,
+          "floorMm": 0.007976391551187123,
+          "gapMm": -26.244880226769684
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "profile": "min",
+      "scale": 0.9,
+      "ratios": {
+        "torso": 0.85,
+        "shoulders": 0.85,
+        "upperArm": 0.85,
+        "forearm": 0.85,
+        "thigh": 0.85,
+        "shin": 0.85
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000035721448576886417,
+        "floorChangeMm": 0.0000068395546726218726,
+        "anchorShiftMm": 0.00009339281508262869,
+        "contactAboveFloorMm": 0,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 7.942564637842e-7,
+        "symmetryGapMm": 1.1152106793588246e-8
+      },
+      "minFloorMm": 0.0004429642535830336,
+      "minSeparationMm": {
+        "heel": 23.135559553973895,
+        "forefoot": 21.17091367785656
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.005523381388372606,
+          "forefootMm": 23.20942518808444,
+          "floorMm": 0.005523381388372606,
+          "gapMm": 23.20390180669607
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.0055233813875399385,
+          "forefootMm": 23.209425199235717,
+          "floorMm": 0.0055233813875399385,
+          "gapMm": 23.203901817848177
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 21.557253532323628,
+          "forefootMm": 0.005523381495176061,
+          "floorMm": 0.005523381495176061,
+          "gapMm": -21.55173015082845
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 21.55725353133242,
+          "forefootMm": 0.005523381495481372,
+          "floorMm": 0.005523381495481372,
+          "gapMm": -21.55173014983694
+        }
+      ]
+    },
+    {
+      "model": "male",
+      "profile": "max",
+      "scale": 1.1,
+      "ratios": {
+        "torso": 1.15,
+        "shoulders": 1.15,
+        "upperArm": 1.15,
+        "forearm": 1.15,
+        "thigh": 1.15,
+        "shin": 1.15
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000044218792183414735,
+        "floorChangeMm": 0.000008374332408078722,
+        "anchorShiftMm": 0.00009875988326863356,
+        "contactAboveFloorMm": 0,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 9.739482338400806e-7,
+        "symmetryGapMm": 2.279993438492056e-8
+      },
+      "minFloorMm": 0.0007324833021932209,
+      "minSeparationMm": {
+        "heel": 28.398593509047416,
+        "forefoot": 25.800744516440247
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.009133434443475696,
+          "forefootMm": 28.474960443412098,
+          "floorMm": 0.009133434443475696,
+          "gapMm": 28.465827008968624
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.009133434443350796,
+          "forefootMm": 28.47496046621191,
+          "floorMm": 0.009133434443350796,
+          "gapMm": 28.46582703176856
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 26.256027366734067,
+          "forefootMm": 0.009133434512947902,
+          "floorMm": 0.009133434512947902,
+          "gapMm": -26.24689393222112
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 26.256027361257388,
+          "forefootMm": 0.009133434514474459,
+          "floorMm": 0.009133434514474459,
+          "gapMm": -26.246893926742914
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "profile": "base",
+      "scale": 1,
+      "ratios": {
+        "torso": 1,
+        "shoulders": 1,
+        "upperArm": 1,
+        "forearm": 1,
+        "thigh": 1,
+        "shin": 1
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000016227319432626786,
+        "floorChangeMm": 0.00000236602250291984,
+        "anchorShiftMm": 0.00007544280080368926,
+        "contactAboveFloorMm": 1.1735730828699165,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 6.820578671892076e-7,
+        "symmetryGapMm": 4.873879078104437e-9
+      },
+      "minFloorMm": 0.001778287253978439,
+      "minSeparationMm": {
+        "heel": 19.475746398609523,
+        "forefoot": 21.667477635092773
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.008196133085044965,
+          "forefootMm": 19.507606398383032,
+          "floorMm": 0.008196133085044965,
+          "gapMm": 19.499410265297985
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.008196133084836799,
+          "forefootMm": 19.507606400510344,
+          "floorMm": 0.008196133084836799,
+          "gapMm": 19.499410267425507
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 22.735980426656933,
+          "forefootMm": 0.8736673971584258,
+          "floorMm": 0.008196133108442916,
+          "gapMm": -21.86231302949851
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 22.73598042234749,
+          "forefootMm": 0.8736673977228632,
+          "floorMm": 0.008196133107499226,
+          "gapMm": -21.86231302462463
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "profile": "mixed",
+      "scale": 1.1,
+      "ratios": {
+        "torso": 1.15,
+        "shoulders": 0.85,
+        "upperArm": 1.15,
+        "forearm": 0.85,
+        "thigh": 1.15,
+        "shin": 0.85
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000014936008485566532,
+        "floorChangeMm": 0.0000019289485286844155,
+        "anchorShiftMm": 0.00009668769849162013,
+        "contactAboveFloorMm": 1.3151403093733527,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 7.509123156581584e-7,
+        "symmetryGapMm": 5.5039279800439544e-9
+      },
+      "minFloorMm": 0.001969016936123613,
+      "minSeparationMm": {
+        "heel": 21.431945976114836,
+        "forefoot": 23.79740399425126
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.009075206904629596,
+          "forefootMm": 21.47205387974789,
+          "floorMm": 0.009075206904629596,
+          "gapMm": 21.46297867284326
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.00907520690542063,
+          "forefootMm": 21.472053882207494,
+          "floorMm": 0.00907520690542063,
+          "gapMm": 21.46297867530207
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 24.99217618823757,
+          "forefootMm": 0.98533162076897,
+          "floorMm": 0.009075206941849823,
+          "gapMm": -24.006844567468598
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 24.992176183344885,
+          "forefootMm": 0.9853316213802171,
+          "floorMm": 0.00907520694255759,
+          "gapMm": -24.00684456196467
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "profile": "min",
+      "scale": 0.9,
+      "ratios": {
+        "torso": 0.85,
+        "shoulders": 0.85,
+        "upperArm": 0.85,
+        "forearm": 0.85,
+        "thigh": 0.85,
+        "shin": 0.85
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000014459589636750536,
+        "floorChangeMm": 0.0000021048106590981774,
+        "anchorShiftMm": 0.00008009390320165291,
+        "contactAboveFloorMm": 1.081893389332178,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 6.126371046191487e-7,
+        "symmetryGapMm": 3.7672904795726936e-9
+      },
+      "minFloorMm": 0.001360389733251477,
+      "minSeparationMm": {
+        "heel": 17.51810414905605,
+        "forefoot": 19.488858453856032
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.006270041766703871,
+          "forefootMm": 17.540954159414063,
+          "floorMm": 0.006270041766703871,
+          "gapMm": 17.53468411764736
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.006270041767175716,
+          "forefootMm": 17.54095416107471,
+          "floorMm": 0.006270041767175716,
+          "gapMm": 17.53468411930753
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 20.48020953609475,
+          "forefootMm": 0.8106293590589286,
+          "floorMm": 0.006270041789990799,
+          "gapMm": -19.669580177035822
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 20.48020953274904,
+          "forefootMm": 0.8106293594805081,
+          "floorMm": 0.0062700417905459105,
+          "gapMm": -19.669580173268532
+        }
+      ]
+    },
+    {
+      "model": "female",
+      "profile": "max",
+      "scale": 1.1,
+      "ratios": {
+        "torso": 1.15,
+        "shoulders": 1.15,
+        "upperArm": 1.15,
+        "forearm": 1.15,
+        "thigh": 1.15,
+        "shin": 1.15
+      },
+      "samples": 404,
+      "max": {
+        "upperMatrix": 0,
+        "inactiveLegMatrix": 0,
+        "rootMatrix": 0,
+        "lengthMm": 0.000017984399414139318,
+        "floorChangeMm": 0.000002628519318870204,
+        "anchorShiftMm": 0.000099659245501574,
+        "contactAboveFloorMm": 1.2603349663814143,
+        "parameterDelta": 0,
+        "endpointDeltaMm": 7.514114078429282e-7,
+        "symmetryGapMm": 6.048320955187592e-9
+      },
+      "minFloorMm": 0.00224953335908884,
+      "minSeparationMm": {
+        "heel": 21.429392602233612,
+        "forefoot": 23.855917028766104
+      },
+      "contact": [
+        {
+          "mode": "heel",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 0.010368108243619112,
+          "forefootMm": 21.471107701149023,
+          "floorMm": 0.010368108243619112,
+          "gapMm": 21.460739592905405
+        },
+        {
+          "mode": "heel",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 0.010368108244264429,
+          "forefootMm": 21.471107703736198,
+          "floorMm": 0.010368108244264429,
+          "gapMm": 21.460739595491933
+        },
+        {
+          "mode": "forefoot",
+          "side": "r",
+          "phase": 0.28,
+          "heelMm": 24.996325962090673,
+          "forefootMm": 0.9321003820004087,
+          "floorMm": 0.010368108266801956,
+          "gapMm": -24.064225580090262
+        },
+        {
+          "mode": "forefoot",
+          "side": "l",
+          "phase": 0.78,
+          "heelMm": 24.996325956783313,
+          "forefootMm": 0.9321003827413715,
+          "floorMm": 0.01036810826646889,
+          "gapMm": -24.06422557404194
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "3232 poses: both sexes, base/mixed/all-min/all-max body settings, two pose combinations, heel/forefoot, full cycle",
+    "Independent Three.js skin measurements: contact part, floor preservation, material anchor, symmetry and bone lengths",
+    "Root/upper body/inactive leg matrices and pose parameters unchanged; recovery boundaries approach the base pose",
+    "All 16 directed live mode transitions and rapid reversals; selection never resets body or pose settings",
+    "Both added modes survive step navigation and reload; old/invalid data retains compatibility",
+    "390px selector visible without panel scrolling; no horizontal overflow"
+  ],
+  "errors": []
+}

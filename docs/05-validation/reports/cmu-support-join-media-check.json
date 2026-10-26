@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "videos": [
+    {
+      "view": "front",
+      "width": 1202,
+      "height": 678,
+      "error": null,
+      "decodedDifferentFrames": 3,
+      "bytes": 558707
+    },
+    {
+      "view": "side",
+      "width": 1202,
+      "height": 678,
+      "error": null,
+      "decodedDifferentFrames": 3,
+      "bytes": 552409
+    }
+  ],
+  "unchangedAcceptedModules": {
+    "shared-gait.js": true,
+    "body-height.js": true
+  }
+}

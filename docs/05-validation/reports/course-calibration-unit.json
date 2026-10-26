@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "milestone": "M91",
+  "calibration": {
+    "id": "field-bc-v1",
+    "distanceScale": 0.9661488207898548,
+    "targetMapDistanceM": 4140.148923154389,
+    "referenceStartDistanceM": 1121.8640021884382,
+    "mapLapM": 1187.295901981294,
+    "calibratedLapM": 1147.1045356278541,
+    "bMapDistanceM": 429.08378168374816,
+    "cMapDistanceM": 658.1217882721141,
+    "threeKmAfterBM": 37.739667898513744,
+    "fourKmMapDistanceM": 543.6027849779312,
+    "surveyed": false
+  },
+  "referenceDraft": {
+    "id": "gimhae-lotte-garden-b",
+    "revision": "c-3471370ec877",
+    "startDistanceM": 1121.8640021884382,
+    "direction": "reverse",
+    "laps": 6,
+    "goal": {
+      "type": "distance",
+      "distanceM": 5000
+    },
+    "paceSecondsPerKm": 360
+  },
+  "checks": [
+    "4 km lands at C→B route midpoint; single distance scale puts 3 km 37.74 map metres beyond B; original geometry/cumulative coordinate basis unchanged",
+    "1,000 starts/directions: start preserved, one-lap return, continuous seam and negative/large distances use one calibrated distance metric",
+    "40 direction/goal/pace playback cases: correct calibrated finish/laps; km-goal time and gait timing unchanged; lap-goal total/time recalculated; settings immutable",
+    "Legacy B→C start migration still preserves the physical point and every other preference"
+  ],
+  "routeCases": 1000,
+  "clockCases": 40,
+  "milestones": [
+    {
+      "km": 1,
+      "before": [
+        119.835737048457,
+        20.696413654803667
+      ],
+      "after": [
+        84.9602494620047,
+        17.530027648190774
+      ],
+      "extraMapTravelM": 35.0372307885973
+    },
+    {
+      "km": 2,
+      "before": [
+        306.55343658883555,
+        35.044839580692624
+      ],
+      "after": [
+        236.7843974398143,
+        28.506784942301714
+      ],
+      "extraMapTravelM": 70.0744615771946
+    },
+    {
+      "km": 3,
+      "before": [
+        428.47637166412056,
+        -15.087023365304137
+      ],
+      "after": [
+        386.24371387206554,
+        40.03135199627031
+      ],
+      "extraMapTravelM": 105.1116923657919
+    },
+    {
+      "km": 4,
+      "before": [
+        383.72776812506163,
+        -176.78931499198998
+      ],
+      "after": [
+        419.2779649136244,
+        -61.30109342000097
+      ],
+      "extraMapTravelM": 140.1489231543892
+    },
+    {
+      "km": 5,
+      "before": [
+        207.83040133345187,
+        -168.94028975543142
+      ],
+      "after": [
+        373.7756842158128,
+        -171.7683170600477
+      ],
+      "extraMapTravelM": 175.1861539429865
+    }
+  ],
+  "limits": [
+    "User-described locations, not surveyed GPS",
+    "4km midpoint is interpreted along C→B route",
+    "Other field distances/start/directions unverified"
+  ]
+}

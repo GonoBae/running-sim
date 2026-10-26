@@ -1,8 +1,22 @@
 # 연구 자료와 확인 범위
 
-2026-10-04 · **연구 후보 목록 · 데이터 파일 분석과 모델 검증은 아직 전**
+2026-10-22 · **15–19번 실제 코스 자료 추가 / 13–14번 동작 자료의 기존 확인 범위 보존**
 
 ![자료 확인과 보정 및 독립 평가 흐름](../assets/diagrams/validation.svg)
+
+## 실제 코스 자료 · M85
+
+![공개 좌표와 아직 미확정인 러닝 한 바퀴](../assets/images/course-evidence.png)
+
+| 자료 | 확인 범위 | 남은 확인 |
+| --- | --- | --- |
+| 15. [롯데 공식 소개](https://m.lotteresort.com/gimhae/ko/about) | 공식 검색 색인의 롯데가든파크·러닝 트랙 소개 | 실제 트랙 선형·거리·운영/통행 조건 |
+| 16. [OSM 공원](https://www.openstreetmap.org/way/1471465808) · [Overpass](https://wiki.openstreetmap.org/wiki/Overpass_API) · [이용 조건](https://www.openstreetmap.org/copyright) | 공개 좌표 응답·ID·버전·쿼리 확보 · [추출 JSON](../05-validation/reports/course-source.json) | 보행 선형 중 실제 뛰는 한 바퀴 · 현장 정확도 |
+| 17. [GeoJSON RFC 7946](https://datatracker.ietf.org/doc/html/rfc7946) · [GPX](https://www.topografix.com/gpx.asp) | 위치·경로 교환 형식 | 우리 코스 변환·연결·거리 검사 미구현 |
+| 18. [Nike 파트너 연결](https://www.nike.com/help/a/connect-nrc-partner-apps-devices/app) | NRC 설정의 파트너 연결 · 지역별 지원 차이 | 사용자 계정·과거 기록·GPS 데이터 확보 여부 |
+| 19. [Strava 내보내기](https://support.strava.com/en-us/articles/15401919-how-do-i-export-my-strava-data) | 웹 활동 GPX 내보내기 · GPS 없는 활동은 경로 없음 | 사용자 기록 미접근 · 자동 연결 미구현 |
+
+확인일 2026-10-22. 지도 자료는 © OpenStreetMap contributors / ODbL이며, [확보 증거·한계](../05-validation/COURSE_FEASIBILITY.md)에 실제 조회 범위를 기록합니다.
 
 ## 자세와 기록 관련 후보
 
@@ -15,7 +29,24 @@
 
 11–12번은 공개 설명·연구 초록을 확인했습니다. OpenSim의 근육·관절 힘은 모델 추정값이며 직접 측정값과 구분합니다.
 
-## 기존 후보
+## 기본 동작 비교에 사용한 자료
+
+| 자료 | 확인·분석 | 남은 확인 |
+| --- | --- | --- |
+| 13. [Reznick 등 2021](https://doi.org/10.1038/s41597-021-01057-9) · [Normalized v1](https://doi.org/10.6084/m9.figshare.14558184.v1) · [설명서](https://doi.org/10.6084/m9.figshare.14125814.v1) · [예제](https://doi.org/10.6084/m9.figshare.13096058.v1) | 데이터 CC0 확인 · AB01/Run/s2x0/i0 왼발 35주기 각도·첫 주기 마커 추출 | 한 참가자의 한 조건 · 3D 좌표 대응·다른 속도/체형·전신/접지 검증 전 |
+
+실제 분석 범위·그림·재현 원본은 [달리기 비교 설계서](../04-technical/RUNNING_COMPARISON.md)에 모았습니다. 다른 후보의 분석 완료를 뜻하지 않습니다.
+
+## 전신 기본 동작 후보
+
+| 자료 | 확인·분석 | 남은 확인 |
+| --- | --- | --- |
+| 14. [CMU Graphics Lab](https://mocap.cs.cmu.edu/) · [35_17](https://mocap.cs.cmu.edu/search.php?motion=%25&subjectnumber=35) · [127_06](https://mocap.cs.cmu.edu/search.php?subjectnumber=127) | ASF/AMC 네 파일 확보 · 120Hz · 제품 내 포함 허용/데이터 자체 재판매 금지 · 남녀 20개 뼈 전달 시험 | 기준 동작 선정·반복 연결·접지·정식 관절 제한·C3D 독립 대조 |
+| 15. [Ubisoft LAFAN1](https://github.com/ubisoft/ubisoft-laforge-animation-dataset) | Run BVH 존재와 CC BY-NC-ND 4.0 확인 | 서비스용 수정 자산으로 이번에는 채택하지 않음 |
+
+[실제 움직임·코드·검증 결과](../05-validation/FULL_BODY_REFERENCE.md). CMU 손·발가락 데이터의 품질 및 비측정 손가락 데이터 한계는 공식 안내에 따릅니다.
+
+## 초기 후보 (이력)
 
 1–10번은 초기 전달 맥락을 보존한 목록입니다. 실제 파일·이용 조건은 별도 확인해야 합니다.
 

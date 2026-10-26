@@ -1,0 +1,6 @@
+// Rebuild: node docs/assets/diagrams/body-picking.cjs. Source: approved M11 interaction contract.
+const fs=require('node:fs'),path=require('node:path');
+const text=(x,y,s,size=18,color='#293c32')=>`<text x="${x}" y="${y}" font-size="${size}" fill="${color}">${s}</text>`;
+const card=(x,y,title,detail)=>`<rect x="${x}" y="${y}" width="300" height="92" rx="14" fill="white" stroke="#d3ded4"/>${text(x+18,y+32,title,22)}${text(x+18,y+62,detail,16,'#66796a')}`;
+const arrow=(x,y)=>`<path d="M${x} ${y}h37l-7-6m7 6-7 6" stroke="#82978a" fill="none" stroke-width="2"/>`;
+fs.writeFileSync(path.join(__dirname,'body-picking.svg'),`<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="410" viewBox="0 0 1120 410"><rect width="1120" height="410" rx="22" fill="#f3f6f1"/><g font-family="Malgun Gothic, sans-serif">${text(40,47,'M11 · 보이는 부위만 선택',28)}${text(40,79,'확정: 오른쪽 아래팔 비교 실험 + 양쪽 점 가림 / 로컬 검사 완료 · 사용감은 사용자 검토',16,'#66796a')}${card(40,110,'아래팔 표면 클릭','보이는 오른쪽 아래팔만 선택')}${arrow(350,155)}${card(400,110,'부위 강조 + 드래그','위로 굽힘 · 아래로 펴기')}${arrow(710,155)}${card(760,110,'팔꿈치 각도 반영','점 입력과 같은 제한·취소·숫자')}${card(40,228,'팔꿈치 점 클릭','실제 관절 위치의 점 유지')}${arrow(350,274)}${card(400,228,'같은 드래그 처리','한 번에 하나만 조작')}${arrow(710,274)}${card(760,228,'가려진 점은 숨김','몸·반대 팔 뒤를 관통하지 않음')}${text(40,371,'가려졌다면: 화면 회전 / 좌측면·우측면 버튼 / 부위 목록의 숫자 입력',19)}</g></svg>\n`);

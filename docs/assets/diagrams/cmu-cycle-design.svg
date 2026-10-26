@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="580" viewBox="0 0 1120 580">
+<rect width="1120" height="580" rx="18" fill="#f6f5f1"/><style>text{font-family:Malgun Gothic,sans-serif;fill:#233b32}.h{font-size:26px;font-weight:700}.t{font-size:20px}.s{font-size:17px;fill:#63736a}.n{font-size:19px;font-weight:700}</style>
+<text x="28" y="43" class="h">다음 수정의 순서 · 설계 제안 / 구현 전</text>
+<text x="28" y="76" class="s">35_17 유지 · 각도를 더하기 전에 기준을 확인 · 한 번에 한 단계만 검토</text>
+<g fill="white" stroke="#cbd7cf"><rect x="28" y="102" width="248" height="150" rx="12"/><rect x="300" y="102" width="248" height="150" rx="12"/><rect x="572" y="102" width="248" height="150" rx="12"/><rect x="844" y="102" width="248" height="150" rx="12"/></g>
+<text x="47" y="137" class="n">① 원본 재구성 검산</text><text x="47" y="176" class="s">별도 뷰어 / 독립 자료</text><text x="47" y="205" class="s">축 · 좌우 · 회전 순서</text><text x="47" y="234" class="s">오류 발견 시 이것만 수정</text>
+<text x="319" y="137" class="n">② 착지 시점 대조</text><text x="319" y="176" class="s">발바닥 높이 · 움직임</text><text x="319" y="205" class="s">기존 지지 추정과 비교</text><text x="319" y="234" class="s">고정 비율을 실측 취급 금지</text>
+<text x="591" y="137" class="n">③ 오른발 한 구간</text><text x="591" y="176" class="s">기준 확인 후 목표점 결정</text><text x="591" y="205" class="s">무릎 방향을 함께 확인</text><text x="591" y="234" class="s">목표 폭 · 보정량 아직 미정</text>
+<text x="863" y="137" class="n">④ 한 주기 전체 검토</text><text x="863" y="176" class="s">정면 + 측면 · 1× / 0.5×</text><text x="863" y="205" class="s">착지 수치 + 회수 궤적</text><text x="863" y="234" class="s">사용자 확인 후 다음 단계</text>
+<g class="t"><text x="278" y="183">→</text><text x="550" y="183">→</text><text x="822" y="183">→</text></g>
+<text x="28" y="303" class="t">③에 도달했을 때의 후보 구조 · 아직 적용하지 않음</text>
+<g fill="#e5eee6" stroke="#cbd7cf"><rect x="28" y="325" width="330" height="138" rx="10"/><rect x="395" y="325" width="330" height="138" rx="10"/><rect x="762" y="325" width="330" height="138" rx="10"/></g>
+<text x="49" y="360" class="n">착지</text><text x="49" y="398" class="s">근거가 확인된 발 위치부터</text><text x="49" y="431" class="s">고관절 각도 고정 대신 목표점</text>
+<text x="416" y="360" class="n">지지 → 밀기</text><text x="416" y="398" class="s">발바닥 · 무릎 · 골반 동시 확인</text><text x="416" y="431" class="s">목표점에 맞게 다리 계산 검토</text>
+<text x="783" y="360" class="n">다리 회수</text><text x="783" y="398" class="s">현재 회수 경로를 우선 보존</text><text x="783" y="431" class="s">계속 바깥으로 미는 회전 금지</text>
+<text x="28" y="505" class="s">구간 사이 위치·속도를 부드럽게 연결하는 방식도 별도 검토 · 목표점을 맞춰도 자연스러움은 자동 보장되지 않음</text>
+<text x="28" y="547" class="t">이번 완료: 전체 궤적 비교·실패 원인 정리   |   다음 제안: ① 원본 재구성 검산</text>
+</svg>

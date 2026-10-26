@@ -1,0 +1,96 @@
+{
+  "status": "internal-distance-check-passed-field-match-unresolved",
+  "milestone": "M90",
+  "date": "2026-10-22",
+  "method": "Independent 3D unit-vector central angle atan2(cross,dot); does not import application distance formula.",
+  "assetRevision": "c-3471370ec877",
+  "computedM": 1187.2959019819073,
+  "applicationM": 1187.29590198216,
+  "differenceM": 2.5283952709287405e-10,
+  "localPlanarM": 1187.2907751772525,
+  "observedUI": {
+    "startSVG": [
+      64.11096675409313,
+      284.54804336669207
+    ],
+    "startDistanceM": 1121.8640021884382,
+    "direction": "reverse",
+    "goalKm": 5
+  },
+  "milestones": [
+    {
+      "km": 1,
+      "localEN": [
+        119.8357370489185,
+        20.696413654836178
+      ],
+      "completedLaps": 0
+    },
+    {
+      "km": 2,
+      "localEN": [
+        306.55343659035566,
+        35.044839580835074
+      ],
+      "completedLaps": 1
+    },
+    {
+      "km": 3,
+      "localEN": [
+        428.4763716637463,
+        -15.087023366919379
+      ],
+      "completedLaps": 2
+    },
+    {
+      "km": 4,
+      "localEN": [
+        383.727768122788,
+        -176.78931499225013
+      ],
+      "completedLaps": 3
+    },
+    {
+      "km": 5,
+      "localEN": [
+        207.83040133208542,
+        -168.94028975404206
+      ],
+      "completedLaps": 4
+    }
+  ],
+  "roundingUsedForDistance": false,
+  "userReport": {
+    "1km": "비슷함",
+    "2km": "실제보다 살짝 뒤임",
+    "3km": "B 코너 꺾은 후 조금 더 뛰면 3키로",
+    "4km": "C 코너 꺾고 다음 직선 중간까지 가면 4키로",
+    "5km": "더 가서 오른쪽에 길 나있는 부분"
+  },
+  "confirmedCorners": {
+    "3km": "B",
+    "4km": "C"
+  },
+  "cornerComparison": [
+    {
+      "km": 3,
+      "corner": "B",
+      "distanceToCornerM": 3067.3720244700075,
+      "currentMarkerBeforeCornerM": 67.37202447000755
+    },
+    {
+      "km": 4,
+      "corner": "C",
+      "distanceToCornerM": 4025.6299198629627,
+      "currentMarkerBeforeCornerM": 25.62991986296265
+    }
+  ],
+  "unresolved": [
+    "exact 3km/4km position beyond the confirmed corners",
+    "5km junction",
+    "field route coordinate/distance correspondence",
+    "NRC track vs mapped line"
+  ],
+  "calibrationApplied": false,
+  "notAnIndependentSurvey": true
+}

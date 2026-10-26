@@ -1,0 +1,342 @@
+{
+  "status": "passed",
+  "testedAt": "2026-10-20T14:37:52.653Z",
+  "errors": [],
+  "unchangedModules": {
+    "experiments/model-preview/review/shared-gait.js": true,
+    "experiments/model-preview/review/body-height.js": true,
+    "experiments/model-preview/review/upper-center.js": true,
+    "experiments/model-preview/review/bilateral-pose.js": true,
+    "experiments/model-preview/review/shared-approach.js": true,
+    "experiments/model-preview/review/shared-support.js": true,
+    "experiments/model-preview/review/shared-release.js": true,
+    "experiments/model-preview/review/knee-lateral.js": true,
+    "experiments/model-preview/review/arm-swing.js": true
+  },
+  "results": [
+    {
+      "model": "male",
+      "samples": 1001,
+      "protectedSkinVertices": 10683,
+      "skinPhases": 21,
+      "skinPoints": {
+        "index_03_r": 2049,
+        "middle_03_r": 2280,
+        "ring_03_r": 2511,
+        "pinky_03_r": 2737,
+        "thumb_03_r": 2933,
+        "index_03_l": 9282,
+        "middle_03_l": 9513,
+        "ring_03_l": 9744,
+        "pinky_03_l": 9970,
+        "thumb_03_l": 10166
+      },
+      "metrics": {
+        "protectedMm": 0,
+        "protectedDeg": 3.818191820832845e-06,
+        "wristMm": 0,
+        "boneOffsetMm": 0,
+        "protectedSkinMm": 0,
+        "floorDeltaMm": 0,
+        "minFloorMm": 5.551115123125783e-14,
+        "archivedArmDeg": 1.4210854715202004e-14,
+        "archivedWristMm": 0,
+        "armDeg": 0,
+        "symmetryMm": 1.108752000859514e-06,
+        "symmetryBendDeg": 1.971756091734278e-13,
+        "seamDeg": 3.4150945850063755e-06,
+        "seamVelocityGapRadPerSec": 0.0006736283098707898,
+        "seekDeg": 3.4150945850063755e-06,
+        "displayGroupDeg": 3.4150945850063755e-06
+      },
+      "hands": {
+        "r": {
+          "beforeBendDeg": [
+            38.12646965452052,
+            43.7641181205375
+          ],
+          "afterBendDeg": [
+            5.557889078400757,
+            5.557889272729789
+          ],
+          "fingers": {
+            "index": {
+              "towardPalmMm": [
+                37.57627846486296,
+                37.57627924592996
+              ],
+              "shortenedMm": [
+                71.79520216894642,
+                71.79520556100525
+              ]
+            },
+            "middle": {
+              "towardPalmMm": [
+                51.15979514930855,
+                51.15979591259015
+              ],
+              "shortenedMm": [
+                72.17775780743182,
+                72.17776107250626
+              ]
+            },
+            "ring": {
+              "towardPalmMm": [
+                45.346526543713956,
+                45.346527251091345
+              ],
+              "shortenedMm": [
+                72.19808635500456,
+                72.19808900109777
+              ]
+            },
+            "pinky": {
+              "towardPalmMm": [
+                28.50011432085462,
+                28.500114960381076
+              ],
+              "shortenedMm": [
+                55.65255670230408,
+                55.65255897194709
+              ]
+            },
+            "thumb": {
+              "towardPalmMm": [
+                39.72312306864255,
+                39.723124270500406
+              ],
+              "shortenedMm": [
+                15.836206992401543,
+                15.836209365440794
+              ]
+            }
+          }
+        },
+        "l": {
+          "beforeBendDeg": [
+            38.12646976391445,
+            43.764118102841365
+          ],
+          "afterBendDeg": [
+            5.557889078400824,
+            5.5578892727297236
+          ],
+          "fingers": {
+            "index": {
+              "towardPalmMm": [
+                37.576275223557275,
+                37.57628858058722
+              ],
+              "shortenedMm": [
+                71.79520278021704,
+                71.795207198175
+              ]
+            },
+            "middle": {
+              "towardPalmMm": [
+                51.159790423923276,
+                51.15980378779571
+              ],
+              "shortenedMm": [
+                72.1777578256843,
+                72.17776160134571
+              ]
+            },
+            "ring": {
+              "towardPalmMm": [
+                45.34652348465693,
+                45.34653231335567
+              ],
+              "shortenedMm": [
+                72.1980860974011,
+                72.19809005041017
+              ]
+            },
+            "pinky": {
+              "towardPalmMm": [
+                28.50011252675972,
+                28.50011770530768
+              ],
+              "shortenedMm": [
+                55.652556339164335,
+                55.65255956736526
+              ]
+            },
+            "thumb": {
+              "towardPalmMm": [
+                39.723118537055626,
+                39.72313245300283
+              ],
+              "shortenedMm": [
+                15.83620653927602,
+                15.83620999558974
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "model": "female",
+      "samples": 1001,
+      "protectedSkinVertices": 10683,
+      "skinPhases": 21,
+      "skinPoints": {
+        "index_03_r": 2049,
+        "middle_03_r": 2280,
+        "ring_03_r": 2514,
+        "pinky_03_r": 2737,
+        "thumb_03_r": 2933,
+        "index_03_l": 9282,
+        "middle_03_l": 9513,
+        "ring_03_l": 9747,
+        "pinky_03_l": 9970,
+        "thumb_03_l": 10166
+      },
+      "metrics": {
+        "protectedMm": 0,
+        "protectedDeg": 4.182619578303746e-06,
+        "wristMm": 0,
+        "boneOffsetMm": 0,
+        "protectedSkinMm": 0,
+        "floorDeltaMm": 0,
+        "minFloorMm": 0,
+        "archivedArmDeg": 1.4210854715202004e-14,
+        "archivedWristMm": 0,
+        "armDeg": 0,
+        "symmetryMm": 6.766621667281696e-06,
+        "symmetryBendDeg": 2.602362769721367e-13,
+        "seamDeg": 2.9575586669421963e-06,
+        "seamVelocityGapRadPerSec": 0.0006735172963184481,
+        "seekDeg": 2.9575586669421963e-06,
+        "displayGroupDeg": 2.9575586669421963e-06
+      },
+      "hands": {
+        "r": {
+          "beforeBendDeg": [
+            38.126471806298646,
+            43.764118073172384
+          ],
+          "afterBendDeg": [
+            7.0030903575865375,
+            7.003091688508344
+          ],
+          "fingers": {
+            "index": {
+              "towardPalmMm": [
+                30.893920342773292,
+                30.893922197547553
+              ],
+              "shortenedMm": [
+                61.464270022323845,
+                61.46428555356748
+              ]
+            },
+            "middle": {
+              "towardPalmMm": [
+                43.374571059997365,
+                43.37457291861942
+              ],
+              "shortenedMm": [
+                61.33294212416797,
+                61.3329652443453
+              ]
+            },
+            "ring": {
+              "towardPalmMm": [
+                42.22560862162345,
+                42.225610286371165
+              ],
+              "shortenedMm": [
+                59.4504478820614,
+                59.45047160590906
+              ]
+            },
+            "pinky": {
+              "towardPalmMm": [
+                24.06922250811997,
+                24.06922401511287
+              ],
+              "shortenedMm": [
+                47.30005016435305,
+                47.30007041980498
+              ]
+            },
+            "thumb": {
+              "towardPalmMm": [
+                33.712894122646674,
+                33.71289693158741
+              ],
+              "shortenedMm": [
+                13.358121137825805,
+                13.358125853882129
+              ]
+            }
+          }
+        },
+        "l": {
+          "beforeBendDeg": [
+            38.126471144310734,
+            43.764117353519644
+          ],
+          "afterBendDeg": [
+            7.003090357586643,
+            7.003091688508344
+          ],
+          "fingers": {
+            "index": {
+              "towardPalmMm": [
+                30.893904467001157,
+                30.89391852779695
+              ],
+              "shortenedMm": [
+                61.46426695677194,
+                61.46428095247035
+              ]
+            },
+            "middle": {
+              "towardPalmMm": [
+                43.374556645490586,
+                43.37458217376217
+              ],
+              "shortenedMm": [
+                61.33293936505552,
+                61.33296547953441
+              ]
+            },
+            "ring": {
+              "towardPalmMm": [
+                42.22560999313279,
+                42.22561847753475
+              ],
+              "shortenedMm": [
+                59.45044930523768,
+                59.45047219557672
+              ]
+            },
+            "pinky": {
+              "towardPalmMm": [
+                24.069223724874682,
+                24.06922742649227
+              ],
+              "shortenedMm": [
+                47.30005059138931,
+                47.30007086609521
+              ]
+            },
+            "thumb": {
+              "towardPalmMm": [
+                33.7128880292177,
+                33.71290701441732
+              ],
+              "shortenedMm": [
+                13.358119893058841,
+                13.358127693662667
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

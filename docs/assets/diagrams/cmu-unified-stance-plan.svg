@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+ <rect width="1200" height="470" rx="18" fill="#f6f5f1"/>
+ <g font-family="Malgun Gothic, sans-serif" fill="#233b32">
+  <text x="32" y="48" font-size="28">M75 · 착지부터 발 떼기까지 하나의 접촉 경로</text>
+  <text x="32" y="86" font-size="18" fill="#63736a">사용자 승인 / 구현·기하·재생 검사 완료 / 실제 사람의 힘·마찰 검증 아님 · R02·R16 / D03</text>
+  <g><rect x="32" y="125" width="340" height="135" rx="12" fill="#dbeaf0"/>
+   <text x="52" y="163" font-size="24">착지 · 28–30%</text><text x="52" y="202" font-size="18">기존 첫 접촉 위치에서 감속</text><text x="52" y="236" font-size="18">고관절·무릎·발 연동</text></g>
+  <text x="388" y="202" font-size="30">→</text>
+  <g><rect x="440" y="125" width="330" height="135" rx="12" fill="#dbeaf0"/>
+   <text x="460" y="163" font-size="24">지지 · 30–55%</text><text x="460" y="202" font-size="18">발바닥이 구르는 접촉을 추적</text><text x="460" y="236" font-size="18">중간의 다른 지지점으로 복귀 없음</text></g>
+  <text x="786" y="202" font-size="30">→</text>
+  <g><rect x="838" y="125" width="330" height="135" rx="12" fill="#e7eee7"/>
+   <text x="858" y="163" font-size="24">발 떼기 · 55–68%</text><text x="858" y="202" font-size="18">무릎 굽힘·발 높이를 함께 연결</text><text x="858" y="236" font-size="18">68%부터 기존 회수 그대로</text></g>
+  <text x="32" y="315" font-size="22">양발: 같은 규칙 + 반 주기 차이 / 같은 쪽 고관절 기준 옆 경로 공유</text>
+  <text x="32" y="360" font-size="22">보존: 골반 이동 · 몸 높이 · 상체 · 발 세계 방향 · 뼈 길이 · 구간 밖 회수</text>
+  <text x="32" y="415" font-size="19" fill="#63736a">발의 높이는 발 떼기에서 변경됨 / 몸 높이와 구분 · 접촉 중 옆 이동은 잔여 · 완전 고정 아님</text>
+ </g>
+</svg>

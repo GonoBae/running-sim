@@ -6,6 +6,11 @@ import {createRunningPose} from './running-pose';
 import {localLab,readSettings,modelBuffer,builtInModels,supportedHashes,type ModelType} from './settings';
 import {startVisit,record} from './analytics';
 import {createBodyDimensions,lengthFields,bodyRecipe} from './body-dimensions';
+import {connectPoseSnapshotControls} from './pose-snapshot-ui';
+import {connectLegLiftControls} from './leg-lift-ui';
+import {connectSetupSteps} from './setup-steps';
+import {connectElbowDrag} from './elbow-drag';
+import {connectBasicRunControls} from './basic-run-ui';
 
 const settings=readSettings();
 const adminPreview=localLab&&new URLSearchParams(location.search).get('admin-preview')==='1';
@@ -55,6 +60,45 @@ let baseHeight = 0;
 let baseFloor = 0;
 const baseScale = new THREE.Vector3();
 const basePosition = new THREE.Vector3();
+const followedTravel=new THREE.Vector3();
+function followRun(travel=new THREE.Vector3()){
+  const delta=travel.clone().sub(followedTravel);
+  camera.position.add(delta);controls.target.add(delta);target.add(delta);followedTravel.copy(travel);
+  // Recenter by exact grid cells: world grid lines do not slide under a planted foot.
+  const cell=.2*floor.scale.x;floor.position.z=Math.floor(travel.z/cell)*cell;floor.position.x=Math.floor(travel.x/cell)*cell;
+}
+const legLiftControls=connectLegLiftControls(()=>({
+  pose:runningPose,ready:document.body.dataset.loaded==='true',
+  currentPolicy:()=>readSettings().revision===settings.revision,
+}));
+const basicRunControls=connectBasicRunControls(()=>({
+  pose:runningPose,model,bones,floorY:floor.position.y+.005,ready:document.body.dataset.loaded==='true',
+  currentPolicy:()=>readSettings().revision===settings.revision,
+}),()=>legLiftControls.stop(),followRun);
+function stopPlayback(){basicRunControls.stop();legLiftControls.stop();}
+const snapshotControls=connectPoseSnapshotControls(()=>({
+  state:document.body.dataset.loaded==='true'?(runningPose?'ready':'unsupported'):
+    document.body.dataset.loaded==='error'?'error':'loading',
+  modelHash,loadId,settingsRevision:settings.revision,
+  latestSettingsRevision:readSettings().revision,pose:runningPose,
+}),()=>{el('pose-feedback').textContent='';showAngles();});
+connectSetupSteps({
+  adminPreview,
+  canContinue:()=>document.body.dataset.loaded==='true'&&!!runningPose&&settings.revision===readSettings().revision,
+  beforeLeavePose:()=>stopPlayback(),
+});
+const elbowDrag=connectElbowDrag({
+  viewport,camera,controls,
+  getContext:()=>({pose:runningPose,model,bones,ready:document.body.dataset.loaded==='true',
+    editable:!basicRunControls.active&&(adminPreview||document.body.dataset.setupStep==='pose'),
+    currentPolicy:()=>settings.revision===readSettings().revision}),
+  stopPlayback:()=>stopPlayback(),
+  onEdited:(jointId)=>{
+    const index=runningPose?.definitions.findIndex(j=>j.id===jointId);
+    if(index!==undefined&&index>=0)boneSelect.value=String(index);
+    el('pose-feedback').textContent='';showAngles();snapshotControls.edited();
+  },
+});
 
 function options(select: HTMLSelectElement, labels: string[]) {
   select.replaceChildren();
@@ -75,7 +119,9 @@ function dispose(root: THREE.Object3D) {
   textures.forEach(t => {t.dispose(); if (t.image instanceof ImageBitmap) t.image.close();});
 }
 function setView(view = 'front') {
-  const vector = view === 'side' ? new THREE.Vector3(1, .08, 0) : view === 'back' ? new THREE.Vector3(0,.08,-1) : new THREE.Vector3(0,.08,1);
+  // A chosen view must not inherit a previous orbit gesture's remaining inertia.
+  const damping=controls.enableDamping;controls.enableDamping=false;controls.update();controls.enableDamping=damping;
+  const vector = view === 'side' ? new THREE.Vector3(1, .08, 0) : view === 'right' ? new THREE.Vector3(-1,.08,0) : view === 'back' ? new THREE.Vector3(0,.08,-1) : new THREE.Vector3(0,.08,1);
   camera.position.copy(target).addScaledVector(vector.normalize(),distance);
   controls.target.copy(target); controls.update();
 }
@@ -154,10 +200,13 @@ function resizeBody(heightCm: number) {
   showLengths();
 }
 async function load(buffer: ArrayBuffer, name: string) {
+  stopPlayback();
   const currentId = ++loadId;
   el<HTMLButtonElement>('apply-settings').disabled=true;
   el('apply-message').textContent='';
   document.body.dataset.loaded='loading';
+  snapshotControls.refresh();
+  legLiftControls.refresh();basicRunControls.refresh();
   status.textContent='모델을 불러오는 중입니다.';
   try {
     const gltf = await new GLTFLoader().parseAsync(buffer, '');
@@ -218,13 +267,17 @@ async function load(buffer: ArrayBuffer, name: string) {
     el<HTMLButtonElement>('apply-settings').disabled=!runningPose;
     status.textContent=runningPose?'부위별 길이와 러닝 자세를 조절할 수 있습니다.':skinned?'모델을 불러왔습니다. 이 파일의 러닝 관절 설정은 아직 확인 전입니다.':'외형을 불러왔습니다. 몸체에 연결된 뼈대는 없습니다.';
     document.body.dataset.loaded='true';
+    snapshotControls.refresh();
+    legLiftControls.refresh();basicRunControls.refresh();
     // Read-only inspection hook for the local verification script.
-    Object.assign(window,{modelPreview:{model,bones,morphs,renderer,scene,camera,runningPose,bodyDimensions}});
+    Object.assign(window,{modelPreview:{model,bones,morphs,renderer,scene,camera,runningPose,bodyDimensions,legLiftControls,basicRunControls,followRun}});
     return {ok:true,hash,bones:bones.length,poseAvailable:!!runningPose};
   } catch (error) {
     if(currentId!==loadId)return;
     status.textContent=`모델을 불러오지 못했습니다. 단일 GLB 파일을 선택해 주세요. ${error instanceof Error ? error.message : ''}`;
     document.body.dataset.loaded='error';
+    snapshotControls.refresh();
+    legLiftControls.refresh();basicRunControls.refresh();
     return {ok:false,error:error instanceof Error?error.message:String(error)};
   }
 }
@@ -234,12 +287,13 @@ function editPose(input: HTMLInputElement) {
   if(!joint || !runningPose)return;
   const value=input.valueAsNumber;
   const accepted=runningPose.set(joint.id,value);
+  snapshotControls.edited();
   el('pose-feedback').textContent=!accepted?'숫자를 입력해 주세요.':value<joint.min||value>joint.max?`${joint.min}° ~ ${joint.max}° 범위로 조정했습니다.`:'';
   showAngles();
 }
 poseSlider.addEventListener('input',()=>editPose(poseSlider));
 poseNumber.addEventListener('change',()=>editPose(poseNumber));
-el('reset-pose').addEventListener('click',()=>{runningPose?.reset();el('pose-feedback').textContent='';showAngles();});
+el('reset-pose').addEventListener('click',()=>{runningPose?.reset();el('pose-feedback').textContent='';showAngles();snapshotControls.edited();});
 heightInput.addEventListener('input',()=>resizeBody(Number(heightInput.value)));
 lengthSelect.addEventListener('change',()=>{el('length-feedback').textContent='';showLengths();});
 lengthSlider.addEventListener('input',()=>editLength(lengthSlider));
@@ -249,19 +303,36 @@ el('reset-height').addEventListener('click',()=>resizeBody(baseHeight * 100));
 el('skeleton').addEventListener('change',()=>{if(helper)helper.visible=el<HTMLInputElement>('skeleton').checked;});
 el('fit').addEventListener('click',frame);
 document.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(button=>button.addEventListener('click',()=>setView(button.dataset.view)));
-el<HTMLInputElement>('file').addEventListener('change',async event=>{const input=event.target as HTMLInputElement;const file=input.files?.[0];if(file){selectionId++;selectedType='custom';await load(await file.arrayBuffer(),file.name);input.value='';}});
+el<HTMLInputElement>('file').addEventListener('change',async event=>{
+  const input=event.target as HTMLInputElement,file=input.files?.[0];if(!file)return;
+  const id=++selectionId;loadId++;selectedType='custom';
+  document.body.dataset.loaded='loading';snapshotControls.refresh();stopPlayback();
+  try {
+    const buffer=await file.arrayBuffer();if(id!==selectionId)return;
+    await load(buffer,file.name);
+  } catch {
+    if(id!==selectionId)return;
+    document.body.dataset.loaded='error';status.textContent='파일을 읽지 못했습니다.';snapshotControls.refresh();legLiftControls.refresh();basicRunControls.refresh();
+  } finally {input.value='';}
+});
 new ResizeObserver(()=>{const {width,height}=viewport.getBoundingClientRect();camera.aspect=width/height;camera.updateProjectionMatrix();renderer.setSize(width,height);}).observe(viewport);
-renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera);});
+renderer.setAnimationLoop((now)=>{
+  legLiftControls.tick(now);basicRunControls.tick(now);
+  if(!elbowDrag.dragging)controls.update();
+  elbowDrag.refresh();renderer.render(scene,camera);
+});
 async function selectModel(type:ModelType){
   const id=++selectionId;loadId++;
   document.body.dataset.loaded='loading';el<HTMLButtonElement>('apply-settings').disabled=true;
+  stopPlayback();
+  snapshotControls.refresh();
   status.textContent=`${builtInModels[type].label} 모델을 불러오는 중입니다.`;
   try{
     const item=await modelBuffer(type,settings);if(id!==selectionId)return;
     const result=await load(item.buffer,item.name);if(!result?.ok||id!==selectionId)return;
     selectedType=type;
     document.querySelectorAll<HTMLButtonElement>('[data-model-type]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.modelType===type)));
-  }catch(error){if(id!==selectionId)return;document.body.dataset.loaded='error';status.textContent=String(error);}
+  }catch(error){if(id!==selectionId)return;document.body.dataset.loaded='error';status.textContent=String(error);snapshotControls.refresh();legLiftControls.refresh();basicRunControls.refresh();}
 }
 document.querySelectorAll<HTMLButtonElement>('[data-model-type]').forEach(button=>{
   const type=button.dataset.modelType as ModelType;button.disabled=!settings.models[type].enabled;
@@ -269,6 +340,7 @@ document.querySelectorAll<HTMLButtonElement>('[data-model-type]').forEach(button
 });
 el('file-label').hidden=!adminPreview;
 el('admin-link').hidden=!localLab||adminPreview;
+el('reference-link').hidden=!localLab||adminPreview;
 el('apply-section').hidden=adminPreview;
 el('model-stats').hidden=!adminPreview;
 el('height-section').hidden=!settings.heightEnabled;

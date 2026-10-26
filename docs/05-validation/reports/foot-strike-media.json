@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "errors": [],
+  "videos": [
+    {
+      "view": "front",
+      "file": "outputs/foot-strike/compare-front.webm",
+      "frames": 520,
+      "durationMs": 8667.2,
+      "segments": [
+        {
+          "mode": "heel",
+          "startMs": 33.30000000000018
+        },
+        {
+          "mode": "midfoot",
+          "startMs": 2950.3
+        },
+        {
+          "mode": "forefoot",
+          "startMs": 5833.7
+        }
+      ],
+      "decodedFrames": 4,
+      "error": null
+    },
+    {
+      "view": "side",
+      "file": "outputs/foot-strike/compare-side.webm",
+      "frames": 521,
+      "durationMs": 8767.4,
+      "segments": [
+        {
+          "mode": "heel",
+          "startMs": 33.399999999999636
+        },
+        {
+          "mode": "midfoot",
+          "startMs": 2966.8999999999996
+        },
+        {
+          "mode": "forefoot",
+          "startMs": 5883.699999999999
+        }
+      ],
+      "decodedFrames": 4,
+      "error": null
+    }
+  ]
+}

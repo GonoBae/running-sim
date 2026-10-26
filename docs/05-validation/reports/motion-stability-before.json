@@ -1,0 +1,9 @@
+{
+  "dateLocal": "2026-10-15",
+  "scope": "Pre-M15 male diagnostic, recorded from tool output before editing; 0..1560ms at 1ms intervals. Not a visual-quality score or FPS benchmark.",
+  "model": "male",
+  "maxVerticalStepMeters": 0.0014054417394607135,
+  "maxVerticalVelocityChangeMetersPerSample": 0.001278458511322085,
+  "maximumChangeAtMs": 289,
+  "method": "createBasicRunMotion.start(0); tick(ms); compare consecutive model.position.y differences. Original baseline source is M14; subsequent reruns use changed code."
+}

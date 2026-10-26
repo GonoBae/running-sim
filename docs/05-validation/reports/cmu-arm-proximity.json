@@ -1,0 +1,274 @@
+{
+  "testedAt": "2026-10-14T18:45:56.753Z",
+  "method": "12 phases per model/clip; every sixth vertex with >0.65 forearm/hand skin weight against torso triangles whose three vertices each have >0.6 pelvis/spine weight. Unsigned sampled surface distance; excludes upper-arm attachment. Not full intersection/penetration test; unsampled points can be closer.",
+  "results": [
+    {
+      "model": "male",
+      "clip": "35_17",
+      "frames": [
+        {
+          "phase": 0,
+          "minSampleDistance": 0.00006521067141870654,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.08333333333333333,
+          "minSampleDistance": 0.0006295615559690995,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.16666666666666666,
+          "minSampleDistance": 0.0005785616004716094,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.25,
+          "minSampleDistance": 0.00009835539030944976,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.3333333333333333,
+          "minSampleDistance": 0.0015012006902161582,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.4166666666666667,
+          "minSampleDistance": 0.003967029242432055,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5,
+          "minSampleDistance": 0.0008928914480631794,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5833333333333334,
+          "minSampleDistance": 0.0001340845612234225,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.6666666666666666,
+          "minSampleDistance": 0.0038761973427713136,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.75,
+          "minSampleDistance": 0.00030804940685188315,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.8333333333333334,
+          "minSampleDistance": 0.0007484188352489674,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.9166666666666666,
+          "minSampleDistance": 0.00012092343608727035,
+          "samplePoints": 161
+        }
+      ],
+      "minSampleDistance": 0.00006521067141870654
+    },
+    {
+      "model": "male",
+      "clip": "127_06",
+      "frames": [
+        {
+          "phase": 0,
+          "minSampleDistance": 0.008680026499571374,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.08333333333333333,
+          "minSampleDistance": 0.013674844626136844,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.16666666666666666,
+          "minSampleDistance": 0.0009383382770287752,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.25,
+          "minSampleDistance": 0.0069961975822395005,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.3333333333333333,
+          "minSampleDistance": 0.013256102066459462,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.4166666666666667,
+          "minSampleDistance": 0.021373472122606568,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5,
+          "minSampleDistance": 0.0327077498164662,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5833333333333334,
+          "minSampleDistance": 0.03221590992848322,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.6666666666666666,
+          "minSampleDistance": 0.013706737824048021,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.75,
+          "minSampleDistance": 0.002193797861214343,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.8333333333333334,
+          "minSampleDistance": 0.000057452586599838804,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.9166666666666666,
+          "minSampleDistance": 0.003426540861509225,
+          "samplePoints": 161
+        }
+      ],
+      "minSampleDistance": 0.000057452586599838804
+    },
+    {
+      "model": "female",
+      "clip": "35_17",
+      "frames": [
+        {
+          "phase": 0,
+          "minSampleDistance": 0.0002180205262393592,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.08333333333333333,
+          "minSampleDistance": 0.002109708616731425,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.16666666666666666,
+          "minSampleDistance": 0.0006272663072832459,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.25,
+          "minSampleDistance": 0.0010393944515143052,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.3333333333333333,
+          "minSampleDistance": 0.002852342348288458,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.4166666666666667,
+          "minSampleDistance": 0.0005607618571783799,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5,
+          "minSampleDistance": 0.0003138636246400052,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5833333333333334,
+          "minSampleDistance": 0.0004390236615941896,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.6666666666666666,
+          "minSampleDistance": 0.0000456180029138027,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.75,
+          "minSampleDistance": 0.00033331430507260783,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.8333333333333334,
+          "minSampleDistance": 0.000002541685155746987,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.9166666666666666,
+          "minSampleDistance": 0.003381094401767832,
+          "samplePoints": 161
+        }
+      ],
+      "minSampleDistance": 0.000002541685155746987
+    },
+    {
+      "model": "female",
+      "clip": "127_06",
+      "frames": [
+        {
+          "phase": 0,
+          "minSampleDistance": 0.008799975761118512,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.08333333333333333,
+          "minSampleDistance": 0.01063011439087001,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.16666666666666666,
+          "minSampleDistance": 0.007892652797098668,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.25,
+          "minSampleDistance": 0.000046173318350808565,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.3333333333333333,
+          "minSampleDistance": 0.0011887209280089114,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.4166666666666667,
+          "minSampleDistance": 0.01088684477880682,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5,
+          "minSampleDistance": 0.01793726859429329,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.5833333333333334,
+          "minSampleDistance": 0.015592689303808293,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.6666666666666666,
+          "minSampleDistance": 0.0005160344740609163,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.75,
+          "minSampleDistance": 0.0008357368982111956,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.8333333333333334,
+          "minSampleDistance": 0.0003118654499198341,
+          "samplePoints": 161
+        },
+        {
+          "phase": 0.9166666666666666,
+          "minSampleDistance": 0.0009319347494094838,
+          "samplePoints": 161
+        }
+      ],
+      "minSampleDistance": 0.000046173318350808565
+    }
+  ]
+}

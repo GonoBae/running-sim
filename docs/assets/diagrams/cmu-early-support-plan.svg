@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="345" viewBox="0 0 1200 345">
+<rect width="1200" height="345" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#233b32">
+<text x="30" y="38" font-size="25" font-weight="700">M73 · 착지 초반만 연결 / 구현 구조</text>
+<g fill="#fff" stroke="#cbd7ce"><rect x="30" y="68" width="255" height="138" rx="15"/><rect x="324" y="68" width="255" height="138" rx="15"/><rect x="619" y="68" width="255" height="138" rx="15"/><rect x="914" y="68" width="255" height="138" rx="15"/></g>
+<g text-anchor="middle" font-size="18">
+<text x="157" y="104">기존 첫 착지 위치</text><text x="157" y="145">같은 피부점 고정 추적</text><text x="157" y="184">목표 위치: 주기 28%</text>
+<text x="451" y="104">감속 → 지면점 유지</text><text x="451" y="145">28–30% 연결</text><text x="451" y="184">30–36% 수평 고정</text>
+<text x="746" y="104">고관절–무릎–발 연동</text><text x="746" y="145">뼈 길이와 발 방향 유지</text><text x="746" y="184">발바닥 피부점 오차 확인</text>
+<text x="1041" y="104">기존 지지로 합류</text><text x="1041" y="145">36–43% 부드러운 연결</text><text x="1041" y="184">이후 지지·회수 그대로</text>
+</g>
+<g font-size="28"><text x="293" y="145">→</text><text x="589" y="145">→</text><text x="883" y="145">→</text></g>
+<text x="30" y="250" font-size="20">양발에 반 주기 차로 적용 / 골반 이동·몸 높이·상체 유지 / 기존 중간 지지·해제 모듈 재사용</text>
+<text x="30" y="290" font-size="19">발의 세계 방향은 유지하지만, 무릎이 움직이면 종아리 대비 발목 상대각은 달라집니다.</text>
+<text x="30" y="326" font-size="16" fill="#63736a">구현·수치·재생 검사 완료 / 외형 검토 전 · 구간 값은 이 동작의 실험값이며 해부학적 기준이 아닙니다.</text>
+</g></svg>

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "Custom body/pose settings retained byte-for-byte; only course revision and chainage migrated",
+    "C start migrated to identical physical location; body/pose/direction/goal/pace retained",
+    "Both directions and 3/4/5km: old/new finish agrees with original/corrected geometry; comparison toggle is display-only",
+    "3/4/5 km playback equals source geometry, scene scale 1",
+    "5 km × 6:00 = 30:00; 2-lap distance/time automatic",
+    "Play/pause/progress/front/side/reload/mobile verified"
+  ],
+  "errors": []
+}

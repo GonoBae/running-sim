@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173",
+  "checks": [
+    "Built static asset matches accepted B revision",
+    "Direct backtest without course returns to course and blocks next",
+    "Choose start/direction/4 laps -> 4.84 km; backtest direct reload preserves all state",
+    "Course preview plays with the existing runtime",
+    "Stale stored revision also blocks direct backtest; body/pose remain intact"
+  ],
+  "errors": []
+}

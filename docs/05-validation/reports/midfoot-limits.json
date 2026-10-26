@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "profiles": [
+    {
+      "model": "male",
+      "limit": "min",
+      "samples": 101,
+      "max": {
+        "floorChangeMm": 0.000007418849340412592,
+        "anchorShiftMm": 0.00006751644494070168,
+        "gapMm": 0.28885809406781204
+      },
+      "state": {
+        "version": 1,
+        "model": "male",
+        "scale": 0.9,
+        "ratios": {
+          "upperArm": 0.85,
+          "forearm": 0.85,
+          "thigh": 0.85,
+          "shin": 0.85,
+          "torso": 0.85,
+          "shoulders": 0.85
+        },
+        "leg": 10,
+        "elbow": -20,
+        "lean": 15,
+        "strike": "midfoot"
+      }
+    },
+    {
+      "model": "male",
+      "limit": "max",
+      "samples": 101,
+      "max": {
+        "floorChangeMm": 0.000004943788843581043,
+        "anchorShiftMm": 0.00009984805345109282,
+        "gapMm": 0.2457256292298579
+      },
+      "state": {
+        "version": 1,
+        "model": "male",
+        "scale": 1.1,
+        "ratios": {
+          "upperArm": 1.15,
+          "forearm": 1.15,
+          "thigh": 1.15,
+          "shin": 1.15,
+          "torso": 1.15,
+          "shoulders": 1.15
+        },
+        "leg": 10,
+        "elbow": -20,
+        "lean": 15,
+        "strike": "midfoot"
+      }
+    },
+    {
+      "model": "female",
+      "limit": "min",
+      "samples": 101,
+      "max": {
+        "floorChangeMm": 0.0000014168138051662282,
+        "anchorShiftMm": 0.00008485030765441478,
+        "gapMm": 0.12186491775759145
+      },
+      "state": {
+        "version": 1,
+        "model": "female",
+        "scale": 0.9,
+        "ratios": {
+          "upperArm": 0.85,
+          "forearm": 0.85,
+          "thigh": 0.85,
+          "shin": 0.85,
+          "torso": 0.85,
+          "shoulders": 0.85
+        },
+        "leg": 10,
+        "elbow": -20,
+        "lean": 15,
+        "strike": "midfoot"
+      }
+    },
+    {
+      "model": "female",
+      "limit": "max",
+      "samples": 101,
+      "max": {
+        "floorChangeMm": 0.0000016337013963863,
+        "anchorShiftMm": 0.00008022634533442727,
+        "gapMm": 0.11493759992231567
+      },
+      "state": {
+        "version": 1,
+        "model": "female",
+        "scale": 1.1,
+        "ratios": {
+          "upperArm": 1.15,
+          "forearm": 1.15,
+          "thigh": 1.15,
+          "shin": 1.15,
+          "torso": 1.15,
+          "shoulders": 1.15
+        },
+        "leg": 10,
+        "elbow": -20,
+        "lean": 15,
+        "strike": "midfoot"
+      }
+    }
+  ],
+  "errors": []
+}

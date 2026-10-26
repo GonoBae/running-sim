@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "models": 2,
+  "bodyCases": 174,
+  "poseSamples": 52722,
+  "originalBodyMaxDifference": 0,
+  "maxima": {
+    "neutralErrorCm": 4.263256414560601e-14,
+    "maxLengthErrorCm": 4.684049759173803e-05,
+    "maxKneeRiseErrorCm": 7.736512230849257e-08,
+    "maxElbowErrorDeg": 5.426067346547825e-06,
+    "maxFootDirectionRad": 1.1147024756232075e-06,
+    "maxClearanceError": 3.644992907356941e-11,
+    "maxStanceSole": 4.1276998342283655e-05,
+    "sourceMutation": 0,
+    "loopError": 1.4988010832439613e-15,
+    "maxRootVelocityStep": 2.0063710385306486
+  },
+  "minimumSoleY": 2.4774113877024107e-07,
+  "scope": "2 models x 87 bodies x 101 phases x 3 leg/elbow pairs; sampled geometry, not physics or continuous-domain proof"
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290">
+<rect width="1000" height="290" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#233b32">
+<text x="30" y="37" font-size="23" font-weight="700">M71 · 손목·손 모양 / 구현 구조</text>
+<g fill="#fff" stroke="#cbd7ce"><rect x="30" y="62" width="275" height="140" rx="15"/><rect x="362" y="62" width="275" height="140" rx="15"/><rect x="695" y="62" width="275" height="140" rx="15"/></g>
+<g text-anchor="middle" font-size="18">
+<text x="168" y="98">M70 팔·몸·다리 재생</text><text x="168" y="137">어깨 → 팔꿈치 → 손목 위치</text><text x="168" y="178">기존 동작 그대로</text>
+<text x="500" y="98">손목의 연결 각도</text><text x="500" y="137">아래팔 기준 기본 회전</text><text x="500" y="178">손바닥 꺾임 줄이기</text>
+<text x="833" y="98">손가락만 가볍게 모으기</text><text x="833" y="137">손바닥 쪽으로 굽힘</text><text x="833" y="178">좌우 모양·반복 확인</text>
+</g><g font-size="29"><text x="321" y="145">→</text><text x="654" y="145">→</text></g>
+<text x="30" y="245" font-size="18">변경: 손목·손가락 회전만 / 보존: 팔 흔들림 · 다리 · 발 방향 · 골반 · 몸 높이</text>
+<text x="30" y="276" font-size="15" fill="#63736a">구현·수치 검사 완료 · 외형 검토 전 / 손가락 각도는 시각 시안이며 실측·운동 권장값이 아님</text>
+</g></svg>

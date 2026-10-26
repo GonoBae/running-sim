@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410">
+<rect width="1200" height="410" rx="18" fill="#f6f5f1"/>
+<g font-family="Malgun Gothic, sans-serif" fill="#233b32">
+<text x="30" y="48" font-size="28" font-weight="bold">M69 설계 · 굽힘과 발 위치를 유지하고 무릎 방향만 연결</text>
+<text x="30" y="85" font-size="18" fill="#63736a">양발 해제 전후 / 초기 설계도 · 검증 결과는 측정 그림과 검사 표에서 확인합니다.</text>
+<rect x="30" y="120" width="350" height="210" rx="12" fill="white"/>
+<text x="55" y="158" font-size="22">① 기존 동작 보존</text>
+<text x="55" y="205" font-size="19">고관절 · 발목 위치</text>
+<text x="55" y="242" font-size="19">무릎 굽힘 · 발 방향</text>
+<text x="55" y="279" font-size="19">골반 이동 · 몸 높이</text>
+<text x="394" y="239" font-size="30">→</text>
+<rect x="435" y="120" width="330" height="210" rx="12" fill="#e5efe9"/>
+<text x="460" y="158" font-size="22">② 무릎 옆 경로만 연결</text>
+<text x="460" y="205" font-size="19">고관절 기준 X 경로</text>
+<text x="460" y="242" font-size="19">안으로 갔다 나오는 우회 축소</text>
+<text x="460" y="279" font-size="19">허벅지·종아리 길이 유지</text>
+<text x="784" y="239" font-size="30">→</text>
+<rect x="825" y="120" width="345" height="210" rx="12" fill="white"/>
+<text x="850" y="158" font-size="22">③ 같은 회수에 합류</text>
+<text x="850" y="205" font-size="19">오른발 53~68%</text>
+<text x="850" y="242" font-size="19">왼발 다음 3~18%</text>
+<text x="850" y="279" font-size="19">범위 밖 동작 유지</text>
+<text x="30" y="375" font-size="19" fill="#63736a">검사: 무릎 경로 · 굽힘 · 발 위치/회전 · 피부 바닥 높이 · 경계 속도 · 반복 · 정면/측면 재생</text>
+</g></svg>

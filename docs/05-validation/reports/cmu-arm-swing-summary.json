@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "testedAt": "2026-10-20T14:20:25.530Z",
+  "errors": [],
+  "results": [
+    {
+      "model": "male",
+      "samples": 1001,
+      "metrics": {
+        "protectedMm": 0,
+        "protectedDeg": 3.818191820832845e-06,
+        "armLocalDeg": 3.4150945850063755e-06,
+        "shoulderMm": 0,
+        "outwardDeg": 5.777205593915369e-07,
+        "elbowDeg": 1.431825893405403e-07,
+        "floorMm": 0,
+        "minFloorMm": 5.551115123125783e-14,
+        "archivedKneeMm": 0,
+        "targetDeg": 9.494746677773946e-07,
+        "symmetryDeg": 7.681336455789278e-07,
+        "symmetryHandMm": 3.349128507620254e-06,
+        "seamDeg": 5.329070518200751e-15,
+        "seamVelocityGapDegPerSec": 0.05453155266537918,
+        "seekDeg": 3.4150945850063755e-06,
+        "groupFrameDeg": 3.4150945850063755e-06,
+        "maxCorrectionDeg": 7.730515049312299
+      },
+      "ranges": {
+        "before": {
+          "minDegrees": -32.14088319112545,
+          "maxDegrees": -4.208509341349894,
+          "spanDegrees": 27.93237384977555
+        },
+        "after": {
+          "minDegrees": -38.332547430264434,
+          "maxDegrees": -4.1231068647002935,
+          "spanDegrees": 34.20944056556414
+        }
+      }
+    },
+    {
+      "model": "female",
+      "samples": 1001,
+      "metrics": {
+        "protectedMm": 0,
+        "protectedDeg": 4.182619578303746e-06,
+        "armLocalDeg": 3.818191820832845e-06,
+        "shoulderMm": 0,
+        "outwardDeg": 1.9560423378806036e-06,
+        "elbowDeg": 3.0395840155961196e-06,
+        "floorMm": 0,
+        "minFloorMm": 0,
+        "archivedKneeMm": 0,
+        "targetDeg": 4.320472772434414e-06,
+        "symmetryDeg": 3.809765942719423e-06,
+        "symmetryHandMm": 1.5077586743696233e-05,
+        "seamDeg": 3.375077994860476e-14,
+        "seamVelocityGapDegPerSec": 0.0545354017768849,
+        "seekDeg": 3.4150945850063755e-06,
+        "groupFrameDeg": 3.4150945850063755e-06,
+        "maxCorrectionDeg": 7.732254029454417
+      },
+      "ranges": {
+        "before": {
+          "minDegrees": -23.958249946678276,
+          "maxDegrees": 3.9727869314732702,
+          "spanDegrees": 27.931036878151545
+        },
+        "after": {
+          "minDegrees": -30.152310814594767,
+          "maxDegrees": 4.056550120008997,
+          "spanDegrees": 34.20886093460376
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "mode": "live-source",
+  "checkedAtUTC": "2026-10-22T13:31:26.994Z",
+  "assetChanged": true,
+  "method": "osm-node-chain-v1",
+  "geometrySha256": "e110a1e080ef22ad77cb6d4d9f490872b84977d06cb4064f577305eb31b1cb43",
+  "snapshotTimeUTC": null,
+  "sourceEndpoint": "https://api.openstreetmap.org/api/0.6/",
+  "wayCount": 8,
+  "segments": 79,
+  "versions": [
+    {
+      "id": 1470406544,
+      "version": 2,
+      "timestamp": "2026-01-26T21:32:46Z"
+    },
+    {
+      "id": 1471465815,
+      "version": 1,
+      "timestamp": "2026-01-26T21:32:46Z"
+    },
+    {
+      "id": 1471465816,
+      "version": 1,
+      "timestamp": "2026-01-26T21:32:46Z"
+    },
+    {
+      "id": 1471465830,
+      "version": 2,
+      "timestamp": "2026-01-28T11:20:34Z"
+    },
+    {
+      "id": 1471465831,
+      "version": 1,
+      "timestamp": "2026-01-26T21:32:46Z"
+    },
+    {
+      "id": 1471465833,
+      "version": 1,
+      "timestamp": "2026-01-26T21:32:46Z"
+    },
+    {
+      "id": 1471465834,
+      "version": 1,
+      "timestamp": "2026-01-26T21:32:46Z"
+    },
+    {
+      "id": 1471465836,
+      "version": 1,
+      "timestamp": "2026-01-26T21:32:46Z"
+    }
+  ],
+  "lapLengthM": 1187.295901981294,
+  "independentM": 1187.2959019758473,
+  "arithmeticErrorM": 5.446736395242624e-9,
+  "distanceScale": 1,
+  "fieldAccuracyVerified": false,
+  "geometryChanged": false
+}

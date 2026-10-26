@@ -1,0 +1,130 @@
+{
+  "scope": "M31 transfer diagnostics, not a clinical stability or naturalness verdict. 1062 stage poses +182 existing restored-travel poses. Integer frames only. Raw root and target pelvis are different rig landmarks.",
+  "metrics": {
+    "male": {
+      "stageSamples": 531,
+      "maxRootRotationErrorDegrees": 1.7075472925031877e-06,
+      "maxHipAxisErrorDegrees": 2.945209725045352e-05,
+      "maxLegDirectionErrorDegrees": 3.197949347573169e-05,
+      "maxLengthDecompositionResidualMm": 0.0002706954877747143,
+      "sourceHipWidthCm": 21.557076702818318,
+      "targetHipWidthCm": 23.652493945829427,
+      "lengths": {
+        "l": {
+          "sourceThighCm": 47.50686940891529,
+          "targetThighCm": 50.5731656756648,
+          "sourceCalfCm": 50.81087003219267,
+          "targetCalfCm": 47.74459902716722
+        },
+        "r": {
+          "sourceThighCm": 48.80844152653748,
+          "targetThighCm": 50.573165852419656,
+          "sourceCalfCm": 51.235538227795494,
+          "targetCalfCm": 47.74458139867922
+        }
+      },
+      "maxExistingAnkleFootAngleDegrees": {
+        "l": 11.243015584038844,
+        "r": 5.9784507102488424
+      },
+      "supportAnkleOwnSideMinCm": {
+        "r": {
+          "source": -7.25165465879878,
+          "target": -5.901873947799638
+        },
+        "l": {
+          "source": -5.1715078065588695,
+          "target": -4.0120082596528786
+        }
+      },
+      "rawRootXYZSpanCm": [
+        5.490610484774444,
+        12.290627228077255,
+        270.34782087649467
+      ],
+      "currentRootXYZSpanCm": [
+        0.0,
+        8.613861402823087,
+        0.0
+      ],
+      "groundOffsetRangeCm": [
+        -3.332451849027085,
+        4.679442844992976
+      ],
+      "sourceHipCenterFromRootAtAMC1Cm": [
+        -0.5756287351618989,
+        -12.303331450159078,
+        2.2489111774609496
+      ],
+      "targetHipCenterFromRootAtAMC1Cm": [
+        -0.06584376926931368,
+        -0.5739361951348221,
+        -1.1518621349617786
+      ],
+      "stageChecks": "ankle changes forefoot; skin leaves joints unchanged; grounding changes only root Y and equals solver offset; estimated support surface within 1mm"
+    },
+    "female": {
+      "stageSamples": 531,
+      "maxRootRotationErrorDegrees": 1.7075472925031877e-06,
+      "maxHipAxisErrorDegrees": 2.9439719818828746e-05,
+      "maxLegDirectionErrorDegrees": 1.4489019236708837e-05,
+      "maxLengthDecompositionResidualMm": 0.00010429939770873628,
+      "sourceHipWidthCm": 19.33740296692342,
+      "targetHipWidthCm": 20.861913256851512,
+      "lengths": {
+        "l": {
+          "sourceThighCm": 42.61521588115419,
+          "targetThighCm": 46.03595562626836,
+          "sourceCalfCm": 45.57901251907809,
+          "targetCalfCm": 42.158252512718974
+        },
+        "r": {
+          "sourceThighCm": 43.78276864704853,
+          "targetThighCm": 46.035955858318964,
+          "sourceCalfCm": 45.959953782071075,
+          "targetCalfCm": 42.15824718353917
+        }
+      },
+      "maxExistingAnkleFootAngleDegrees": {
+        "l": 11.086128453819587,
+        "r": 5.729760421847182
+      },
+      "supportAnkleOwnSideMinCm": {
+        "r": {
+          "source": -6.504971441504706,
+          "target": -5.469392371710874
+        },
+        "l": {
+          "source": -4.639011670304298,
+          "target": -3.75127899401177
+        }
+      },
+      "rawRootXYZSpanCm": [
+        4.925257210993605,
+        11.02509466854097,
+        242.51083881122605
+      ],
+      "currentRootXYZSpanCm": [
+        0.0,
+        7.5865513980276855,
+        0.0
+      ],
+      "groundOffsetRangeCm": [
+        -3.4058803897768386,
+        3.736173564861811
+      ],
+      "sourceHipCenterFromRootAtAMC1Cm": [
+        -0.5163578051244212,
+        -11.03649077132261,
+        2.0173468914593173
+      ],
+      "targetHipCenterFromRootAtAMC1Cm": [
+        -0.12527610866533423,
+        -1.2099693544993018,
+        -0.7230216632420405
+      ],
+      "stageChecks": "ankle changes forefoot; skin leaves joints unchanged; grounding changes only root Y and equals solver offset; estimated support surface within 1mm"
+    }
+  },
+  "restoredMaxRootErrorMm": 1.0867973188055657e-09
+}

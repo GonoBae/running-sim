@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:5173",
+  "checks": [
+    "Custom body/pose/course settings retained byte-for-byte",
+    "Manual scale and compare control removed; verified 79 segments displayed",
+    "Both directions: map finish equals raw source chainage",
+    "3/4/5 km playback equals source geometry, scene scale 1",
+    "5 km × 6:00 = 30:00; 2-lap distance/time automatic",
+    "Play/pause/progress/front/side/reload/mobile verified"
+  ],
+  "errors": []
+}

@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-14T13:02:00.135Z",
+  "scope": "Documentation consistency only; no new motion implementation or biomechanical validation",
+  "passed": 8,
+  "checks": [
+    {
+      "name": "Reference condition and side are explicit",
+      "passed": true
+    },
+    {
+      "name": "35 left cycles agree with event metadata",
+      "passed": true
+    },
+    {
+      "name": "Reference curves have 150 finite values and nonnegative SD",
+      "passed": true
+    },
+    {
+      "name": "First-stride markers are finite and visible",
+      "passed": true
+    },
+    {
+      "name": "Current frames have 150 finite measurements",
+      "passed": true
+    },
+    {
+      "name": "Summary peak values are computed from supplied curves",
+      "passed": true
+    },
+    {
+      "name": "Application source hashes still match documentation capture",
+      "passed": true
+    },
+    {
+      "name": "Comparison drawings and design document exist",
+      "passed": true
+    }
+  ]
+}

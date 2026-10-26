@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "Legacy laps preserved; distance goal 10–100000m / 10m increments; invalid/partial/nonfinite goals rejected",
+    "48 starts/directions/km goals: 5 positions each, exact finish, partial laps, restart and no overshoot",
+    "962 old starts keep physical point; 38 removed-tip starts require reselection; unknown revisions never remapped",
+    "Only northeast replaced with source way 1471465834; prior B asset and evidence retained; no self crossing (createCourse)"
+  ],
+  "cases": 48,
+  "positions": 240,
+  "migration": {
+    "migrated": 962,
+    "reselected": 38
+  },
+  "lengthM": 1187.295901981294,
+  "shorterByM": 22.35668465159597
+}

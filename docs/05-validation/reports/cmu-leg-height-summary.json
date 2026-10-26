@@ -1,0 +1,353 @@
+{
+  "status": "passed",
+  "testedAt": "2026-10-21T13:30:41.891Z",
+  "errors": [],
+  "unchanged": [
+    {
+      "path": "experiments/model-preview/public/models/runner-female.glb",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/public/models/runner-male.glb",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/public/review-data/shared-gait-reference.json",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/ankle-weights.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/arm-swing.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/bilateral-pose.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/bilateral-skin.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/body-height.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/early-support.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/hand-pose.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/hip-landing.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/knee-lateral.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-approach.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-gait.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-release.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/shared-support.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/skin-point-batch.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/support-join.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/unified-stance.js",
+      "ok": true
+    },
+    {
+      "path": "experiments/model-preview/review/upper-center.js",
+      "ok": true
+    }
+  ],
+  "results": [
+    {
+      "model": "male",
+      "metrics": {
+        "archiveMm": 0,
+        "zeroMm": 0,
+        "zeroDeg": 4.182619578303746e-06,
+        "protectedMm": 0,
+        "protectedDeg": 4.182619578303746e-06,
+        "offsetMm": 0,
+        "footWorldDeg": 6.513347323133085e-05,
+        "kneeFlexDeg": 2.9575586669421963e-06,
+        "kneeLateralMm": 1.82354201183621e-07,
+        "heightErrorMm": 7.55456198930915e-07,
+        "outsideMm": 0,
+        "outsideDeg": 3.818191820832845e-06,
+        "contactFloorDeltaMm": 0,
+        "minFloorMm": 1.0786857518318982e-08,
+        "appliedMinFloorMm": 0.06385519406454376,
+        "maxThighTurnDeg": 15.990386897541807,
+        "maxFootLiftMm": 95.41990870892253,
+        "repeatMm": 1.806820054611895e-12,
+        "seekMm": 0,
+        "groupMm": 1.951593978782523e-12,
+        "symmetryAddedHeightMm": 9.441336601412331e-13
+      },
+      "ranges": [
+        {
+          "cm": 0,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 0,
+          "samples": 501
+        },
+        {
+          "cm": 1,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 9.999999914023782,
+          "samples": 501
+        },
+        {
+          "cm": 2,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 19.999999831382674,
+          "samples": 501
+        },
+        {
+          "cm": 3,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 29.999999751733284,
+          "samples": 501
+        },
+        {
+          "cm": 4,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 39.99999967479351,
+          "samples": 501
+        },
+        {
+          "cm": 5,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 49.999999600329744,
+          "samples": 501
+        },
+        {
+          "cm": 6,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 59.99999952814472,
+          "samples": 501
+        },
+        {
+          "cm": 7,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 69.99999945807112,
+          "samples": 501
+        },
+        {
+          "cm": 8,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 79.99999938996494,
+          "samples": 501
+        },
+        {
+          "cm": 9,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 89.99999932370062,
+          "samples": 501
+        },
+        {
+          "cm": 10,
+          "minFloorMm": 1.0786857518318982e-08,
+          "maxRiseMm": 99.99999925917069,
+          "samples": 501
+        }
+      ],
+      "boundaries": [
+        {
+          "side": "r",
+          "phase": 0.84,
+          "velocityGapMps": 1.4394338521617567e-07
+        },
+        {
+          "side": "r",
+          "phase": 1.04,
+          "velocityGapMps": 0.00034404767882437604
+        },
+        {
+          "side": "r",
+          "phase": 1.28,
+          "velocityGapMps": 3.441268162420084e-08
+        },
+        {
+          "side": "l",
+          "phase": 1.3399999999999999,
+          "velocityGapMps": 1.4393318520741032e-07
+        },
+        {
+          "side": "l",
+          "phase": 1.54,
+          "velocityGapMps": 0.00034404787150831977
+        },
+        {
+          "side": "l",
+          "phase": 1.78,
+          "velocityGapMps": 3.449054910629122e-08
+        }
+      ],
+      "invalidRejected": 4,
+      "transition": {
+        "min": 0,
+        "max": 10,
+        "end": 0
+      }
+    },
+    {
+      "model": "female",
+      "metrics": {
+        "archiveMm": 0,
+        "zeroMm": 0,
+        "zeroDeg": 4.182619578303746e-06,
+        "protectedMm": 0,
+        "protectedDeg": 4.182619578303746e-06,
+        "offsetMm": 0,
+        "footWorldDeg": 3.363478094741179e-05,
+        "kneeFlexDeg": 2.4148365394514667e-06,
+        "kneeLateralMm": 1.2225118486974829e-06,
+        "heightErrorMm": 3.678943016893754e-08,
+        "outsideMm": 0,
+        "outsideDeg": 3.4150945850063755e-06,
+        "contactFloorDeltaMm": 0,
+        "minFloorMm": 0.00032384464138113245,
+        "appliedMinFloorMm": 0.059417885641899204,
+        "maxThighTurnDeg": 17.38964540337284,
+        "maxFootLiftMm": 95.95291765605867,
+        "repeatMm": 2.3032529239783116e-12,
+        "seekMm": 0,
+        "groupMm": 1.2670655869532563e-12,
+        "symmetryAddedHeightMm": 8.881784197001252e-13
+      },
+      "ranges": [
+        {
+          "cm": 0,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 0,
+          "samples": 501
+        },
+        {
+          "cm": 1,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 10.00000000115364,
+          "samples": 501
+        },
+        {
+          "cm": 2,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 20.00000000230051,
+          "samples": 501
+        },
+        {
+          "cm": 3,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 30.00000000344094,
+          "samples": 501
+        },
+        {
+          "cm": 4,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 40.000000004576265,
+          "samples": 501
+        },
+        {
+          "cm": 5,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 50.000000005706255,
+          "samples": 501
+        },
+        {
+          "cm": 6,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 60.00000000683203,
+          "samples": 501
+        },
+        {
+          "cm": 7,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 70.00000000795382,
+          "samples": 501
+        },
+        {
+          "cm": 8,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 80.00000000907181,
+          "samples": 501
+        },
+        {
+          "cm": 9,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 90.0000000101856,
+          "samples": 501
+        },
+        {
+          "cm": 10,
+          "minFloorMm": 0.00032384464138113245,
+          "maxRiseMm": 100.00000001129628,
+          "samples": 501
+        }
+      ],
+      "boundaries": [
+        {
+          "side": "r",
+          "phase": 0.84,
+          "velocityGapMps": 1.4195694992243008e-07
+        },
+        {
+          "side": "r",
+          "phase": 1.04,
+          "velocityGapMps": 4.732104066581654e-05
+        },
+        {
+          "side": "r",
+          "phase": 1.28,
+          "velocityGapMps": 3.275786874599613e-08
+        },
+        {
+          "side": "l",
+          "phase": 1.3399999999999999,
+          "velocityGapMps": 1.4195279180981084e-07
+        },
+        {
+          "side": "l",
+          "phase": 1.54,
+          "velocityGapMps": 4.732121637355995e-05
+        },
+        {
+          "side": "l",
+          "phase": 1.78,
+          "velocityGapMps": 3.2633378819935165e-08
+        }
+      ],
+      "invalidRejected": 4,
+      "transition": {
+        "min": 0,
+        "max": 10,
+        "end": 0
+      }
+    }
+  ]
+}

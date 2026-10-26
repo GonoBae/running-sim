@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "cases": 120,
+  "positions": 480,
+  "checks": [
+    "Legacy optional field preserved; 1:00–30:00 integer seconds validated; malformed inputs rejected; labels cross hour boundary",
+    "120 direction/start/goal/pace/body-stride combinations: exact speed/duration, same position and gait phase per traveled distance, end clamp and immutable input",
+    "Play/pause/reset/restart and 1×/2×/4× only change observation speed, not predicted duration or finish"
+  ],
+  "example": {
+    "distanceM": 5000,
+    "paceSecondsPerKm": 360,
+    "durationSeconds": 1800
+  },
+  "fieldDistanceCalibrated": false
+}
