@@ -1,24 +1,33 @@
 # 아키텍처 설계
 
-2026-10-04 · v0.4 설계안 · **설정 하나 → 실행 결과 하나 → 공통 시간으로 두 화면**
+2026-10-26 · v0.5 · **현재 브라우저 실행 구조 / 후속 서버 설계 분리**
 
-![현재 로컬 시험과 운영 목표 구조](../assets/diagrams/implementation-map.svg)
+![현재 실행 구조와 미연결 운영 설계](../assets/diagrams/current-architecture.svg)
 
-![설정부터 실행 결과와 좌우 재생까지](../assets/diagrams/architecture.svg)
+현재 실행은 Vite·Three.js 브라우저 앱 안에서 끝납니다. [현재 네 단계](../01-planning/CURRENT_STATE.md)는 같은 설정을 전달하며 서버 계산·인증·운영 통계는 연결하지 않았습니다.
 
-현재 구현은 로컬 모델·제한된 자세·관리자 설정·로컬 통계 시험입니다. 기록 계산 API는 검증 후 연결하며, 관리자 인증·서비스 통계 저장은 정식 운영 전에 연결합니다.
+| 현재 코드 | 책임 |
+| --- | --- |
+| [entry.ts](../../experiments/model-preview/src/entry.ts) → [stages.js](../../experiments/model-preview/src/stages.js) | 네 화면 이동·로딩·공통 재생 |
+| [stage-state.ts](../../experiments/model-preview/src/stage-state.ts) | 입력 정규화·네 단계 상태 · 같은 탭 sessionStorage |
+| [body-runtime.js](../../experiments/model-preview/src/body-runtime.js) · [body-running.js](../../experiments/model-preview/src/body-running.js) | 외형·뼈대 길이와 크기를 달리기에 전달 |
+| [running-runtime.js](../../experiments/model-preview/src/running-runtime.js) | 35_17 유래 공통 동작·자세 설정·양측 적용 |
+| [course.ts](../../experiments/model-preview/src/course.ts) · [course-playback.ts](../../experiments/model-preview/src/course-playback.ts) | 경로·설정 이전·거리/시간·주행 진행 |
+| [course-run-view.js](../../experiments/model-preview/src/course-run-view.js) | 코스 위 모델과 자세 화면의 공통 시각 |
+
+자산 생성·자동 검사 흐름은 [코스 파이프라인](COURSE_PIPELINE.md), 필드 계약은 [요구사항](../02-requirements/REQUIREMENTS.md)에 연결합니다.
 
 ## 관리와 이용 데이터
 
 ![관리자 설정과 사용자 이벤트의 연결](../assets/diagrams/admin-flow.svg)
 
-현재 관리자 설정은 같은 브라우저에만 적용됩니다. [운영 계약](../03-screens/ADMIN_SCREEN.md)은 관리자 권한, 모델/설정 게시 버전, 감사 기록, 이벤트 접수·중복 제거·집계를 분리합니다. 일반 사용자는 게시 설정만 읽고 원시 이용 기록은 조회할 수 없습니다.
+**운영 설계 제안:** 과거 관리자 코드는 보존했으나 현재 단계 화면에는 연결하지 않았습니다. [운영 계약](../03-screens/ADMIN_SCREEN.md)은 관리자 권한, 모델/설정 게시 버전, 감사 기록, 이벤트 접수·중복 제거·집계를 분리합니다. 일반 사용자는 게시 설정만 읽고 원시 이용 기록은 조회할 수 없습니다.
 
 ## 편집 데이터의 연결 · 제안
 
 ![자세 설정에서 동작 생성과 재생까지](../assets/diagrams/running-motion-flow.svg)
 
-사용자가 설정한 주요 자세에서 동작을 생성하고, 확정한 동작을 실행 입력에 연결하는 설계 제안입니다. [데이터 초안](DATA_DESIGN.md)은 기존 실행 계약을 보완하며 아직 서버 스키마로 구현하지 않았습니다.
+다리·팔·상체·착지 설정의 브라우저 재생은 구현했습니다. 아래 편집 자산·확정본·서버 저장 구조는 후속 설계 제안입니다. [데이터 초안](DATA_DESIGN.md)은 기존 실행 계약을 보완하며 아직 서버 스키마로 구현하지 않았습니다.
 
 ## 동작과 기록의 연결
 
@@ -86,7 +95,7 @@
 | DB simulation_runs | 입력·상태·버전·요약·동작 참조 |
 | Storage | 큰 동작/시간별 파일 · 해시·단위·버전 |
 
-저장 전 결정: 사용자 권한·공개 자산 분리·중복 요청·재시도·보관/삭제 정책. 초기 세션은 새로고침 복구를 보장하지 않습니다.
+저장 전 결정: 사용자 권한·공개 자산 분리·중복 요청·재시도·보관/삭제 정책. 현재 단계 설정은 같은 탭의 새로고침에서 복원합니다. 주행 시간·배속은 저장하지 않으며 서버·다른 기기 복원은 미구현입니다.
 
 ## 코드 배치 제안
 
@@ -97,6 +106,6 @@
 | packages/simulation | 고정 페이스·경로·시간 |
 | services/simulation | 검증 후 Python 계산/API |
 | research | 자료 정리·보정·독립 평가 |
-| experiments/model-preview | 현재 GLB 전달 시험 |
+| experiments/model-preview | 현재 네 단계·주행·재사용 동작 계산·검증 코드 |
 
 위 새 디렉터리는 아직 생성하지 않았습니다. [개발 순서](../01-planning/DEVELOPMENT_PLAN.md) · [기술 선택](TECH_SPEC.md)

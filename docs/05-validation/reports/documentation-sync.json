@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "scope": "M93 documentation reconciliation; fresh isolated screen captures and Markdown rendering; no new functional regression run",
+  "status": "passed",
+  "screens": [
+    {
+      "stage": "body",
+      "file": "docs/assets/images/current-body.png",
+      "actual": true
+    },
+    {
+      "stage": "pose",
+      "file": "docs/assets/images/current-pose.png",
+      "actual": true
+    },
+    {
+      "stage": "course",
+      "file": "docs/assets/images/current-course.png",
+      "actual": true
+    },
+    {
+      "stage": "backtest",
+      "file": "docs/assets/images/current-backtest.png",
+      "actual": true
+    }
+  ],
+  "documents": 103,
+  "links": 2875,
+  "imageReferences": 409,
+  "broken": [],
+  "renderErrors": [],
+  "overflow": [],
+  "codeChecks": [
+    {
+      "name": "active entry is stages.js",
+      "passed": true
+    },
+    {
+      "name": "four routes and session state key",
+      "passed": true
+    },
+    {
+      "name": "D geometry revision matches current documentation",
+      "passed": true
+    }
+  ]
+}

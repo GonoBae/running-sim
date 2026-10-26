@@ -1,5 +1,7 @@
 # 문서 그림과 원본
 
+2026-10-26 추가: [현재 구현 그림](diagrams/current-implementation.svg) · [실제 구조](diagrams/current-architecture.svg) · [생성 원본](diagrams/current-state.cjs) · [현재 네 화면](images/current-stages.png) · [캡처·문서 렌더 검사](diagrams/check-current-docs.cjs). `current-body/pose/course/backtest.png`는 실제 코드의 별도 세션 캡처이며 시안이 아닙니다.
+
 2026-10-22 · **시안·설계도·실제 구현 화면을 구분합니다.**
 
 ![문서와 검토를 중심으로 진행하는 협업 순서](diagrams/review-workflow.svg)

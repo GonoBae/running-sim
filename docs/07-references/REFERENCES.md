@@ -1,6 +1,8 @@
 # 연구 자료와 확인 범위
 
-2026-10-22 · **15–19번 실제 코스 자료 추가 / 13–14번 동작 자료의 기존 확인 범위 보존**
+현재 출처의 사용 범위는 [결과물 요약](../01-planning/CURRENT_STATE.md)과 연결합니다. 기존 번호 15의 중복은 원래 인용을 보존하기 위해 유지하며 자료 이름으로 구분합니다.
+
+2026-10-26 대조 · **M92–M93 경로 근거·현재 동작 채택 상태 / 기존 출처 번호 보존**
 
 ![자료 확인과 보정 및 독립 평가 흐름](../assets/diagrams/validation.svg)
 
@@ -11,12 +13,24 @@
 | 자료 | 확인 범위 | 남은 확인 |
 | --- | --- | --- |
 | 15. [롯데 공식 소개](https://m.lotteresort.com/gimhae/ko/about) | 공식 검색 색인의 롯데가든파크·러닝 트랙 소개 | 실제 트랙 선형·거리·운영/통행 조건 |
-| 16. [OSM 공원](https://www.openstreetmap.org/way/1471465808) · [Overpass](https://wiki.openstreetmap.org/wiki/Overpass_API) · [이용 조건](https://www.openstreetmap.org/copyright) | 공개 좌표 응답·ID·버전·쿼리 확보 · [추출 JSON](../05-validation/reports/course-source.json) | 보행 선형 중 실제 뛰는 한 바퀴 · 현장 정확도 |
-| 17. [GeoJSON RFC 7946](https://datatracker.ietf.org/doc/html/rfc7946) · [GPX](https://www.topografix.com/gpx.asp) | 위치·경로 교환 형식 | 우리 코스 변환·연결·거리 검사 미구현 |
+| 16. [OSM 공원](https://www.openstreetmap.org/way/1471465808) · [Overpass](https://wiki.openstreetmap.org/wiki/Overpass_API) · [이용 조건](https://www.openstreetmap.org/copyright) | 공개 좌표 응답·ID·버전·쿼리 확보 · [추출 JSON](../05-validation/reports/course-source.json) | 현재 채택 D 경로의 기초 원본 · 현장 정확도는 미검증 |
+| 17. [GeoJSON RFC 7946](https://datatracker.ietf.org/doc/html/rfc7946) · [GPX](https://www.topografix.com/gpx.asp) | 위치·경로 교환 형식 | GeoJSON 변환·거리/연결 검사 구현 · GPX 가져오기 미구현 |
 | 18. [Nike 파트너 연결](https://www.nike.com/help/a/connect-nrc-partner-apps-devices/app) | NRC 설정의 파트너 연결 · 지역별 지원 차이 | 사용자 계정·과거 기록·GPS 데이터 확보 여부 |
 | 19. [Strava 내보내기](https://support.strava.com/en-us/articles/15401919-how-do-i-export-my-strava-data) | 웹 활동 GPX 내보내기 · GPS 없는 활동은 경로 없음 | 사용자 기록 미접근 · 자동 연결 미구현 |
 
 확인일 2026-10-22. 지도 자료는 © OpenStreetMap contributors / ODbL이며, [확보 증거·한계](../05-validation/COURSE_FEASIBILITY.md)에 실제 조회 범위를 기록합니다.
+
+## 독립 항공사진과 원본 검증 · M92–M93
+
+![좌표 기반 항공사진 대조와 국소 경로 오류](../assets/images/course-imagery-detail.png)
+
+| 출처 | 사용·검증 범위 |
+| --- | --- |
+| 20. [Esri World Imagery](https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer) / Vantor | EPSG:3857 타일 좌표로 겹침 · 영상 획득일 2025-12-22 · 해상도/출처와 타일 해시 보존 |
+| 21. [카카오맵](https://map.kakao.com/) 항공사진 | 별도 영상에서 남동쪽 직선 연결 확인 · 화면 추적 길이는 참고값, 거리 배율 근거로 사용하지 않음 |
+| 22. [OSM API 0.6](https://wiki.openstreetmap.org/wiki/API_v0.6) | 8개 way 원본 수집·79개 원본 구간 연결 검사 → C 생성 → 검증된 수정으로 D 생성 |
+
+출처: © Esri, Vantor, Earthstar Geographics, GIS User Community / 카카오 / © OpenStreetMap contributors·ODbL. [실제 조회·해시·수정·한계](../05-validation/COURSE_IMAGERY.md)와 [M92 자동 검사](../05-validation/COURSE_AUTOMATION.md)를 보존하며 현장 측량 완료로 해석하지 않습니다.
 
 ## 자세와 기록 관련 후보
 
@@ -41,7 +55,7 @@
 
 | 자료 | 확인·분석 | 남은 확인 |
 | --- | --- | --- |
-| 14. [CMU Graphics Lab](https://mocap.cs.cmu.edu/) · [35_17](https://mocap.cs.cmu.edu/search.php?motion=%25&subjectnumber=35) · [127_06](https://mocap.cs.cmu.edu/search.php?subjectnumber=127) | ASF/AMC 네 파일 확보 · 120Hz · 제품 내 포함 허용/데이터 자체 재판매 금지 · 남녀 20개 뼈 전달 시험 | 기준 동작 선정·반복 연결·접지·정식 관절 제한·C3D 독립 대조 |
+| 14. [CMU Graphics Lab](https://mocap.cs.cmu.edu/) · [35_17](https://mocap.cs.cmu.edu/search.php?motion=%25&subjectnumber=35) · [127_06](https://mocap.cs.cmu.edu/search.php?subjectnumber=127) | ASF/AMC 네 파일 확보 · 120Hz · 제품 내 포함 허용/데이터 자체 재판매 금지 · 남녀 20개 뼈 전달 시험 | 현재 35_17 채택·127_06 제외 · 반복/공통 동작 검사 완료 · 완전한 실측/물리 접지·C3D 대조 미완료 |
 | 15. [Ubisoft LAFAN1](https://github.com/ubisoft/ubisoft-laforge-animation-dataset) | Run BVH 존재와 CC BY-NC-ND 4.0 확인 | 서비스용 수정 자산으로 이번에는 채택하지 않음 |
 
 [실제 움직임·코드·검증 결과](../05-validation/FULL_BODY_REFERENCE.md). CMU 손·발가락 데이터의 품질 및 비측정 손가락 데이터 한계는 공식 안내에 따릅니다.

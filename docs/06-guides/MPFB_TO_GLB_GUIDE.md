@@ -1,8 +1,10 @@
 # MPFB 설치와 GLB 내보내기
 
-현재 PC 기준: MPFB 2.0.17 · Blender 5.2.2 · **이미 설치했다면 GLB 내보내기부터**
+기존 설치·내보내기 시험 기준: MPFB 2.0.17 · Blender 5.2.2 · **이미 설치했다면 GLB 내보내기부터**
 
 ![Blender에서 웹으로 모델을 전달하는 순서](../assets/diagrams/export.svg)
+
+[현재 네 단계 실행](MODEL_PREVIEW.md) · 모델 파일은 Git 제외로 별도 전달합니다. 새 GLB는 기존 모델 해시·관절 검사와의 호환을 확인해야 합니다.
 
 ## MPFB 설치
 

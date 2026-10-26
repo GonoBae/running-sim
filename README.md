@@ -2,9 +2,9 @@
 
 **내가 만든 러너와 자세로 실제 코스를 달리는 모습을 관찰하는 서비스입니다.**
 
-![실제 코스 주행과 같은 시점 자세 · 구현 화면](docs/assets/images/course-running-side.png)
+![실제 코스 주행과 같은 시점 자세 · 구현 화면](docs/assets/images/current-backtest.png)
 
-위 그림은 실제 구현 화면입니다. **신체 세팅 → 자세 세팅 → 코스 세팅 → 백테스팅**으로 이어지며, [항공사진 대조·경로 수정](docs/05-validation/COURSE_IMAGERY.md)와 [목표 페이스·주행](docs/05-validation/COURSE_PACE.md)을 확인할 수 있습니다. 정밀 실측과 자세별 기록 예측은 미검증입니다. [문서 목록](docs/README.md) · [단계별 화면](docs/05-validation/STAGE_PAGES.md).
+위 그림은 2026-10-26 현재 구현 화면입니다. **신체 세팅 → 자세 세팅 → 코스 세팅 → 백테스팅**으로 이어지며, [항공사진 대조·경로 수정](docs/05-validation/COURSE_IMAGERY.md)와 [목표 페이스·주행](docs/05-validation/COURSE_PACE.md)을 확인할 수 있습니다. 정밀 실측과 자세별 기록 예측은 미검증입니다. [문서 목록](docs/README.md) · [현재 결과물·실제 네 화면](docs/01-planning/CURRENT_STATE.md).
 
 ## 문서
 

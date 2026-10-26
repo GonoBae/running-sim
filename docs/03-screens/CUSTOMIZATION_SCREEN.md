@@ -1,83 +1,40 @@
-# 체형 설정 화면 · SCR02
+# 신체 세팅 화면 · SCR02
 
-2026-10-14 · v0.6 · **체형 설정 → 자세 설정 로컬 구현**
+2026-10-26 · **M79–M80 구현 / 신체 설정을 이후 달리기에 전달**
 
-![체형 자세 코스의 확정 순서](../assets/diagrams/journey.svg)
+![현재 신체 직접 조절 화면](../assets/images/current-body.png)
 
-![BODY 아래 안내와 사람 도식을 함께 배치한 캐릭터 시안](../assets/images/character-customization-v7.png)
+몸 위의 부위를 잡아 길이를 바꾸고 화면 안 전체 크기 손잡이로 배율을 조절합니다. 남성형·여성형은 캐릭터 모델 선택이며 사용자 능력 추정값이 아닙니다.
 
-정적 시안 v7. ‘나의 러너’ 제목 제거, 안내·작은 사람 도식은 BODY 아래에 배치합니다. 치수·복장·외형은 예시이며 자세 편집은 반영 전입니다.
-
-## 배치
-
-![남성형과 여성형 선택을 추가한 실제 로컬 사용자 화면](../assets/images/runner-female-selection.png)
-
-남성형·여성형을 별도 GLB로 선택합니다. 각 모델은 MPFB 체형 적용 후 뼈대를 다시 맞췄으며, 관리자에서 유형별 노출·사용 모델을 관리합니다. 사용자 성별·능력 추정과는 무관합니다.
-
-| 왼쪽 약 65% | 오른쪽 약 35% |
+| 영역·조작 | 현재 동작 |
 | --- | --- |
-| 머리부터 발끝까지 전신 | 모델 유형 / BODY |
-| 앞·옆·뒤 · 드래그 회전 | 선택한 한 항목 집중 편집 |
-| 기준점·높이 눈금 제안 | 값·단위·의미·지원 범위 |
-| 기본값·시점 복원 | 다음: 자세 설정 |
+| 전신 미리보기 | 정면·측면 · 선택 부위 강조 · 외형과 뼈대 함께 변경 |
+| 몸 위 직접 조절 | 길이 항목 선택·드래그 · 좌우 함께 반영 · 취소·보조 수치 입력 |
+| 모델·전체 크기 | 모델 유형 선택 · 전체 배율 · 기본 신체 복원 |
+| 다음 단계 | `/pose`에서 변경한 신체로 달리기 · 기존 자세 입력 유지 |
+| 상태 저장 | 같은 탭 sessionStorage · 단계 이동·새로고침 복원 |
 
-기본값 그대로 확정할 수 있습니다. 설정 확정만으로 코스 주행을 시작하지 않습니다.
+[R01·R11·R13–R15와 입력 계약](../02-requirements/REQUIREMENTS.md) · [M80 직접 조작 검사](../05-validation/BODY_EDITOR.md) · [M79 달리기 전달 검사](../05-validation/BODY_RUNNING.md).
 
-## 현재 길이 조절
+## 연결과 남은 범위
 
-![부위 길이를 cm로 조절하는 실제 구현 화면](../assets/images/body-length-controls.png)
+![신체부터 주행까지 현재 연결](../assets/diagrams/current-implementation.svg)
 
-외형과 뼈대를 함께 바꾸며 기존 자세를 유지합니다. 전체 높이는 부위 길이에 따라 달라집니다. [상세 기준](../05-validation/BODY_DIMENSIONS.md)
+얼굴·가슴·근육/살집·골반 너비·다리 벌림·발 크기·몸무게는 현재 입력에 없습니다. [D01–D03·D14–D15](../01-planning/DEVELOPMENT_PLAN.md)에서 범위·단위·조합 검증을 계속 관리합니다.
 
-## 외형·자세·동작의 구분
-
-![체형에서 길이와 뼈대 및 자세로 이어지는 구조](../assets/diagrams/body-asset-pipeline.svg)
-
-얼굴 크기·가슴 크기 등은 [원본 체형 기능](../04-technical/BODY_ASSETS.md)을 웹에 연결하는 검토 항목입니다. 다리 간격은 골반 너비와 다리 벌림으로 구분하며 아직 입력을 제공하지 않습니다.
-
-[자세 설정·동작 미리보기](MOTION_EDITOR.md)는 체형 설정 다음 단계입니다. 현재 로컬 시험은 체형과 자세 패널을 분리했습니다. 위의 기존 캡처는 이전 통합 시험 화면이며, [새 단계 실제 화면](../05-validation/SETUP_STEPS.md)을 따로 기록합니다.
-
-## 입력·후속 후보
-
-현재 [로컬 시험](../06-guides/MODEL_PREVIEW.md)은 좌우 어깨·팔꿈치·고관절·무릎의 방향·각도를 제한합니다. 손가락·머리와 자유 X/Y/Z 회전은 노출하지 않습니다.
-
-![러닝 자세 후보와 검증 조건](../assets/diagrams/pose.svg)
-
-| 체형 후보 | 단위·기준 | 상태 |
-| --- | --- | --- |
-| 키 | cm · 발바닥→머리 | 기준 자세·범위 검증 전 |
-| 위팔·아래팔·허벅지·종아리·몸통 | cm · 관절 중심 기준 | [로컬 구현·측정 기준](../05-validation/BODY_DIMENSIONS.md) |
-| 어깨너비 | cm · 좌우 어깨 관절 중심 | 로컬 구현 · 기본 길이 ±15% |
-| 얼굴·가슴 크기 | 원본 변형값 · cm/실측 기준 미정 | 요청 반영 · 웹 연결 전 |
-| 다리 간격 | 벌림 각도 / 골반 너비 | 현재 바깥 5° 고정 · 조절 범위 미정 |
-| 발 크기 | mm · 발뒤꿈치→발끝 | 맨발/신발 기준 미정 |
-| 몸무게 | kg · 질량 | 외형 대응 미정 · 체력 자동 추정 없음 |
-
-무릎·발목은 동작과 접지에 연동하는 제안입니다. 최종 항목·범위는 [D01–D03](../01-planning/DEVELOPMENT_PLAN.md)의 검증 후 확정합니다.
-
-## 편집 규칙 · 서비스 설계 제안
-
-| 행동·상태 | 반영 |
+| 현재 확인 | 미구현·미검증 |
 | --- | --- |
-| 유효한 입력 | 즉시 미리보기 · 숫자/눈금 일치 |
-| 빈칸·범위 밖·불가능한 조합 | 마지막 유효 외형 유지 · 이유 표시 · 다음 단계 차단 |
-| 로딩 실패 | 재시도 · 입력 초안 유지 |
-| 체형 확인 | 치수·모델 버전 전달 → 자세 설정 |
-| 재편집 취소 | 이전 확정값·주행 조건 유지 |
-| 재편집 적용 | 새 체형 → 자세 단계에서 호환성 재검사 · 자동 주행 없음 |
-| A에서 자세 변경 | B 초안 생성 · A 덮어쓰기 없음 |
+| 길이 6종·전체 크기·달리기 연결 | 실제 신체 치수와 정확한 대응 |
+| 로딩·오류·복원·드래그 취소 | 별도 확정본/초안·취소·A/B 관리 |
+| 모델 해시·현재 입력 제한 | 운영 관리자 게시 설정 연결 |
+| 외형·뼈대 동시 변형 | 모든 극단 조합의 피부·관통·물리 접지 |
 
-변경값을 몰래 보정하지 않습니다. 편집 초안과 확정값을 구분하며 초기 세션은 새로고침 복구를 보장하지 않습니다.
+## 디자인과 초기 시험 이력
 
-현재 로컬 시험은 범위 밖 각도·길이를 제한값으로 보정하고 안내합니다. 체형↔자세 이동은 구현했으며 위 표의 초안/확정 분리·취소·코스 이동은 아직 구현 전입니다.
+![BODY 안내와 사람 도식을 배치한 정적 시안 v7](../assets/images/character-customization-v7.png)
 
-## 완료 증거
+위는 실제 구현이 아닌 v7 시안입니다. ‘나의 러너’ 문구 제거·BODY 아래 안내/사람 도식 배치 결정은 보존하며, [초기 cm 편집 검사](../05-validation/BODY_DIMENSIONS.md)·[초기 단계 분리 M07](../05-validation/SETUP_STEPS.md)와 현재 화면을 구분합니다.
 
-| 외형 | 동작 | 화면 |
-| --- | --- | --- |
-| 입력/측정 치수 일치 | 목표/실제 각도 일치 | 앞·옆·뒤 · 복원 |
-| 전신 잘림 없음 | 관절 정렬·접지 | 오류·취소·재편집 일관성 |
+이전 시안: [v1](../assets/images/archive/character-customization-v1.png) · [v2](../assets/images/archive/character-customization-v2.png) · [v3](../assets/images/archive/character-customization-v3.png) · [v4](../assets/images/archive/character-customization-v4.png) · [v5](../assets/images/archive/character-customization-v5.png) · [v6](../assets/images/archive/character-customization-v6.png).
 
-[검증 계획](../05-validation/CHARACTER_VALIDATION.md) · [전체 화면](SCREEN_SPEC.md) · [코스](COURSE_SCREEN.md)
-
-이전 시안: [v1](../assets/images/archive/character-customization-v1.png) · [v2](../assets/images/archive/character-customization-v2.png) · [v3](../assets/images/archive/character-customization-v3.png) · [v4](../assets/images/archive/character-customization-v4.png) · [v5](../assets/images/archive/character-customization-v5.png) · [v6](../assets/images/archive/character-customization-v6.png)
+[자세 화면](MOTION_EDITOR.md) · [코스](COURSE_SCREEN.md) · [체형 처리 설계](../04-technical/BODY_ASSETS.md) · [전체 화면](SCREEN_SPEC.md)
